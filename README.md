@@ -1,2 +1,0 @@
-# RGFell.github.io
-blog
