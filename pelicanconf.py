@@ -31,7 +31,7 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
 
 # Social widget
 SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/rodrigogomezfell/'),
-          ('Twitter' (#RGFell), 'https://twitter.com/RGFell'),)
+          ('Twitter(#RGFell)' , 'https://twitter.com/RGFell'),)
 
 DEFAULT_PAGINATION = 10
 
