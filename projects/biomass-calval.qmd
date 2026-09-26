@@ -1,6 +1,6 @@
 ---
 title: "BIOMASS calibration and validation over Antarctic ice shelves"
-description: "Checking ESA BIOMASS satellite data over Antarctic ice shelves against ground radar measurements."
+description: "Checking ESA BIOMASS satellite data over Antarctic ice shelves against ground-based and airborne radar measurements."
 order: 1
 years: "2025–2027"
 image: ../images/projects/biomass.svg
