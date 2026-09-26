@@ -3,10 +3,12 @@ project:
   output-dir: _site
   render:
     - "*.qmd"   # keeps CLAUDE.md out of the published site
+  resources:
+    - images/profile.webp   # referenced only from raw HTML <picture> on the Home page
 
 website:
-  title: "Rodrigo Gomez Fell"
-  description: "Antarctic glaciology and SAR remote sensing. Postdoctoral fellow at the University of Canterbury."
+  title: "Rodrigo Gomez-Fell"
+  description: "Rodrigo Gomez-Fell is a postdoctoral fellow at Gateway Antarctica, University of Canterbury, who uses satellite radar to study Antarctic ice."
   site-url: "https://rgfell.github.io"   # enables sitemap.xml and absolute Open Graph URLs
   repo-url: "https://github.com/RGFell/RGFell.github.io"
   favicon: images/favicon.svg
@@ -15,7 +17,7 @@ website:
   page-navigation: false
   back-to-top-navigation: true
   navbar:
-    title: "Rodrigo Gomez Fell"
+    title: "Rodrigo Gomez-Fell"
     left:
       - href: index.qmd
         text: Home
@@ -35,7 +37,7 @@ website:
       - href: contact.qmd
         text: Contact
   page-footer:
-    left: "© 2026 Rodrigo Gomez Fell"
+    left: "© 2026 Rodrigo Gomez-Fell"
     right: "Built with [Quarto](https://quarto.org)"
 
 format:

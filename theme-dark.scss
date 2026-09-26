@@ -17,6 +17,5 @@ $headings-font-weight: 600;
 :root {
   --rgf-accent: #8cc4ec;
   --rgf-accent-soft: #1a2530;
-  --rgf-hero-from: #0a1016;
-  --rgf-hero-to: #16354d;
+  --rgf-hero-overlay: linear-gradient(135deg, rgba(10, 16, 22, 0.9), rgba(22, 53, 77, 0.9));
 }

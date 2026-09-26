@@ -1,30 +1,76 @@
 ---
 title: "About"
-description: "Biography of Rodrigo Gomez Fell, a postdoctoral fellow in Antarctic glaciology and SAR remote sensing at the University of Canterbury."
-# TODO: add a profile photo (images/profile.jpg) with alt text
+description: "Biography of Rodrigo Gomez-Fell, a postdoctoral fellow at Gateway Antarctica, University of Canterbury, who studies Antarctic ice with satellite radar."
+image: images/profile.jpg
+image-alt: "Rodrigo Gomez-Fell in a red jacket on an Antarctic shoreline, with sea ice and an iceberg behind him."
+about:
+  template: trestles
+  image-width: 14em
+  image-shape: rounded
+  links:
+    - icon: envelope
+      text: Contact
+      href: contact.qmd
+    - text: ORCID
+      href: https://orcid.org/0000-0002-0391-1323
+    - text: Google Scholar
+      href: https://scholar.google.com/citations?user=zdY64_kAAAAJ
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/rodrigogomezfell/
+    - icon: github
+      text: GitHub
+      href: https://github.com/RGFell
 ---
 
 ## Biography
 
-Rodrigo Gomez Fell is a postdoctoral fellow in Antarctic glaciology and
-synthetic aperture radar (SAR) remote sensing at the University of Canterbury.
-[TODO: confirm how your name should appear: "Gomez Fell", "Gómez Fell" or "Gomez-Fell"?]{.todo}
+Dr Rodrigo Gomez-Fell is a postdoctoral fellow at Gateway Antarctica,
+University of Canterbury, in Christchurch, New Zealand. He uses synthetic aperture radar (SAR), a type of satellite radar that
+works through cloud and darkness, to measure changes in glaciers, ice shelves
+and sea ice.
 
-Rodrigo uses satellite radar imagery to study Antarctic ice.
-[TODO: confirm the focus of your research, e.g. ice shelf calving on the Ronne Ice Shelf, which your 2021 blog discussed]{.todo}
+His PhD in Antarctic Studies (University of Canterbury, 2023) focused on SAR
+remote sensing and ice dynamics. His published work shows how the loss of
+land-fast sea ice led to the collapse of the Parker Ice Tongue, how ocean
+currents bend the Erebus Ice Tongue, and how ice tongues melt from below in
+the western Ross Sea.
+[TODO: thesis title and supervisors, if you want them listed]{.todo}
 
-[TODO: PhD: institution, year and thesis topic]{.todo}
+Before his PhD, he completed an MSc in Oceanography at the Universidade Federal
+do Rio Grande in Brazil (2018), where he started using SAR to study
+glaciers. His first degree is in Industrial Engineering from the Pontificia
+Universidad Católica de Valparaíso, Chile (2006). He worked for more than ten
+years in engineering and tourism, and then as a project manager at the CEQUA
+research centre in Chile, before starting his MSc.
 
-[TODO: previous positions or degrees, if you want to list them]{.todo}
+From 2023 to 2026 he was a Geospatial Research Scientist at the University of
+Canterbury's Waterways Centre. There he developed national methods for mapping
+New Zealand's braided rivers for the Ministry for the Environment, and estimated
+forest carbon from airborne lidar for the Ministry for Primary Industries.
 
-[TODO: department, research group or collaborators to mention]{.todo}
+His current projects include calibrating and checking ESA's BIOMASS satellite
+over Antarctic ice shelves, and using RADARSAT Constellation Mission data to
+monitor end-of-summer snowlines on glaciers in the New Zealand Alps.
+
+## Community
+
+Rodrigo chairs the New Zealand chapter of the IEEE Geoscience and Remote
+Sensing Society. He organised the first New Zealand SAR Workshop (2024) and the
+second New Zealand Radar Remote Sensing School (2026), and has organised
+sessions at IGARSS, the largest remote sensing conference. He co-supervises
+research students working with satellite data.
 
 ## Research interests
 
-- Antarctic glaciology
-- SAR remote sensing
-- [TODO: add or refine interests]{.todo}
+- Antarctic ice shelves, ice tongues and their interaction with the ocean
+- Land-fast sea ice and sea ice
+- Ice flow, surface change and mass balance measured from space
+- SAR methods: interferometry (InSAR), offset tracking and backscatter analysis
+- Combining radar, lidar, multispectral and field data, including machine learning
 
-## Outside research
+## Education
 
-[TODO: optional. A sentence or two about yourself, or delete this section]{.todo}
+- **2023** PhD, Antarctic Studies, University of Canterbury, New Zealand
+- **2018** MSc, Oceanography, Universidade Federal do Rio Grande, Brazil
+- **2006** Industrial Engineering, Pontificia Universidad Católica de Valparaíso, Chile

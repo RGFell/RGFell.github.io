@@ -7,3 +7,9 @@
 .DS_Store
 Thumbs.db
 .vscode/
+
+# High-resolution originals stay local; CV PDFs/Word files in _source/docs are tracked
+_source/*.jpg
+_source/*.jpeg
+_source/*.png
+*:Zone.Identifier

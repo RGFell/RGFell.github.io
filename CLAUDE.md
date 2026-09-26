@@ -1,6 +1,6 @@
 # rgfell.github.io: Quarto academic website
 
-Personal site of Rodrigo Gomez Fell (Antarctic glaciology, SAR remote sensing, University of Canterbury).
+Personal site of Rodrigo Gomez-Fell (Antarctic glaciology, SAR remote sensing, University of Canterbury).
 Built with Quarto and served by GitHub Pages at https://rgfell.github.io.
 
 ## Structure
@@ -13,7 +13,9 @@ styles.css         Layout and components shared by both modes (.hero, .theme-car
 index.qmd          Home
 about.qmd          About / biography
 contact.qmd        Contact links
-images/            All images (favicon, photos, figures)
+images/            Web-ready images: profile.jpg/.webp (800 px), banner-glacier.webp (1600 px), favicon
+_source/           Never published (leading underscore). CVs in _source/docs (tracked);
+                   full-resolution photos (*.jpg, *.png) are git-ignored and stay local
 _site/  .quarto/   Build output and cache: git-ignored, never edit
 ```
 
@@ -36,6 +38,8 @@ Every item needs front matter with at least `title`, `date` and `description`.
 
 ## Conventions
 
+- Name is spelled **Rodrigo Gomez-Fell** (as in the CVs). Bios are third person, plain and concise.
+- Web images: strip EXIF/GPS, JPEG under 150 KB, WebP where it helps; originals go in `_source/`.
 - Every page has a `description:` in its front matter (used for SEO and social cards).
 - Every image needs alt text: `![Descriptive alt text](images/file.png)`.
 - One `#`-level heading per page comes from `title:`; body headings start at `##`.

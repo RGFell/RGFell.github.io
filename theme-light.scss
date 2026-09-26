@@ -18,6 +18,6 @@ $headings-font-weight: 600;
 :root {
   --rgf-accent: #1b4f72;
   --rgf-accent-soft: #e8f1f8;
-  --rgf-hero-from: #0e2f44;
-  --rgf-hero-to: #1b5e8c;
+  // Banner overlay over the glacier photo. White text stays >= 5:1 even over pure white ice.
+  --rgf-hero-overlay: linear-gradient(135deg, rgba(14, 47, 68, 0.88), rgba(27, 94, 140, 0.88));
 }

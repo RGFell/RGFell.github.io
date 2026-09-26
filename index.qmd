@@ -1,36 +1,54 @@
 ---
-title: "Rodrigo Gomez Fell"
+title: "Rodrigo Gomez-Fell"
 subtitle: "Antarctic glaciology · SAR remote sensing"
-description: "Rodrigo Gomez Fell is a postdoctoral fellow at the University of Canterbury who studies Antarctic ice using synthetic aperture radar (SAR) remote sensing."
-# TODO: add a default social-sharing image (e.g. images/og-card.png, 1200×630) and set `image:` here
+description: "Rodrigo Gomez-Fell is a postdoctoral fellow at Gateway Antarctica, University of Canterbury, who uses satellite radar to study Antarctic ice."
+image: images/profile.jpg
+image-alt: "Rodrigo Gomez-Fell in a red jacket on an Antarctic shoreline, with sea ice and an iceberg behind him."
 ---
 
 ::: {.hero}
+::: {.hero-text}
 ## Watching Antarctica's ice from space
 
-I am a postdoctoral fellow in Antarctic glaciology and SAR remote sensing at the
-University of Canterbury. I use satellite radar to study how Antarctic ice
-changes over time. [TODO: one sentence on your current main research question]{.todo}
+Rodrigo Gomez-Fell is a postdoctoral fellow at Gateway Antarctica, University of
+Canterbury, in Christchurch, New Zealand. He uses satellite radar to measure how
+glaciers, ice shelves and sea ice change over time.
 
-[More about me](about.qmd) · [Get in touch](contact.qmd)
+[More about Rodrigo](about.qmd) · [Get in touch](contact.qmd)
 :::
 
-## Research interests
+::: {.hero-photo}
+```{=html}
+<picture>
+  <source srcset="images/profile.webp" type="image/webp">
+  <img src="images/profile.jpg" width="160" height="160"
+       alt="Portrait of Rodrigo Gomez-Fell on an Antarctic shoreline.">
+</picture>
+```
+:::
+:::
+
+## Research areas
 
 ::: {.theme-cards}
 ::: {.theme-card}
-### Antarctic glaciology
-[TODO: short description, e.g. ice shelf dynamics or calving, whichever applies]{.todo}
+### Antarctic ice
+How floating ice tongues and ice shelves respond to the ocean and to the sea ice
+around them. Past studies include the collapse of the Parker Ice Tongue and
+the bending of the Erebus Ice Tongue.
 :::
 
 ::: {.theme-card}
-### SAR remote sensing
-[TODO: short description, e.g. which satellites or techniques you work with (Sentinel-1? InSAR?)]{.todo}
+### Satellite radar
+Radar satellites see through cloud and the polar night. Rodrigo uses them to
+track ice movement, surface change and snow conditions, working with missions
+such as Sentinel-1, RADARSAT Constellation, TerraSAR-X and ESA's BIOMASS.
 :::
 
 ::: {.theme-card}
-### Earth observation
-[TODO: third theme, or delete this card]{.todo}
+### Earth observation in New Zealand
+Mapping glaciers in the New Zealand Alps, braided rivers, river-mouth lagoons
+(hāpua) and planted forests, using radar, lidar and multispectral imagery.
 :::
 :::
 

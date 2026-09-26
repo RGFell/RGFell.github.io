@@ -1,22 +1,42 @@
 /* Layout and component styles shared by light and dark mode.
    Colours come from CSS variables defined in theme-light.scss / theme-dark.scss. */
 
-/* Home page banner */
+/* Home page banner: decorative glacier photo under a dark blue overlay.
+   The photo is CSS-only (no alt text needed); all text is pure white for contrast. */
 .hero {
-  background: linear-gradient(135deg, var(--rgf-hero-from), var(--rgf-hero-to));
+  background-color: #0e2f44;               /* fallback while the image loads */
+  background-image: var(--rgf-hero-overlay), url("images/banner-glacier.webp");
+  background-size: cover;
+  background-position: center 55%;
   color: #ffffff;
   border-radius: 0.75rem;
   padding: clamp(1.5rem, 5vw, 3rem);
   margin: 1rem 0 2rem;
+  display: flex;
+  align-items: center;
+  gap: clamp(1rem, 4vw, 2.5rem);
 }
+.hero-text { flex: 1 1 auto; }
 .hero h2 {
   color: #ffffff;
   margin-top: 0;
   font-size: clamp(1.5rem, 4vw, 2.25rem);
   border-bottom: none;
 }
-.hero p { color: #e8f1f8; font-size: 1.1rem; max-width: 40rem; }
+.hero p { color: #ffffff; font-size: 1.1rem; max-width: 40rem; }
 .hero a { color: #ffffff; text-decoration: underline; }
+.hero-photo img {
+  width: clamp(7rem, 18vw, 10rem);
+  height: auto;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.85);
+  display: block;
+}
+@media (max-width: 575.98px) {
+  .hero { flex-direction: column-reverse; text-align: center; }
+  .hero p { margin-inline: auto; }
+}
 
 /* Short cards for research themes on the home page */
 .theme-cards {
@@ -47,3 +67,7 @@ a:focus-visible, button:focus-visible {
 
 /* Make TODO markers stand out while drafting */
 .todo { background: #fff3cd; color: #5c4400; padding: 0 0.25rem; border-radius: 0.2rem; }
+
+/* Page descriptions are for search engines and social cards (meta tags);
+   don't repeat them as visible text under page titles. */
+#title-block-header .description { display: none; }
