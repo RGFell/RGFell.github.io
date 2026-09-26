@@ -9,6 +9,7 @@ $navbar-fg:      #d7e3ee;
 $navbar-hl:      #ffffff;
 $footer-bg:      #0a1016;
 $footer-fg:      #b3c0cc;
+$text-muted:     #a0aab4;
 
 $font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 $headings-font-weight: 600;
@@ -17,5 +18,8 @@ $headings-font-weight: 600;
 :root {
   --rgf-accent: #8cc4ec;
   --rgf-accent-soft: #1a2530;
-  --rgf-hero-overlay: linear-gradient(135deg, rgba(10, 16, 22, 0.9), rgba(22, 53, 77, 0.9));
+  // Page background photo (see styles.css). 0 = none, 1 = full; text stays AA up to 0.45.
+  --rgf-bg-strength: 0.40;
+  --rgf-panel: rgba(17, 24, 31, 0.78);
+  --rgf-hero-gradient: linear-gradient(135deg, #0a1016, #16354d);
 }

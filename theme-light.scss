@@ -10,6 +10,7 @@ $navbar-fg:      #e8f1f8;
 $navbar-hl:      #ffffff;
 $footer-bg:      #f3f6f9;
 $footer-fg:      #4a5560;
+$text-muted:     #4f5961;  // darker than Bootstrap default so it stays AA over the page photo
 
 $font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 $headings-font-weight: 600;
@@ -18,6 +19,9 @@ $headings-font-weight: 600;
 :root {
   --rgf-accent: #1b4f72;
   --rgf-accent-soft: #e8f1f8;
-  // Banner overlay over the glacier photo. White text stays >= 5:1 even over pure white ice.
-  --rgf-hero-overlay: linear-gradient(135deg, rgba(14, 47, 68, 0.88), rgba(27, 94, 140, 0.88));
+  // Page background photo (see styles.css). Adjust visibility here:
+  // 0 = no photo, 1 = full photo. With the panel below, text stays WCAG AA up to 0.6.
+  --rgf-bg-strength: 0.55;
+  --rgf-panel: rgba(255, 255, 255, 0.80);   // behind page content, over the photo
+  --rgf-hero-gradient: linear-gradient(135deg, #0e2f44, #1b5e8c);
 }

@@ -1,13 +1,35 @@
 /* Layout and component styles shared by light and dark mode.
    Colours come from CSS variables defined in theme-light.scss / theme-dark.scss. */
 
-/* Home page banner: decorative glacier photo under a dark blue overlay.
-   The photo is CSS-only (no alt text needed); all text is pure white for contrast. */
+/* Page background: a photo on a fixed layer behind everything, faded by
+   --rgf-bg-strength (set per mode in theme-light.scss / theme-dark.scss).
+   A fixed pseudo-element is used because background-attachment: fixed is
+   unreliable on phones. Swap the photo here (alternative: images/bg-iceberg.webp). */
+:root { --rgf-bg-image: url("images/bg-glacier.webp"); }
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: var(--rgf-bg-image) center 35% / cover no-repeat;
+  opacity: var(--rgf-bg-strength);
+  pointer-events: none;
+}
+@media print { body::before { display: none; } }
+
+/* Semi-opaque panels keep text readable over the photo */
+main.content,
+.about-entity,
+#quarto-margin-sidebar nav[role="doc-toc"] {
+  background-color: var(--rgf-panel);
+  border-radius: 0.75rem;
+  padding: 1rem clamp(0.75rem, 3vw, 1.75rem);
+}
+main.content { margin-top: 1rem; margin-bottom: 1rem; }
+
+/* Home page banner: plain blue gradient with the round photo */
 .hero {
-  background-color: #0e2f44;               /* fallback while the image loads */
-  background-image: var(--rgf-hero-overlay), url("images/banner-glacier.webp");
-  background-size: cover;
-  background-position: center 55%;
+  background: var(--rgf-hero-gradient);
   color: #ffffff;
   border-radius: 0.75rem;
   padding: clamp(1.5rem, 5vw, 3rem);
