@@ -9,7 +9,7 @@ Antarctic ice and satellite remote sensing.
 ::: {.contact-list}
 - **Email:** [rodrigo.gomezfell@canterbury.ac.nz](mailto:rodrigo.gomezfell@canterbury.ac.nz) [TODO: confirm before publishing]{.todo}
 - **ORCID:** [0000-0002-0391-1323](https://orcid.org/0000-0002-0391-1323)
-- **Google Scholar:** [Rodrigo Gomez-Fell](https://scholar.google.com/citations?user=zdY64_kAAAAJ)
+- **Google Scholar:** [Rodrigo Gomez-Fell](https://scholar.google.com/citations?user=zdY64_kAAAAJ&hl=en)
 - **GitHub:** [RGFell](https://github.com/RGFell)
 - **LinkedIn:** [rodrigogomezfell](https://www.linkedin.com/in/rodrigogomezfell/)
 :::

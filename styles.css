@@ -71,3 +71,31 @@ a:focus-visible, button:focus-visible {
 /* Page descriptions are for search engines and social cards (meta tags);
    don't repeat them as visible text under page titles. */
 #title-block-header .description { display: none; }
+
+/* CV page */
+.cv-download { margin: 0.5rem 0 1.5rem; }
+.cv ul { padding-left: 1.1rem; }
+.cv li { margin-bottom: 0.35rem; }
+
+/* Publications and Reports lists (generated from publications.bib) */
+.pub-list .csl-entry {
+  padding-left: 1.5rem;
+  text-indent: -1.5rem;          /* hanging indent */
+  margin-bottom: 0.8rem;
+  overflow-wrap: anywhere;       /* long DOIs wrap on phones */
+}
+
+/* Footer profile icons */
+.footer-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2rem;
+  min-height: 2rem;              /* comfortable touch target */
+  font-size: 1.1rem;
+  color: inherit;
+  text-decoration: none;
+}
+.footer-icon + .footer-icon { margin-left: 0.25rem; }
+.footer-icon:hover { color: var(--rgf-accent); }
+.orcid-icon { vertical-align: middle; }

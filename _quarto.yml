@@ -1,8 +1,10 @@
 project:
   type: website
   output-dir: _site
-  render:
-    - "*.qmd"   # keeps CLAUDE.md out of the published site
+  render:              # only .qmd files, so CLAUDE.md is never published
+    - "*.qmd"
+    - "projects/*.qmd"
+  pre-render: _scripts/build_publications.py   # publications.bib -> publication lists
   resources:
     - images/profile.webp   # referenced only from raw HTML <picture> on the Home page
 
@@ -23,21 +25,30 @@ website:
         text: Home
       - href: about.qmd
         text: About
-      # Uncomment each entry once its page exists (see CLAUDE.md):
-      # - href: cv.qmd
-      #   text: CV
-      # - href: research.qmd
-      #   text: Research
-      # - href: projects.qmd
-      #   text: Projects
-      # - href: publications.qmd
-      #   text: Publications
+      - href: cv.qmd
+        text: CV
+      - href: research.qmd
+        text: Research
+      - href: projects.qmd
+        text: Projects
+      - text: Publications
+        menu:
+          - href: publications.qmd
+            text: Publications
+          - href: reports.qmd
+            text: Reports
+      # Stage 3:
       # - href: news.qmd
       #   text: News
       - href: contact.qmd
         text: Contact
   page-footer:
     left: "© 2026 Rodrigo Gomez-Fell"
+    center: >-
+      <a class="footer-icon" href="https://orcid.org/0000-0002-0391-1323" aria-label="ORCID profile" title="ORCID"><svg class="orcid-icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="12" fill="currentColor"/><text x="12" y="16.2" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="11" fill="var(--bs-body-bg, #fff)">iD</text></svg></a>
+      <a class="footer-icon" href="https://scholar.google.com/citations?user=zdY64_kAAAAJ&amp;hl=en" aria-label="Google Scholar profile" title="Google Scholar"><i class="bi bi-mortarboard-fill" aria-hidden="true"></i></a>
+      <a class="footer-icon" href="https://www.linkedin.com/in/rodrigogomezfell/" aria-label="LinkedIn profile" title="LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+      <a class="footer-icon" href="https://github.com/RGFell" aria-label="GitHub profile" title="GitHub"><i class="bi bi-github" aria-hidden="true"></i></a>
     right: "Built with [Quarto](https://quarto.org)"
 
 format:
