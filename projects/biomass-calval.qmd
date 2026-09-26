@@ -1,0 +1,34 @@
+---
+title: "BIOMASS calibration and validation over Antarctic ice shelves"
+description: "Checking ESA BIOMASS satellite data over Antarctic ice shelves against ground radar measurements."
+order: 1
+years: "2025–2027"
+image: ../images/projects/biomass.svg
+image-alt: "Placeholder illustration: a satellite above a flat ice shelf."
+---
+
+![](../images/projects/biomass.svg){fig-alt="Placeholder illustration: a satellite above a flat ice shelf."}
+
+**Years:** 2025–2027
+
+## Summary
+
+This project checks measurements from ESA's BIOMASS satellite over Antarctic
+ice shelves. Satellite data are compared with measurements from ground radar
+instruments (ApRES and GPR) to find out how well the satellite sees the ice.
+
+## Role
+
+Researcher.
+
+## Collaborators
+
+[TODO: collaborators and institutions]{.todo}
+
+## Funding
+
+[TODO: funder and grant name or number]{.todo}
+
+## Related publications
+
+None yet.

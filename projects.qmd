@@ -1,0 +1,16 @@
+---
+title: "Projects"
+description: "Current research projects of Rodrigo Gomez-Fell: satellite radar studies of Antarctic ice shelves, New Zealand glaciers, river-mouth lagoons and penguin colonies."
+listing:
+  contents: projects/*.qmd
+  type: grid
+  grid-columns: 2
+  sort: "order"
+  fields: [image, title, description]
+  image-height: 180px
+format:
+  html:
+    html-math-method: plain   # no maths here; avoids loading MathJax
+---
+
+Current projects. Each card links to a page with more detail.

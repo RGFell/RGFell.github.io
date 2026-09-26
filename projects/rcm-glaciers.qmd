@@ -1,0 +1,37 @@
+---
+title: "Polarimetric radar imaging of New Zealand glaciers"
+description: "Using RADARSAT Constellation Mission radar data to track the end-of-summer snowline on glaciers in the New Zealand Alps."
+order: 2
+years: "2025–2027"
+image: ../images/projects/rcm-glaciers.svg
+image-alt: "Placeholder illustration: mountain peaks with a dashed snowline."
+---
+
+![](../images/projects/rcm-glaciers.svg){fig-alt="Placeholder illustration: mountain peaks with a dashed snowline."}
+
+**Years:** 2025–2027 [TODO: the classic CV says 2025–2028; which is right?]{.todo}
+
+## Summary
+
+The end-of-summer snowline, the lowest point where snow survives the summer,
+shows whether a glacier gained or lost ice that year. It has been recorded on
+New Zealand glaciers for more than 40 years. This project uses high-resolution
+polarimetric radar images from the RADARSAT Constellation Mission, including
+over Tasman Glacier, to provide an independent check of this record and to
+extend it to other glaciers.
+
+## Role
+
+Researcher.
+
+## Collaborators
+
+[TODO: collaborators and institutions]{.todo}
+
+## Funding
+
+Royal Society Te Apārangi Catalyst Fund.
+
+## Related publications
+
+None yet.

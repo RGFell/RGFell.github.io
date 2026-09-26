@@ -1,0 +1,35 @@
+---
+title: "Penguin colonies from space"
+description: "Detecting penguin colonies in high-resolution satellite radar images."
+order: 4
+years: "2026"
+image: ../images/projects/penguins.svg
+image-alt: "Placeholder illustration: a cluster of penguins on snow."
+---
+
+![](../images/projects/penguins.svg){fig-alt="Placeholder illustration: a cluster of penguins on snow."}
+
+**Years:** 2026
+
+## Summary
+
+This project uses high-resolution SAR images to detect penguin colonies.
+Rodrigo joined after the project started. He built an automatic workflow that
+corrects the radar images for brightness and terrain, and worked on the radar
+signal statistics used to tell colonies apart from their surroundings.
+
+## Role
+
+Researcher: SAR processing and analysis.
+
+## Collaborators
+
+[TODO: project lead, collaborators and institutions]{.todo}
+
+## Funding
+
+[TODO: funder]{.todo}
+
+## Related publications
+
+None yet.
