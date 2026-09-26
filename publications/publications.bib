@@ -7,6 +7,7 @@
 %   @inproceedings  -> Publications: Conference papers and abstracts
 %   @incollection   -> Publications: Book chapters
 %   @techreport     -> Reports
+%   @phdthesis      -> Publications: Theses (last section)
 %
 % Sources: DOI entries use Crossref metadata (via doi.org); others come from the
 % classic CV or the Google Scholar profile. Never add a field you cannot source.
@@ -114,6 +115,7 @@
   author    = {Bohn, Kallie and Rack, Wolfgang and Price, Daniel and Sellier, Mathieu and Gomez-Fell, Rodrigo},
   howpublished = {EGUsphere},
   pubstate  = {preprint},
+  type      = {Preprint},
   year      = {2026},
   doi       = {10.5194/egusphere-2025-6300}
 }
@@ -123,6 +125,7 @@
   author    = {Gomez Fell, Rodrigo Andres and Rack, Wolfgang and Purdie, Heather and Marsh, Oliver J.},
   howpublished = {ESS Open Archive},
   pubstate  = {preprint},
+  type      = {Preprint},
   year      = {2021},
   doi       = {10.1002/essoar.10508017.1}
 }
@@ -139,10 +142,10 @@
   doi       = {10.1109/MIGARS61408.2024.10544786}
 }
 
-% Author list truncated on Google Scholar ("..."); complete it from the abstract.
+% Authors from the Google Scholar BibTeX export.
 @inproceedings{rack2023seaice,
   title     = {The State of {Antarctic} Sea Ice in the Western {Ross Sea} Unveiled by Airborne Geophysics},
-  author    = {Rack, W. and Price, D. and Haas, C. and Langhorne, P. and Leonard, G. H. and Brett, G. and Urbini, S. and others},
+  author    = {Rack, Wolfgang and Price, Daniel and Haas, Christian and Langhorne, Pat and Leonard, Greg H. and Brett, Gemma and Urbini, Stefano and Gomez-Fell, Rodrigo and Tan, Adrian},
   booktitle = {AGU Fall Meeting Abstracts},
   pages     = {C41F-1589},
   year      = {2023}
@@ -150,7 +153,7 @@
 
 @inproceedings{gomezfell2022massbalance,
   title     = {Mass balance and stability of Western {Ross Sea} ice tongues by laser altimetry and {SAR} ice surface velocities},
-  author    = {Gomez-Fell, R. and Marsh, O. and Wild, C. and Rack, W. and Purdie, H.},
+  author    = {Gomez-Fell, Rodrigo and Marsh, Oliver and Wild, Christian and Rack, Wolfgang and Purdie, Heather},
   booktitle = {AGU Fall Meeting Abstracts},
   pages     = {C32A-02},
   year      = {2022}
@@ -165,13 +168,23 @@
   doi       = {10.5194/egusphere-egu22-8960}
 }
 
-% Author list truncated on Google Scholar ("..."); complete it from the abstract.
+% Authors from the Google Scholar BibTeX export.
 @inproceedings{breyer2020icesat,
   title     = {Ice sheet surface velocity determination from {ICESat-2} repeat tracks},
-  author    = {Breyer, C. and Barcheck, G. and Gomez-Fell, R. and Hillebrand, T. and Hills, B. H. and others},
+  author    = {Breyer, Canyon and Barcheck, Grace and Gomez-Fell, Rodrigo and Hillebrand, Trevor and Hills, Benjamin H. and Kaluzienski, Lynn M. and Martin, Joseph and Polashenski, David and Shapero, Daniel},
   booktitle = {AGU Fall Meeting Abstracts},
   pages     = {C028-0014},
   year      = {2020}
+}
+
+% Poster; details from Rodrigo (Sep 2026) and the Google Scholar export.
+@inproceedings{purdie2026fox,
+  title      = {The morphological response of {Te Moeka o Tuwae}/{Fox Glacier} to rapid recession: implications for glacier tourism},
+  author     = {Purdie, Heather and Gomez-Fell, Rodrigo and Bealing, Paul and Bron, Marius},
+  eventtitle = {{CliC Conference}},
+  venue      = {Wellington, New Zealand},
+  type       = {Poster presentation},
+  year       = {2026}
 }
 
 % ---------------------------------------------------------------- Book chapters
@@ -198,7 +211,31 @@
   langid    = {spanish}
 }
 
+% ---------------------------------------------------------------- Theses
+
+% Year from Google Scholar and the CV. No repository URL found (UC repository blocks automated search).
+@phdthesis{gomezfell2023thesis,
+  title     = {Ice tongue stability in a changing climate},
+  author    = {Gomez Fell, Rodrigo},
+  school    = {University of Canterbury},
+  year      = {2023}
+}
+
 % ---------------------------------------------------------------- Reports
+
+% `note` and `client` are kept for the record but APA does not print them.
+@techreport{baker2026hapua,
+  title       = {Remote Sensing of {Canterbury} Hāpua Dynamics},
+  author      = {Baker, Alaina and Rogers, Justin and Gomez-Fell, Rodrigo and McSweeney, Sarah},
+  institution = {Waterways Centre, University of Canterbury},
+  address     = {Christchurch, New Zealand},
+  year        = {2026},
+  month       = sep,
+  day         = {11},
+  type        = {Report prepared for Environment Canterbury},
+  note        = {Issued for Use},
+  client      = {Environment Canterbury}
+}
 
 @techreport{robb2025braided,
   title       = {Delineation of braided rivers: Multiple lines of evidence for lateral mobile river systems},

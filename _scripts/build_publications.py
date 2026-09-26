@@ -27,6 +27,7 @@ SECTIONS = [
     ("manuscript",       "publications", "Preprints",                      "preprints"),
     ("paper-conference", "publications", "Conference papers and abstracts", "conference"),
     ("chapter",          "publications", "Book chapters",                  "chapters"),
+    ("thesis",           "publications", "Theses",                         "theses"),
     ("report",           "reports",      "Reports",                        "reports"),
 ]
 

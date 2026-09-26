@@ -5,6 +5,9 @@ order: 3
 years: "2026"
 image: ../images/projects/hapua.svg
 image-alt: "Placeholder illustration: a river meeting the sea behind a gravel barrier."
+bibliography: ../publications/publications.bib
+csl: ../publications/apa.csl
+nocite: "@baker2026hapua"
 ---
 
 ![](../images/projects/hapua.svg){fig-alt="Placeholder illustration: a river meeting the sea behind a gravel barrier."}
@@ -33,4 +36,5 @@ Research contract with Environment Canterbury (ECan).
 
 ## Related publications
 
-None yet.
+::: {#refs}
+:::
