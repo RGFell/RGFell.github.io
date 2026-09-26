@@ -7,8 +7,8 @@ Built with Quarto and served by GitHub Pages at https://rgfell.github.io.
 
 ```
 _quarto.yml        Site config: navbar, footer icons, theme, SEO, render list, pre-render hook
-theme-light.scss   Light-mode colours (Bootstrap variables)
-theme-dark.scss    Dark-mode colours
+theme-light.scss   Light-mode colours; --rgf-bg-strength and --rgf-panel for the page photo
+theme-dark.scss    Dark-mode colours; same two variables
 styles.css         Layout and components shared by both modes (.hero, .cv, .pub-list, .todo …)
 index.qmd  about.qmd  cv.qmd  research.qmd  contact.qmd     Single pages
 projects.qmd       Listing (cards) over projects/*.qmd
@@ -17,8 +17,11 @@ publications.qmd   Journal articles, preprints, conference papers, book chapters
 reports.qmd        Technical and project reports (generated list)
 publications/      publications.bib (single source of truth), apa.csl, _list-*.md (generated, git-ignored)
 _scripts/build_publications.py   Pre-render: .bib -> grouped, APA-formatted lists
-files/             Downloadable files: CV_Rodrigo_Gomez_Fell.pdf (the ONLY public CV; redacted)
-images/            Web-ready images; images/projects/ for project card images
+_scripts/publish_cv_pdf.py       Post-render: cv.qmd (Typst PDF) -> files/CV_Rodrigo_Gomez_Fell.pdf
+_environment       SOURCE_DATE_EPOCH so the CV PDF is byte-identical when nothing changed
+files/             CV_Rodrigo_Gomez_Fell.pdf: the ONLY public CV, generated from cv.qmd; never edit by hand
+images/            Web-ready images: profile.jpg/.webp, bg-glacier.webp and bg-iceberg.webp (page
+                   backgrounds, 1600x1200), images/projects/ for project card images
 _source/           Never published (leading underscore). Original CVs in _source/docs and
                    full-resolution photos are git-ignored and stay local
 _site/  .quarto/   Build output and cache: git-ignored, never edit
@@ -36,6 +39,7 @@ The entry type picks the section:
 | `@unpublished`   | Publications → Preprints (`howpublished` = server, `pubstate = {preprint}`) |
 | `@inproceedings` | Publications → Conference papers and abstracts (abstract ID goes in `pages`) |
 | `@incollection`  | Publications → Book chapters                     |
+| `@phdthesis`     | Publications → Theses                            |
 | `@techreport`    | Reports                                          |
 
 Entries are grouped by `year`, newest first, and Rodrigo's name is bolded automatically
@@ -74,13 +78,14 @@ Cite entries from the .bib, e.g. [@gomezfell2024erebus], after adding
 to the front matter. Otherwise write "None yet."
 ```
 
-### Replace the CV PDF
-Export a public version from the Word original (Rodrigo does this) and save it as
-`files/CV_Rodrigo_Gomez_Fell.pdf`, keeping the file name so links keep working.
-Before committing, verify with `pdftotext files/CV_Rodrigo_Gomez_Fell.pdf - | grep -iE 'mobile|phone|\+6[34]|private bag|birth'`
-(must print nothing). Never "redact" by drawing boxes over a PDF: the text stays in the file.
-Update the web version in `cv.qmd` to match. While no public PDF exists, the download
-button in `cv.qmd` is commented out.
+### Update the CV (web page and PDF)
+Edit `cv.qmd` only. Every `quarto render` builds both the web page and a Typst PDF from it,
+and `_scripts/publish_cv_pdf.py` copies the PDF to `files/CV_Rodrigo_Gomez_Fell.pdf`
+(commit that file) and `_site/files/`. Blocks marked `.content-visible when-format="typst"`
+appear only in the PDF (contact header), `when-format="html"` only on the web.
+If `pdftotext` is on PATH (or `PDFTOTEXT` points to it), the script fails the build when
+the PDF contains a phone number, postal address or date of birth. Never publish the
+original CVs, and never "redact" a PDF by drawing boxes: the text stays in the file.
 
 ### News (Stage 3, not built yet)
 Planned: `news.qmd` listing over `news/<YYYY-MM-DD>-<slug>.qmd`; uncomment it in the navbar.
@@ -101,6 +106,10 @@ Planned: `news.qmd` listing over `news/<YYYY-MM-DD>-<slug>.qmd`; uncomment it in
 - Unconfirmed facts are marked `[TODO: …]{.todo}`. Never replace a TODO with a guess;
   ask Rodrigo. Check with `grep -rn TODO --include=*.qmd .` before publishing.
 - Keep colours in the two `.scss` files and keep text contrast at WCAG AA or better.
+- **Page background photo:** `--rgf-bg-image` in `styles.css` picks the photo;
+  `--rgf-bg-strength` (light 0.55, dark 0.40) sets how visible it is, and `--rgf-panel`
+  (white 0.80 / page colour 0.78) is the panel behind content. Measured worst-case contrast
+  stays AA up to strength 0.6 (light) and 0.45 (dark) with those panels.
 
 ## Commands
 

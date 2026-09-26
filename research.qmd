@@ -30,10 +30,11 @@ methods in Antarctica and, with students, on glaciers in New Zealand.
 
 ## Radioglaciology
 
-Ground-based radar can measure ice thickness and melting at the base of an ice
-shelf. Rodrigo's current BIOMASS project uses ground radar instruments (ApRES
-and GPR) on Antarctic ice shelves to check satellite measurements.
-[TODO: the narrative CV does not describe radioglaciology work. Add a sentence or two on your role, or remove this section]{.todo}
+Radioglaciology uses radar on the ground or from aircraft to look into and
+through ice. Rodrigo is building collaborations and seeking funding to develop
+radioglaciology in New Zealand. Gateway Antarctica has developed a snow radar,
+and the BIOMASS project will use phase-sensitive radar (pRES) and airborne SAR
+to calibrate and validate measurements from ESA's BIOMASS satellite.
 
 ## Remote sensing
 

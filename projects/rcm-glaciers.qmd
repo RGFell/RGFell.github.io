@@ -9,7 +9,7 @@ image-alt: "Placeholder illustration: mountain peaks with a dashed snowline."
 
 ![](../images/projects/rcm-glaciers.svg){fig-alt="Placeholder illustration: mountain peaks with a dashed snowline."}
 
-**Years:** 2025–2027 [TODO: the classic CV says 2025–2028; which is right?]{.todo}
+**Years:** 2025–2027
 
 ## Summary
 

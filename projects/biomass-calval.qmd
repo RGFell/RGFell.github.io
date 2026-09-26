@@ -14,8 +14,9 @@ image-alt: "Placeholder illustration: a satellite above a flat ice shelf."
 ## Summary
 
 This project checks measurements from ESA's BIOMASS satellite over Antarctic
-ice shelves. Satellite data are compared with measurements from ground radar
-instruments (ApRES and GPR) to find out how well the satellite sees the ice.
+ice shelves. Satellite data will be compared with measurements from
+phase-sensitive radar (pRES) and airborne SAR to find out how well the satellite
+sees the ice.
 
 ## Role
 
