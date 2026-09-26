@@ -1,0 +1,14 @@
+---
+title: "Publications"
+description: "Journal articles, preprints, conference papers and book chapters by Rodrigo Gomez-Fell on Antarctic ice, sea ice and SAR remote sensing."
+toc: true
+toc-depth: 2
+toc-title: "Sections"
+---
+
+Newest first. Rodrigo's name is in bold. Full profiles:
+[ORCID](https://orcid.org/0000-0002-0391-1323) ·
+[Google Scholar](https://scholar.google.com/citations?user=zdY64_kAAAAJ&hl=en).
+Technical and project reports are listed on the [Reports](reports.qmd) page.
+
+{{< include publications/_list-publications.md >}}

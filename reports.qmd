@@ -1,0 +1,9 @@
+---
+title: "Reports"
+description: "Technical and project reports by Rodrigo Gomez-Fell for New Zealand government agencies, on braided rivers, forest carbon and radar remote sensing."
+---
+
+Technical and project reports, newest first. Rodrigo's name is in bold.
+Peer-reviewed work is on the [Publications](publications.qmd) page.
+
+{{< include publications/_list-reports.md >}}

@@ -13,3 +13,6 @@ _source/*.jpg
 _source/*.jpeg
 _source/*.png
 *:Zone.Identifier
+
+# Generated from publications/publications.bib by _scripts/build_publications.py
+publications/_list-*.md
