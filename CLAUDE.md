@@ -50,6 +50,10 @@ field: leave out what you can't source. Protect capitals with braces: `{Antarcti
 
 ### A report
 Same as above, with `@techreport` (`institution`, `number`, `type` as available).
+APA would drop a report's `note`, so the build script appends it at the end of the entry
+(e.g. "… University of Canterbury. Issued for Use."). Other fields APA ignores, such as
+`client`, stay in the `.bib` only; put the client in `type`
+(e.g. `type = {Report prepared for Environment Canterbury}`) to show it.
 
 ### A project
 Create `projects/<slug>.qmd` and a card image in `images/projects/` (16:9, e.g. 800×450):
@@ -70,8 +74,13 @@ image-alt: "What the image shows."
 
 ## Summary
 ## Role
+
+::: {.content-hidden}
 ## Collaborators
-## Funding
+- Name, institution          # hidden until filled in; delete the ::: fences to publish
+:::
+
+## Funding                    # only if the funder is confirmed; otherwise omit the section
 ## Related publications
 Cite entries from the .bib, e.g. [@gomezfell2024erebus], after adding
 `bibliography: ../publications/publications.bib` and `csl: ../publications/apa.csl`

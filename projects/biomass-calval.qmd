@@ -22,13 +22,14 @@ sees the ice.
 
 Researcher.
 
+::: {.content-hidden}
+<!-- COLLABORATORS: replace the placeholder list below. To publish the section,
+     delete this comment and the two ":::" fence lines. Until then Quarto leaves it out. -->
 ## Collaborators
 
-[TODO: collaborators and institutions]{.todo}
-
-## Funding
-
-[TODO: funder and grant name or number]{.todo}
+- Name, institution
+- Name, institution
+:::
 
 ## Related publications
 

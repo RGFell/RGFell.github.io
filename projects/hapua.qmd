@@ -26,9 +26,14 @@ the University of Canterbury's Waterways Centre.
 
 Co-principal investigator.
 
+::: {.content-hidden}
+<!-- COLLABORATORS: replace the placeholder list below. To publish the section,
+     delete this comment and the two ":::" fence lines. Until then Quarto leaves it out. -->
 ## Collaborators
 
-[TODO: collaborators and institutions]{.todo}
+- Name, institution
+- Name, institution
+:::
 
 ## Funding
 
