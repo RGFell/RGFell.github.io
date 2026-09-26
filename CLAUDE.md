@@ -17,10 +17,10 @@ publications.qmd   Journal articles, preprints, conference papers, book chapters
 reports.qmd        Technical and project reports (generated list)
 publications/      publications.bib (single source of truth), apa.csl, _list-*.md (generated, git-ignored)
 _scripts/build_publications.py   Pre-render: .bib -> grouped, APA-formatted lists
-files/             Downloadable files: CV_Rodrigo_Gomez_Fell.pdf
+files/             Downloadable files: CV_Rodrigo_Gomez_Fell.pdf (the ONLY public CV; redacted)
 images/            Web-ready images; images/projects/ for project card images
-_source/           Never published (leading underscore). CVs in _source/docs (tracked);
-                   full-resolution photos (*.jpg, *.png) are git-ignored and stay local
+_source/           Never published (leading underscore). Original CVs in _source/docs and
+                   full-resolution photos are git-ignored and stay local
 _site/  .quarto/   Build output and cache: git-ignored, never edit
 ```
 
@@ -75,16 +75,26 @@ to the front matter. Otherwise write "None yet."
 ```
 
 ### Replace the CV PDF
-Overwrite `files/CV_Rodrigo_Gomez_Fell.pdf` (keep the file name so links keep working;
-keep the source copy in `_source/docs/`). Update the web version in `cv.qmd` to match.
-The public PDF must not contain a phone number, home address or date of birth.
+Export a public version from the Word original (Rodrigo does this) and save it as
+`files/CV_Rodrigo_Gomez_Fell.pdf`, keeping the file name so links keep working.
+Before committing, verify with `pdftotext files/CV_Rodrigo_Gomez_Fell.pdf - | grep -iE 'mobile|phone|\+6[34]|private bag|birth'`
+(must print nothing). Never "redact" by drawing boxes over a PDF: the text stays in the file.
+Update the web version in `cv.qmd` to match. While no public PDF exists, the download
+button in `cv.qmd` is commented out.
 
 ### News (Stage 3, not built yet)
 Planned: `news.qmd` listing over `news/<YYYY-MM-DD>-<slug>.qmd`; uncomment it in the navbar.
 
 ## Conventions
 
-- Name is spelled **Rodrigo Gomez-Fell** (as in the CVs). Text is third person, plain and concise.
+- **Name:** always **Rodrigo Gomez-Fell** on the site and in page titles. In author lists,
+  keep each paper's own spelling (Gomez-Fell, Gomez Fell, Gómez, Gomez); `MY_NAME` in
+  `_scripts/build_publications.py` bolds all of them.
+- **Privacy (public repo):** never commit anything containing Rodrigo's phone number, postal
+  address or date of birth. Original CVs (any format) stay in `_source/docs/` and are
+  git-ignored; only the redacted `files/CV_Rodrigo_Gomez_Fell.pdf` is tracked and published.
+  Email on the site is the institutional one, written as plain text (no `mailto:`).
+- Text is third person, plain and concise.
 - Web images: strip EXIF/GPS, JPEG under 150 KB, WebP where it helps; originals go in `_source/`.
 - Every page has a `description:` in its front matter (SEO and social cards; hidden on the page).
 - Every image needs alt text. One `#` heading per page comes from `title:`; body headings start at `##`.

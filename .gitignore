@@ -8,7 +8,7 @@
 Thumbs.db
 .vscode/
 
-# High-resolution originals stay local; CV PDFs/Word files in _source/docs are tracked
+# High-resolution originals stay local
 _source/*.jpg
 _source/*.jpeg
 _source/*.png
@@ -16,3 +16,11 @@ _source/*.png
 
 # Generated from publications/publications.bib by _scripts/build_publications.py
 publications/_list-*.md
+
+# PRIVACY: original CVs (classic and narrative, any format) contain a phone number
+# and postal address. They stay local. Only the redacted files/CV_Rodrigo_Gomez_Fell.pdf is tracked.
+_source/docs/*[Cc]urriculum*
+_source/docs/*[Cc][Vv]*
+_source/docs/*.doc
+_source/docs/*.docx
+_source/docs/*.odt

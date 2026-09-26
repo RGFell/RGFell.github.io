@@ -5,13 +5,18 @@ toc: true
 toc-title: "Sections"
 ---
 
+<!-- Restore this button once the public (redacted) PDF is saved as files/CV_Rodrigo_Gomez_Fell.pdf:
 [<i class="bi bi-file-earmark-arrow-down" aria-hidden="true"></i> Download CV (PDF)](files/CV_Rodrigo_Gomez_Fell.pdf){.btn .btn-primary .cv-download}
+-->
+
+[TODO: public CV PDF (without phone number or postal address) to be exported by Rodrigo]{.todo}
 
 ::: {.cv}
 
 ## Education
 
-- **2023** · PhD, Antarctic Studies, University of Canterbury, New Zealand
+- **2023** · PhD, Antarctic Studies, University of Canterbury, New Zealand  
+  Thesis: *Ice tongue stability in a changing climate*. Supervisors: Wolfgang Rack, Heather Purdie and Oliver Marsh
 - **2018** · MSc, Oceanography, Universidade Federal do Rio Grande, Brazil
 - **2006** · Industrial Engineering, Pontificia Universidad Católica de Valparaíso, Chile
 
