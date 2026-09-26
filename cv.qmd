@@ -1,0 +1,80 @@
+---
+title: "Curriculum Vitae"
+description: "CV of Dr Rodrigo Gomez-Fell: education, employment, awards and grants, teaching and supervision, and service in Antarctic glaciology and SAR remote sensing."
+toc: true
+toc-title: "Sections"
+---
+
+[<i class="bi bi-file-earmark-arrow-down" aria-hidden="true"></i> Download CV (PDF)](files/CV_Rodrigo_Gomez_Fell.pdf){.btn .btn-primary .cv-download}
+
+::: {.cv}
+
+## Education
+
+- **2023** · PhD, Antarctic Studies, University of Canterbury, New Zealand
+- **2018** · MSc, Oceanography, Universidade Federal do Rio Grande, Brazil
+- **2006** · Industrial Engineering, Pontificia Universidad Católica de Valparaíso, Chile
+
+## Employment
+
+- **2026–present** · Postdoctoral Fellow, Gateway Antarctica, University of Canterbury
+- **2023–2026** · Geospatial Research Scientist, Waterways Centre, University of Canterbury
+- **2023** · Research Assistant, University of Canterbury
+- **2020–2023** · Teaching Assistant (part-time), University of Canterbury
+- **2019–2023** · New Zealand Representative (part-time), DAP Airlines & Logistics
+- **2018** · Researcher, CEQUA research centre, Chile
+- **2014–2016** · Project Manager, CEQUA research centre, Chile
+
+## Awards and grants
+
+### Research grants and projects
+
+- **2026** · Co-PI, Remote Sensing of Canterbury Hāpua Dynamics: delineation and analysis of hāpua change using a CNN model
+- **2026** · AI in COSMO-SkyMed, Project ID 4362 Glaciers: tasking SAR data over the New Zealand Alps
+- **2025–2027** · BIOMASS mission calibration and validation for Antarctic ice shelves using ApRES and GPR
+- **2025–2028** · Catalyst project: novel high-resolution imaging for glacial environments with polarimetric RADARSAT Constellation Mission data
+
+### Awards and scholarships
+
+- **2023** · Best student presentation, SIRG Annual Meeting
+- **2023** · Best student presentation, New Zealand Sea Ice Symposium
+- **2023** · Scholarship to attend the IFT-R3S Summer School (Auckland, New Zealand)
+- **2021–2022** · Antarctica New Zealand Sir Robin Irvine Doctoral Scholarship
+- **2019–2022** · University of Canterbury Doctoral Scholarship
+- **2017** · Scholarship to attend the POLENET Glacial Seismology Training School (Fort Collins, USA)
+- **2016–2018** · Brazilian CNPq MSc Scholarship
+
+## Teaching and supervision
+
+- **2020–2023** · Teaching Assistant (part-time), University of Canterbury
+- **2026** · Delivered two SAR laboratory sessions at the 2nd IEEE GRSS NZ Radar Remote Sensing School
+- Member of the supervisory team of a PhD student studying fast ice and ice shelf interactions in McMurdo Sound
+- Helped supervise two MSc students at the Waterways Centre: mapping the Ashley braided river floodplain, and identifying hāpua with a CNN model
+- Supervised three honours students working on New Zealand glaciers with SAR data
+- **2023** · Mentor, Adopt a Scientist programme, Lincoln High School
+
+## Conference presentations
+
+Conference papers and abstracts are listed on the
+[Publications page](publications.qmd#conference), and technical reports on the
+[Reports page](reports.qmd).
+
+## Service
+
+- **2026** · Chair, IEEE GRSS New Zealand Contiguous Chapter
+- **2026** · Session Organiser, Theme Coordinator and Reviewer, IGARSS, Washington D.C.
+- **2026** · Early-career reviewer, IPCC report
+- **2025** · Secretary, IEEE GRSS New Zealand Contiguous Chapter
+- **2025** · Session Organiser and Theme Coordinator, IGARSS, Brisbane
+- **2025** · Coordinator, IGARSS Brisbane ambassadors for IGARSS 2028 Auckland
+- **2025** · Organising Committee, Braided Rivers Forum
+- **2024–present** · Lead, IEEE GRSS IFT Working Group on Remote Sensing Instruments for UAVs
+- **2024** · Organising Committee and Coordinator, New Zealand SAR Workshop and Hackathon
+- **2024** · Reviewer, Antarctica New Zealand scholarships
+- **2024** · Representative of the University of Canterbury, LatAm CAPES early-career delegation to Chile and Brazil
+- **2023–present** · Member, IEEE Geoscience and Remote Sensing Society
+- **2021–2023** · Member, International Glaciological Society Awards Committee
+- **2019–2021** · Council Member, Association of Polar Early Career Scientists (APECS)
+- Journal reviewer for *Nature*, *Journal of Glaciology* and *The Cryosphere*, among others
+
+:::
