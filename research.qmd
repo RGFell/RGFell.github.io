@@ -1,0 +1,68 @@
+---
+title: "Research"
+description: "Rodrigo Gomez-Fell's research on Antarctic ice tongues, sea ice and glaciers, using satellite radar and other Earth observation data."
+toc: true
+toc-title: "On this page"
+---
+
+Rodrigo studies how ice on Earth's surface changes, mainly in Antarctica, using
+satellites. Most of his work uses synthetic aperture radar (SAR): satellites
+that send out radar pulses and record the echoes, so they can see the ground
+through cloud and during the polar night.
+
+## Antarctic science
+
+Around the Antarctic coast, glaciers flow into the sea and form floating ice
+tongues and ice shelves. Rodrigo's work looks at how these floating ice
+features interact with the ocean and with the sea ice around them. His research
+has shown that the Parker Ice Tongue broke off after the land-fast sea ice that
+held it in place was lost, that ocean currents bend the Erebus Ice Tongue
+sideways, and how quickly ice tongues in the western Ross Sea melt from below.
+
+He is part of the team supervising a PhD project on how sea ice and the ice
+shelf interact in McMurdo Sound, using GNSS, SAR and computer models.
+
+## Glaciology
+
+Rodrigo measures how fast glaciers move, how they stretch and compress, how
+much ice they gain or lose, and how thick they are. He has applied these
+methods in Antarctica and, with students, on glaciers in New Zealand.
+
+## Radioglaciology
+
+Ground-based radar can measure ice thickness and melting at the base of an ice
+shelf. Rodrigo's current BIOMASS project uses ground radar instruments (ApRES
+and GPR) on Antarctic ice shelves to check satellite measurements.
+[TODO: the narrative CV does not describe radioglaciology work. Add a sentence or two on your role, or remove this section]{.todo}
+
+## Remote sensing
+
+Rodrigo works with data from several radar satellites, including Sentinel-1,
+the RADARSAT Constellation Mission, TerraSAR-X, Umbra and Capella. He uses
+them to:
+
+- measure ice movement by tracking features between images taken at different times;
+- detect very small ground and ice movements by comparing the timing of radar echoes (interferometry, or InSAR);
+- read surface conditions, such as wet or dry snow, from the strength of the radar echo.
+
+He also processes airborne lidar, combines data from different sensors, uses
+machine learning with satellite images, and checks results against field
+measurements, including GNSS. In New Zealand he has used these methods to map
+braided rivers, river-mouth lagoons (hāpua) and forest carbon.
+
+## Current projects
+
+- **BIOMASS calibration and validation (2025–2027):** checking data from ESA's BIOMASS satellite over Antarctic ice shelves.
+- **Polarimetric radar for New Zealand glaciers (2025–2027):** using RADARSAT Constellation Mission data to track the end-of-summer snowline on glaciers in the New Zealand Alps.
+- **Hāpua dynamics in Canterbury (2026):** mapping change in river-mouth lagoons with a machine learning model.
+- **Penguin colonies from space (2026):** detecting penguin colonies in high-resolution SAR images.
+
+More detail is on the [Projects](projects.qmd) page.
+
+## Research interests
+
+- Ice tongues, ice shelves and their interaction with the ocean
+- Land-fast sea ice and sea ice
+- Glacier flow, mass balance and ice thickness
+- Telling short-lived surface melt apart from lasting change in the snow and firn of Antarctic ice shelves, which can come before an ice shelf breaks up
+- Combining SAR, lidar and field data, including physics-guided machine learning
