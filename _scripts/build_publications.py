@@ -54,7 +54,12 @@ def main():
     for m in re.finditer(r'<div id="ref-([^"]+)" class="csl-entry"[^>]*>(.*?)</div>', out, re.S):
         body = MY_NAME.sub(lambda n: f"<strong>{n.group(0)}</strong>", m.group(2).strip())
         body = ABSTRACT_ID.sub(r"\1-\2", body)
-        formatted[html.unescape(m.group(1))] = body
+        key = html.unescape(m.group(1))
+        # APA drops `note` for reports; show it at the end of any @techreport entry.
+        note = meta.get(key, {}).get("note", "").strip()
+        if meta.get(key, {}).get("type") == "report" and note:
+            body += " " + html.escape(note) + ("" if note[-1] in ".!?" else ".")
+        formatted[key] = body
 
     pages = {"publications": [], "reports": []}
     known_types = {s[0] for s in SECTIONS}
