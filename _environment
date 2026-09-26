@@ -1,0 +1,3 @@
+# Fixed timestamp for the Typst CV PDF so identical content gives an identical file
+# (otherwise files/CV_Rodrigo_Gomez_Fell.pdf would change in git on every render).
+SOURCE_DATE_EPOCH=1788220800

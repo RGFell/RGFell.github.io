@@ -1,15 +1,35 @@
 ---
 title: "Curriculum Vitae"
 description: "CV of Dr Rodrigo Gomez-Fell: education, employment, awards and grants, teaching and supervision, and service in Antarctic glaciology and SAR remote sensing."
-toc: true
-toc-title: "Sections"
+# One source, two outputs: this page and the downloadable PDF (Typst, bundled with Quarto).
+# _scripts/publish_cv_pdf.py moves the PDF to files/CV_Rodrigo_Gomez_Fell.pdf after each render.
+format:
+  html:
+    toc: true
+    toc-title: "Sections"
+  typst:
+    title: "Rodrigo Gomez-Fell"
+    subtitle: "Curriculum Vitae"
+    output-file: cv-public.pdf
+    papersize: a4
+    margin:
+      x: 2cm
+      y: 2cm
+    fontsize: 10pt
+format-links: false
 ---
 
-<!-- Restore this button once the public (redacted) PDF is saved as files/CV_Rodrigo_Gomez_Fell.pdf:
+::: {.content-visible when-format="html"}
 [<i class="bi bi-file-earmark-arrow-down" aria-hidden="true"></i> Download CV (PDF)](files/CV_Rodrigo_Gomez_Fell.pdf){.btn .btn-primary .cv-download}
--->
+:::
 
-[TODO: public CV PDF (without phone number or postal address) to be exported by Rodrigo]{.todo}
+::: {.content-visible when-format="typst"}
+**Postdoctoral Fellow, Gateway Antarctica, University of Canterbury**\
+Christchurch, New Zealand · rodrigo.gomezfell@canterbury.ac.nz\
+ORCID: [orcid.org/0000-0002-0391-1323](https://orcid.org/0000-0002-0391-1323) ·
+Google Scholar: [scholar.google.com/citations?user=zdY64_kAAAAJ](https://scholar.google.com/citations?user=zdY64_kAAAAJ&hl=en) ·
+Website: [rgfell.github.io](https://rgfell.github.io)
+:::
 
 ::: {.cv}
 
@@ -36,8 +56,8 @@ toc-title: "Sections"
 
 - **2026** · Co-PI, Remote Sensing of Canterbury Hāpua Dynamics: delineation and analysis of hāpua change using a CNN model
 - **2026** · AI in COSMO-SkyMed, Project ID 4362 Glaciers: tasking SAR data over the New Zealand Alps
-- **2025–2027** · BIOMASS mission calibration and validation for Antarctic ice shelves using ApRES and GPR
-- **2025–2028** · Catalyst project: novel high-resolution imaging for glacial environments with polarimetric RADARSAT Constellation Mission data
+- **2025–2027** · BIOMASS mission calibration and validation for Antarctic ice shelves, using pRES and airborne SAR
+- **2025–2027** · Catalyst project: novel high-resolution imaging for glacial environments with polarimetric RADARSAT Constellation Mission data
 
 ### Awards and scholarships
 
@@ -60,9 +80,17 @@ toc-title: "Sections"
 
 ## Conference presentations
 
+::: {.content-visible when-format="html"}
 Conference papers and abstracts are listed on the
 [Publications page](publications.qmd#conference), and technical reports on the
 [Reports page](reports.qmd).
+:::
+
+::: {.content-visible when-format="typst"}
+Conference papers, abstracts and technical reports are listed at
+[rgfell.github.io/publications.html](https://rgfell.github.io/publications.html) and
+[rgfell.github.io/reports.html](https://rgfell.github.io/reports.html).
+:::
 
 ## Service
 
@@ -73,7 +101,7 @@ Conference papers and abstracts are listed on the
 - **2025** · Session Organiser and Theme Coordinator, IGARSS, Brisbane
 - **2025** · Coordinator, IGARSS Brisbane ambassadors for IGARSS 2028 Auckland
 - **2025** · Organising Committee, Braided Rivers Forum
-- **2024–present** · Lead, IEEE GRSS IFT Working Group on Remote Sensing Instruments for UAVs
+- **2024–present** · Member, IEEE GRSS IFT Working Group on Remote Sensing Instruments for UAVs
 - **2024** · Organising Committee and Coordinator, New Zealand SAR Workshop and Hackathon
 - **2024** · Reviewer, Antarctica New Zealand scholarships
 - **2024** · Representative of the University of Canterbury, LatAm CAPES early-career delegation to Chile and Brazil
