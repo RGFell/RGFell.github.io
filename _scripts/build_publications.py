@@ -31,7 +31,7 @@ SECTIONS = [
 ]
 
 # Every published spelling of Rodrigo's name, as APA prints it.
-MY_NAME = re.compile(r"G[oó]mez(?:[- ]Fell)?, R\.(?: A\.)?")
+MY_NAME = re.compile(r"G[oó]mez(?:[-\u2010 ]Fell)?, R\.(?: A\.)?")  # Gomez-Fell, Gomez Fell, Gómez, Gomez
 # citeproc turns "C41F-1589" (an abstract ID stored in `pages`) into a range "C41F–1589".
 # IDs contain letters; real page ranges don't, so only those get their hyphen back.
 ABSTRACT_ID = re.compile(r"\b([A-Z]+[A-Z0-9]*)–(\d+)\b")

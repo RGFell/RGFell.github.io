@@ -30,19 +30,19 @@ University of Canterbury, in Christchurch, New Zealand. He uses synthetic apertu
 works through cloud and darkness, to measure changes in glaciers, ice shelves
 and sea ice.
 
-His PhD in Antarctic Studies (University of Canterbury, 2023) focused on SAR
-remote sensing and ice dynamics. His published work shows how the loss of
-land-fast sea ice led to the collapse of the Parker Ice Tongue, how ocean
-currents bend the Erebus Ice Tongue, and how ice tongues melt from below in
-the western Ross Sea.
-[TODO: thesis title and supervisors, if you want them listed]{.todo}
+His PhD in Antarctic Studies (University of Canterbury, 2023), *Ice tongue
+stability in a changing climate*, was supervised by Wolfgang Rack, Heather
+Purdie and Oliver Marsh. It focused on SAR remote sensing and ice dynamics. His
+published work shows how the loss of land-fast sea ice led to the collapse of
+the Parker Ice Tongue, how ocean currents bend the Erebus Ice Tongue, and how
+ice tongues melt from below in the western Ross Sea.
 
 Before his PhD, he completed an MSc in Oceanography at the Universidade Federal
 do Rio Grande in Brazil (2018), where he started using SAR to study
 glaciers. His first degree is in Industrial Engineering from the Pontificia
 Universidad Católica de Valparaíso, Chile (2006). He worked for more than ten
-years in engineering and tourism, and then as a project manager at the CEQUA
-research centre in Chile, before starting his MSc.
+years in engineering and tourism. At the CEQUA research centre in Chile he was
+a project manager (2014–2016) and later a researcher (2018).
 
 From 2023 to 2026 he was a Geospatial Research Scientist at the University of
 Canterbury's Waterways Centre. There he developed national methods for mapping
@@ -71,6 +71,6 @@ research students working with satellite data.
 
 ## Education
 
-- **2023** PhD, Antarctic Studies, University of Canterbury, New Zealand
+- **2023** PhD, Antarctic Studies, University of Canterbury, New Zealand. Thesis: *Ice tongue stability in a changing climate*
 - **2018** MSc, Oceanography, Universidade Federal do Rio Grande, Brazil
 - **2006** Industrial Engineering, Pontificia Universidad Católica de Valparaíso, Chile
