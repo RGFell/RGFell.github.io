@@ -1,0 +1,19 @@
+---
+title: "Contact"
+description: "How to contact Rodrigo Gomez Fell, with links to email, ORCID, Google Scholar, GitHub and LinkedIn."
+---
+
+I'm happy to hear from colleagues, students and anyone interested in Antarctic
+ice and satellite remote sensing.
+
+::: {.contact-list}
+- **Email:** [TODO: your email address]{.todo}
+- **ORCID:** [TODO: https://orcid.org/0000-0000-0000-0000]{.todo}
+- **Google Scholar:** [TODO: your Google Scholar profile URL]{.todo}
+- **GitHub:** [github.com/RGFell](https://github.com/RGFell)
+- **LinkedIn:** [TODO: your LinkedIn profile URL]{.todo}
+:::
+
+## Postal address
+
+[TODO: department, University of Canterbury, Christchurch, New Zealand, or delete this section]{.todo}

@@ -1,0 +1,9 @@
+# Quarto build output and cache
+/_site/
+/.quarto/
+**/*.quarto_ipynb
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+.vscode/

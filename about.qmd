@@ -1,0 +1,30 @@
+---
+title: "About"
+description: "Biography of Rodrigo Gomez Fell, a postdoctoral fellow in Antarctic glaciology and SAR remote sensing at the University of Canterbury."
+# TODO: add a profile photo (images/profile.jpg) with alt text
+---
+
+## Biography
+
+Rodrigo Gomez Fell is a postdoctoral fellow in Antarctic glaciology and
+synthetic aperture radar (SAR) remote sensing at the University of Canterbury.
+[TODO: confirm how your name should appear: "Gomez Fell", "Gómez Fell" or "Gomez-Fell"?]{.todo}
+
+Rodrigo uses satellite radar imagery to study Antarctic ice.
+[TODO: confirm the focus of your research, e.g. ice shelf calving on the Ronne Ice Shelf, which your 2021 blog discussed]{.todo}
+
+[TODO: PhD: institution, year and thesis topic]{.todo}
+
+[TODO: previous positions or degrees, if you want to list them]{.todo}
+
+[TODO: department, research group or collaborators to mention]{.todo}
+
+## Research interests
+
+- Antarctic glaciology
+- SAR remote sensing
+- [TODO: add or refine interests]{.todo}
+
+## Outside research
+
+[TODO: optional. A sentence or two about yourself, or delete this section]{.todo}

@@ -1,0 +1,22 @@
+/*-- scss:defaults --*/
+// Dark mode: polar-night background, glacier-ice blue accents, light gray text.
+$primary:        #8cc4ec;  // glacier blue, ~9.6:1 on the background
+$body-bg:        #11181f;
+$body-color:     #e3e8ed;
+$link-color:     #8cc4ec;
+$navbar-bg:      #0a1016;
+$navbar-fg:      #d7e3ee;
+$navbar-hl:      #ffffff;
+$footer-bg:      #0a1016;
+$footer-fg:      #b3c0cc;
+
+$font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$headings-font-weight: 600;
+
+/*-- scss:rules --*/
+:root {
+  --rgf-accent: #8cc4ec;
+  --rgf-accent-soft: #1a2530;
+  --rgf-hero-from: #0a1016;
+  --rgf-hero-to: #16354d;
+}

@@ -1,0 +1,50 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"   # keeps CLAUDE.md out of the published site
+
+website:
+  title: "Rodrigo Gomez Fell"
+  description: "Antarctic glaciology and SAR remote sensing. Postdoctoral fellow at the University of Canterbury."
+  site-url: "https://rgfell.github.io"   # enables sitemap.xml and absolute Open Graph URLs
+  repo-url: "https://github.com/RGFell/RGFell.github.io"
+  favicon: images/favicon.svg
+  open-graph: true
+  twitter-card: true
+  page-navigation: false
+  back-to-top-navigation: true
+  navbar:
+    title: "Rodrigo Gomez Fell"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      # Uncomment each entry once its page exists (see CLAUDE.md):
+      # - href: cv.qmd
+      #   text: CV
+      # - href: research.qmd
+      #   text: Research
+      # - href: projects.qmd
+      #   text: Projects
+      # - href: publications.qmd
+      #   text: Publications
+      # - href: news.qmd
+      #   text: News
+      - href: contact.qmd
+        text: Contact
+  page-footer:
+    left: "© 2026 Rodrigo Gomez Fell"
+    right: "Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme:
+      light: [cosmo, theme-light.scss]
+      dark: [cosmo, theme-dark.scss]
+    respect-user-color-scheme: true   # follow the visitor's OS setting; navbar toggle overrides
+    css: styles.css
+    toc: false
+    lang: en
+    smooth-scroll: true

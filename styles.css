@@ -1,0 +1,49 @@
+/* Layout and component styles shared by light and dark mode.
+   Colours come from CSS variables defined in theme-light.scss / theme-dark.scss. */
+
+/* Home page banner */
+.hero {
+  background: linear-gradient(135deg, var(--rgf-hero-from), var(--rgf-hero-to));
+  color: #ffffff;
+  border-radius: 0.75rem;
+  padding: clamp(1.5rem, 5vw, 3rem);
+  margin: 1rem 0 2rem;
+}
+.hero h2 {
+  color: #ffffff;
+  margin-top: 0;
+  font-size: clamp(1.5rem, 4vw, 2.25rem);
+  border-bottom: none;
+}
+.hero p { color: #e8f1f8; font-size: 1.1rem; max-width: 40rem; }
+.hero a { color: #ffffff; text-decoration: underline; }
+
+/* Short cards for research themes on the home page */
+.theme-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.theme-card {
+  background: var(--rgf-accent-soft);
+  border-left: 4px solid var(--rgf-accent);
+  border-radius: 0.5rem;
+  padding: 1rem 1.25rem;
+}
+.theme-card h3 { margin-top: 0; font-size: 1.1rem; }
+.theme-card p { margin-bottom: 0; }
+
+/* Contact list */
+.contact-list ul { list-style: none; padding-left: 0; }
+.contact-list li { padding: 0.5rem 0; border-bottom: 1px solid var(--rgf-accent-soft); }
+.contact-list strong { display: inline-block; min-width: 9rem; }
+
+/* Visible keyboard focus everywhere (accessibility) */
+a:focus-visible, button:focus-visible {
+  outline: 3px solid var(--rgf-accent);
+  outline-offset: 2px;
+}
+
+/* Make TODO markers stand out while drafting */
+.todo { background: #fff3cd; color: #5c4400; padding: 0 0.25rem; border-radius: 0.2rem; }

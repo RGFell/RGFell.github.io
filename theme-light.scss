@@ -1,0 +1,23 @@
+/*-- scss:defaults --*/
+// Light mode: white ground, deep polar blue accents, dark gray text.
+// All text/background pairs meet WCAG AA (4.5:1) or better.
+$primary:        #1b4f72;  // polar blue, 8.9:1 on white
+$body-bg:        #ffffff;
+$body-color:     #2b2f33;  // dark gray, 13.6:1 on white
+$link-color:     #1b5e8c;
+$navbar-bg:      #0e2f44;  // deep ocean blue
+$navbar-fg:      #e8f1f8;
+$navbar-hl:      #ffffff;
+$footer-bg:      #f3f6f9;
+$footer-fg:      #4a5560;
+
+$font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$headings-font-weight: 600;
+
+/*-- scss:rules --*/
+:root {
+  --rgf-accent: #1b4f72;
+  --rgf-accent-soft: #e8f1f8;
+  --rgf-hero-from: #0e2f44;
+  --rgf-hero-to: #1b5e8c;
+}
