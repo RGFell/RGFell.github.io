@@ -54,38 +54,12 @@ EO - SAR - Glaciers - Antarctica.
 ::: {.home-section}
 ## Research themes {#themes}
 
-::: {.theme-cards}
-::: {.theme-card}
-### [<i class="bi bi-snow2" aria-hidden="true"></i>]{.theme-icon} Antarctic ice
-How does coastal Antarctic ice respond to the ocean and to the sea ice around it?
-Past studies include the collapse of the Parker Ice Tongue and the bending of the Erebus Ice Tongue.
-:::
-
-::: {.theme-card}
-### [<i class="bi bi-snow" aria-hidden="true"></i>]{.theme-icon} Sea ice
-Land-fast sea ice is frozen to the coast and can support floating ice. Its loss
-triggered the collapse of the Parker Ice Tongue.
-:::
-
-::: {.theme-card}
-### [<i class="bi bi-radar" aria-hidden="true"></i>]{.theme-icon} Synthetic aperture radar (SAR)
-SAR satellites see through clouds and the polar night. I create my own processing chains and use them to
-track ice movement, surface change and snow conditions, working with missions
-such as Sentinel-1, NISAR, RADARSAT Constellation, TerraSAR-X, UMBRA, Capella and ESA's BIOMASS.
-:::
-
-::: {.theme-card}
-### [<i class="bi bi-reception-4" aria-hidden="true"></i>]{.theme-icon} Radioglaciology
-Radar on the ground and from aircraft looks into and through the ice. I am
-helping to build this capability in New Zealand, including for checking data from
-the BIOMASS satellite.
-:::
-
-::: {.theme-card}
-### [<i class="bi bi-globe-asia-australia" aria-hidden="true"></i>]{.theme-icon} Earth observation in New Zealand and Patagonia
-Mapping glaciers in the New Zealand Alps, braided rivers, river-mouth lagoons
-(hāpua) and forestry, using radar, lidar and multispectral imagery.
-:::
+::: {.theme-tags}
+- Antarctic ice
+- Sea ice
+- Synthetic aperture radar (SAR)
+- Radioglaciology
+- Earth observation in New Zealand and Patagonia
 :::
 :::
 

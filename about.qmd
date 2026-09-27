@@ -1,28 +1,47 @@
 ---
-title: "About"
+pagetitle: "About"
 description: "Biography of Rodrigo Gomez-Fell, a postdoctoral fellow at Gateway Antarctica, University of Canterbury, who studies Antarctic ice with satellite radar."
 image: images/profile.jpg
 image-alt: "Rodrigo Gomez-Fell in a red jacket on an Antarctic shoreline, with sea ice and an iceberg behind him."
-about:
-  template: trestles
-  image-width: 14em
-  image-shape: rounded
-  links:
-    - icon: envelope
-      text: Contact
-      href: contact.qmd
-    - text: ORCID
-      href: https://orcid.org/0000-0002-0391-1323
-    - text: Google Scholar
-      href: "https://scholar.google.com/citations?user=zdY64_kAAAAJ&hl=en"
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/rodrigogomezfell/
-    - icon: github
-      text: GitHub
-      href: https://github.com/RGFell
+page-layout: full
+format:
+  html:
+    html-math-method: plain
 ---
 
+```{=html}
+<h1 class="visually-hidden">About Rodrigo Gomez-Fell</h1>
+```
+
+::: {.about-grid}
+
+::: {.about-left}
+```{=html}
+<picture>
+  <source srcset="images/profile.webp" type="image/webp">
+  <img class="about-photo" src="images/profile.jpg" width="800" height="800"
+       alt="Rodrigo Gomez-Fell in a red jacket on an Antarctic shoreline, with sea ice and an iceberg behind him.">
+</picture>
+```
+
+## Collaborators
+
+This network shows the people I have published journal articles with, and it updates automatically whenever I add a new article to my publication list.
+
+{{< include publications/_network.md >}}
+
+## Education
+
+```{=html}
+<ol class="timeline compact">
+  <li class="timeline-item"><span class="timeline-year">2023</span><div class="timeline-body">PhD, Antarctic Studies, University of Canterbury, New Zealand. Thesis: <em>Ice tongue stability in a changing climate</em></div></li>
+  <li class="timeline-item"><span class="timeline-year">2018</span><div class="timeline-body">MSc, Oceanography, Universidade Federal do Rio Grande, Brazil. Thesis: <em>Ice Dynamics of Union glacier (Antarctica) by means of SAR data</em></div></li>
+  <li class="timeline-item"><span class="timeline-year">2006</span><div class="timeline-body">Industrial Engineering, Pontificia Universidad Católica de Valparaíso, Chile</div></li>
+</ol>
+```
+:::
+
+::: {.about-right}
 ## Biography
 
 I'm a postdoctoral fellow at Gateway Antarctica, University of Canterbury, located in Christchurch, New Zealand. My research focuses on using synthetic aperture radar (SAR), a satellite radar technology that can penetrate through clouds and darkness, to measure changes in glaciers, ice shelves, and sea ice.
@@ -47,15 +66,6 @@ I am currently the chair of the New Zealand chapter of the IEEE Geoscience and R
 - SAR methods: interferometry (InSAR), offset tracking and backscatter analysis
 - Combining radar, lidar, multispectral and field data, including machine learning
 - Data fusion and machine learning for Earth Observation
+:::
 
-## Collaborators
-
-This network shows the people I have published journal articles with, and it updates automatically whenever I add a new article to my publication list.
-
-{{< include publications/_network.md >}}
-
-## Education
-
-- **2023** PhD, Antarctic Studies, University of Canterbury, New Zealand. Thesis: *Ice tongue stability in a changing climate*
-- **2018** MSc, Oceanography, Universidade Federal do Rio Grande, Brazil. Thesis: *Ice Dynamics of Union glacier (Antarctica) by means of SAR data*
-- **2006** Industrial Engineering, Pontificia Universidad Católica de Valparaíso, Chile
+:::

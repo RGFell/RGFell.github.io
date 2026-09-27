@@ -10,8 +10,8 @@ Rules
 - Name merging: accents, case, hyphens and spaces are ignored in the family name; given
   names must agree on the first initial and, where both are written out, the first name.
   Same family name with a different first name or initial = different people (reported).
-- Collaborators with >= LABEL_MIN shared articles are labelled; others are small dots.
-- At most MAX_NODES nodes; the least-connected are dropped (reported).
+- Only Rodrigo and his TOP_N most frequent co-authors are drawn, all labelled; the
+  "Frequent co-authors" table lists exactly the same people.
 """
 
 import html
@@ -21,8 +21,7 @@ import unicodedata
 from collections import defaultdict
 from itertools import combinations
 
-LABEL_MIN = 2
-MAX_NODES = 40
+TOP_N = 5
 ME_FAMILIES = {"gomezfell", "gomez"}          # Gomez-Fell, Gomez Fell, Gómez, Gomez
 
 
@@ -116,30 +115,27 @@ def build(meta, log):
     for k in sorted(set(truncated)):
         log.append(f"network: WARNING truncated author list ('others') in @article {k}")
 
-    # --- cap ----------------------------------------------------------------------
-    collab = sorted((p for p in people if p != "ME"), key=lambda p: (-with_me[p], name(p)))
-    dropped = collab[MAX_NODES - 1:]
-    collab = collab[:MAX_NODES - 1]
-    log.append(f"network: {len(collab) + 1} nodes drawn, {len(dropped)} dropped"
-               + (": " + ", ".join(name(p) for p in dropped) if dropped else ""))
+    # --- keep the top TOP_N collaborators --------------------------------------------
+    # Rank by articles shared with Rodrigo; ties broken by the most recent shared article,
+    # then by name. Ties at the cut-off are printed so they can be checked.
+    year_of = {k: (meta[k].get("issued", {}).get("date-parts") or [[0]])[0][0] for k, _ in articles}
+    latest = {p: max(year_of[k] for k in paper_people if p in paper_people[k]) for p in people if p != "ME"}
+    ranked = sorted((p for p in people if p != "ME"), key=lambda p: (-with_me[p], -latest[p], name(p)))
+    collab, dropped = ranked[:TOP_N], ranked[TOP_N:]
+    cutoff = with_me[collab[-1]] if collab else 0
+    tied_out = [p for p in dropped if with_me[p] == cutoff]
+    log.append(f"network: showing top {len(collab)}: " + ", ".join(f"{name(p)} ({with_me[p]}, latest {latest[p]})" for p in collab))
+    if tied_out:
+        log.append(f"network: NOTE tied at {cutoff} shared articles but left out by the tie-break: "
+                   + ", ".join(f"{name(p)} (latest {latest[p]})" for p in tied_out))
+    log.append(f"network: {len(dropped)} other co-authors not drawn")
     keep = set(collab) | {"ME"}
 
-    # --- layout: radial, grouped by first shared paper ----------------------------
-    order = [k for k, _ in articles]
-    home = {p: min(i for i, k in enumerate(order) if p in paper_people[k]) for p in collab}
-    inner = [p for p in collab if with_me[p] >= LABEL_MIN]
-    outer = [p for p in collab if with_me[p] < LABEL_MIN]
+    # --- layout: collaborators on one ring around Rodrigo -------------------------------
     pos = {"ME": (0.0, 0.0)}
-
-    def ring(members, radius, offset):
-        members = sorted(members, key=lambda p: (home[p], name(p)))
-        n = len(members)
-        for i, p in enumerate(members):
-            t = offset + 2 * math.pi * i / max(n, 1)
-            pos[p] = (radius * math.cos(t), radius * math.sin(t))
-
-    ring(inner, 120, -math.pi / 2)
-    ring(outer, 205, -math.pi / 2 + math.pi / max(len(outer), 1))
+    for i, p in enumerate(collab):
+        t = -math.pi / 2 + 2 * math.pi * i / max(len(collab), 1)
+        pos[p] = (140 * math.cos(t), 140 * math.sin(t))
 
     # --- SVG ------------------------------------------------------------------------
     def r(p):
@@ -154,26 +150,25 @@ def build(meta, log):
     nodes, labels = [], []
     for p in collab + ["ME"]:
         x, y = pos[p]
-        cls = "net-node net-me" if p == "ME" else ("net-node net-frequent" if with_me[p] >= LABEL_MIN else "net-node net-other")
+        cls = "net-node net-me" if p == "ME" else "net-node net-frequent"
         tip = "Rodrigo Gomez-Fell" if p == "ME" else f"{name(p)}: {with_me[p]} shared article{'s' if with_me[p] != 1 else ''}"
         nodes.append(f'<circle class="{cls}" cx="{x:.1f}" cy="{y:.1f}" r="{r(p):.1f}"><title>{html.escape(tip)}</title></circle>')
         if p == "ME":
-            labels.append(f'<text class="net-label net-label-me" x="0" y="{13 + 26}" text-anchor="middle">Me</text>')
-        elif with_me[p] >= LABEL_MIN:
-            d = math.hypot(x, y) or 1
-            lx, ly = x + (x / d) * (r(p) + 6), y + (y / d) * (r(p) + 6) + 5
-            anchor = "start" if x > 20 else "end" if x < -20 else "middle"
-            if anchor == "middle":
-                ly += 8 if y > 0 else -4
+            labels.append(f'<text class="net-label net-label-me" x="0" y="{13 + 32}" text-anchor="middle">Me</text>')
+        else:   # label on the outer side of each node so neighbouring labels never collide
+            if abs(x) < 30:
+                lx, ly, anchor = x, (y - r(p) - 12 if y < 0 else y + r(p) + 30), "middle"
+            elif x < 0:
+                lx, ly, anchor = x - r(p) - 10, y + 10, "end"
+            else:
+                lx, ly, anchor = x + r(p) + 10, y + 10, "start"
             labels.append(f'<text class="net-label" x="{lx:.1f}" y="{ly:.1f}" text-anchor="{anchor}">{html.escape(name(p))}</text>')
 
-    n_lab = sum(1 for p in collab if with_me[p] >= LABEL_MIN)
-    desc = (f"Network of co-authors on {len(articles)} journal articles. Rodrigo Gomez-Fell is at the centre. "
-            f"{n_lab} people with two or more shared articles are labelled on the inner ring; "
-            f"{len(collab) - n_lab} people with one shared article are small unlabelled dots on the outer ring. "
-            "Lines join people who wrote an article together; thicker lines mean more shared articles.")
+    desc = (f"Network of Rodrigo Gomez-Fell's {len(collab)} most frequent co-authors on journal articles, with "
+            "Rodrigo at the centre: " + "; ".join(f"{name(p)}, {with_me[p]} shared articles" for p in collab)
+            + ". Lines join people who wrote an article together; thicker lines mean more shared articles.")
     svg = f'''<figure class="collab-network">
-<svg viewBox="-410 -250 820 500" role="img" aria-labelledby="net-title net-desc" preserveAspectRatio="xMidYMid meet">
+<svg viewBox="-440 -195 880 360" role="img" aria-labelledby="net-title net-desc" preserveAspectRatio="xMidYMid meet">
 <title id="net-title">Collaborator network from journal articles</title>
 <desc id="net-desc">{html.escape(desc)}</desc>
 <g class="net-edges">{"".join(edges)}</g>
@@ -182,11 +177,11 @@ def build(meta, log):
 </svg>
 </figure>'''
 
-    top = collab[:10]
+    top = collab
     table = ["| Co-author | Shared journal articles |", "|---|---:|"]
     table += [f"| {name(p)} | {with_me[p]} |" for p in top]
     md = ("<!-- Generated by _scripts/network.py (via build_publications.py). Do not edit. -->\n\n"
           "```{=html}\n" + svg + "\n```\n\n"
           "### Frequent co-authors {.unnumbered}\n\n"
-          + "\n".join(table) + "\n\n: Top 10 co-authors by number of journal articles shared with me {.net-table}\n")
+          + "\n".join(table) + "\n\n: Top 5 co-authors by number of journal articles shared with me {.net-table}\n")
     return md

@@ -19,7 +19,14 @@ My current projects, newest first.
 
 ## Hāpua dynamics in Canterbury {#hapua}
 
-![](images/projects/hapua.svg){fig-alt="Placeholder illustration: a river meeting the sea behind a gravel barrier."}
+```{=html}
+<figure class="project-figure">
+  <picture>
+    <source srcset="images/projects/hapua.webp" type="image/webp">
+    <img src="images/projects/hapua.jpg" width="1200" height="800" loading="lazy" alt="Planet satellite image inventory for the Rangitata: a bar chart of total images per year from 2019 to 2025, fewest in 2021 and most in 2023, beside a heat map of the number of images in each month.">
+  </picture>
+</figure>
+```
 
 **Years:** 2026
 
@@ -60,10 +67,16 @@ Research contract with Environment Canterbury (ECan).
 <figure class="project-figure">
   <picture>
     <source srcset="images/projects/penguins.webp" type="image/webp">
-    <img src="images/projects/penguins.jpg" width="1200" height="800" alt="Grey satellite radar image of the Antarctic coast: a bright ice cliff at lower left, a smooth dark band of ice, and speckled sea ice with scattered small icebergs to the right.">
+    <img src="images/projects/penguins.jpg" width="1200" height="800" alt="Grey Umbra satellite radar image of the Antarctic coast: a bright ice cliff at lower left, a smooth dark band of ice, and speckled sea ice with scattered small icebergs to the right.">
   </picture>
+  <figcaption>UMBRA SAR image</figcaption>
 </figure>
 ```
+
+::: {.content-hidden}
+<!-- TODO: UMBRA data credit for this image too (same pending question as the second UMBRA image:
+     open data under a CC licence, or tasked data?). Add it as <figcaption class="image-credit">. -->
+:::
 
 ```{=html}
 <figure class="project-figure">
@@ -117,6 +130,7 @@ None yet.
     <source srcset="images/projects/biomass.webp" type="image/webp">
     <img src="images/projects/biomass.jpg" width="1200" height="800" alt="Satellite radar image of a glacier flowing between rugged, crevassed mountains, shown as a tilted strip in grey with red highlights on a black background.">
   </picture>
+  <figcaption class="image-credit">ESA BIOMASS cal/val airborne/satellite data</figcaption>
 </figure>
 ```
 
