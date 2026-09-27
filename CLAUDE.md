@@ -13,8 +13,7 @@ styles.css         Layout and components shared by both modes (.hero, .cv, .pub-
 index.qmd          Home: profile card (left, sticky) + intro, themes, selected publications,
                    news timeline, positions/education (CSS grid in styles.css, no JavaScript)
 about.qmd  cv.qmd  research.qmd  contact.qmd     Single pages
-projects.qmd       Listing (cards) over projects/*.qmd
-projects/          One .qmd per project
+projects.qmd       All projects on one page, one ## section each (anchors used by other pages)
 news/              One .qmd per news item (shown on Home, newest 5); _metadata.yml shows year only
 _templates/        news-timeline.ejs: listing template for the Home news timeline
 publications.qmd   Journal articles, preprints, conference papers, book chapters (generated list)
@@ -62,9 +61,8 @@ Put the original in `_source/` (git-ignored if .jpg/.png). Export a 3:2 crop, ab
 (never upscale a smaller original), as both `.webp` and `.jpg`, each under 200 KB, with all
 metadata stripped, into `images/projects/`. Charts and multi-panel figures: pad to 3:2 on white
 rather than cropping away data. Then:
-- Project: set `image: ../images/projects/<name>.jpg` and a descriptive `image-alt:` (what the
-  image shows) in the front matter, and use the `<picture>` block at the top of the page
-  (WebP source + JPEG fallback). Put a credit in `<figcaption class="image-credit">` when the
+- Project: use the `<picture>` block at the top of the project's section in `projects.qmd`
+  (WebP source + JPEG fallback, `alt` describing what the image shows). Put a credit in `<figcaption class="image-credit">` when the
   image or its data is not Rodrigo's (e.g. "Contains modified Copernicus Sentinel data (2024).").
 - Featured paper: in its `.bib` record add `image = {images/projects/pub-<name>.jpg}`,
   `imagealt = {...}` and, if needed, `imagecredit = {...}` (one line each). The script uses the
@@ -74,7 +72,8 @@ Only use figures you have the right to publish.
 ### Social card
 `images/social-card.jpg` (1200 x 630) is the default Open Graph/Twitter image (`website: image:`
 in `_quarto.yml`); Home sets it explicitly because Quarto would otherwise use the first image on
-the page. Pages with their own `image:` (About, projects) use that instead.
+the page. Pages with their own `image:` (About) use that instead; Projects sets the social card
+explicitly for the same reason.
 
 ### A report
 Same as above, with `@techreport` (`institution`, `number`, `type` as available).
@@ -84,36 +83,39 @@ APA would drop a report's `note`, so the build script appends it at the end of t
 (e.g. `type = {Report prepared for Environment Canterbury}`) to show it.
 
 ### A project
-Create `projects/<slug>.qmd` and a card image in `images/projects/` (16:9, e.g. 800×450):
+All projects live on **one page**, `projects.qmd`: there are no separate project pages.
+Add a new `## ` section there, in order (current projects first, newest start year first;
+unconfirmed dates last), separated by `---`. Give it a short, stable anchor, because other
+pages link to it as `projects.qmd#<anchor>` (e.g. Research "Current projects", news items).
 
-```markdown
----
-title: "Short project title"
-description: "One-line description shown on the card."
-order: 5                      # position on the Projects page (lower = first)
-years: "2026–2028"
-image: ../images/projects/<slug>.jpg
-image-alt: "What the image shows."
----
+````markdown
+## Short project title {#my-anchor}
 
-![](../images/projects/<slug>.jpg){fig-alt="What the image shows."}
+```{=html}
+<figure class="project-figure">
+  <picture>
+    <source srcset="images/projects/<name>.webp" type="image/webp">
+    <img src="images/projects/<name>.jpg" width="1200" height="800" loading="lazy" alt="What the image shows.">
+  </picture>
+  <figcaption class="image-credit">Credit, if the image or data is not Rodrigo's.</figcaption>
+</figure>
+```
 
 **Years:** 2026–2028
 
-## Summary
-## My role                      # first person, e.g. "I am a researcher on this project."
+### Summary
+### My role                      # first person, e.g. "I am a researcher on this project."
 
 ::: {.content-hidden}
-## Collaborators
-- Name, institution          # hidden until filled in; delete the ::: fences to publish
+### Collaborators
+- Name, institution            # hidden until filled in; delete the ::: fences to publish
 :::
 
-## Funding                    # only if the funder is confirmed; otherwise omit the section
-## Related publications
-Cite entries from the .bib, e.g. [@gomezfell2024erebus], after adding
-`bibliography: ../publications/publications.bib` and `csl: ../publications/apa.csl`
-to the front matter. Otherwise write "None yet."
-```
+### Funding                      # only if the funder is confirmed; otherwise omit the section
+### Related publications
+Cite from the .bib with @key (e.g. @baker2026hapua); references appear at the bottom of the
+page. Otherwise write "None yet."
+````
 
 ### Add a guest lecture, talk or panel (CV)
 In `cv.qmd`: guest lectures go under **Teaching and supervision**, invited talks and panels

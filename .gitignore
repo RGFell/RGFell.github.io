@@ -29,3 +29,8 @@ _source/docs/*.odt
 
 # Python bytecode from the build scripts
 __pycache__/
+
+# Other local originals in _source (talks, exports) stay out of git
+_source/*.pdf
+_source/*.pptx
+_source/*.txt
