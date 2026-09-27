@@ -71,17 +71,37 @@ Website: [rgfell.github.io](https://rgfell.github.io)
 
 ## Teaching and supervision
 
-- **2020–2023** · Teaching Assistant (part-time), University of Canterbury
+- **2020–2023** · Teaching Assistant, tutor and lab demonstrator (part-time), University of Canterbury: ANTA102, ANTA201, GEOG312, GEOG323 and GISC406
 - **2026** · Delivered two SAR laboratory sessions at the 2nd IEEE GRSS NZ Radar Remote Sensing School
 - Member of the supervisory team of a PhD student studying fast ice and ice shelf interactions in McMurdo Sound
 - Helped supervise two MSc students at the Waterways Centre: mapping the Ashley braided river floodplain, and identifying hāpua with a CNN model
 - Supervised three honours students working on New Zealand glaciers with SAR data
 - **2023** · Mentor, Adopt a Scientist programme, Lincoln High School
-- **2020–present** · Guest lectures for Environment Canterbury (ECan), the Ministry for the Environment, Chinese and Brazilian delegations visiting the University of Canterbury, and the aerospace community [[TODO: for each lecture, the course or event, institution, year and topic]{.todo}]{.content-visible when-format="html"}
+
+### Guest lectures in University of Canterbury courses
+
+- **2021–present** · ANTA201: "Polar Remote Sensing" and "Ice tongues in the Western Ross Sea"
+- **2022–present** · GISC406: "The Psychedelic world of Interferograms"
+- **2023–present** · GEOG208: "Introduction to SAR" and "The value of lidar in New Zealand"
+
+### Other guest lectures
+
+- **2025** · AIUP USA undergraduate course (online): "Technology in Antarctica"
+- **2025** · Aerospace Summit delegation at the University of Canterbury: "Scientific insight into New Zealand Riverscapes: From Satellites to Airborne Sensors"
+- **2025** · Brazil delegation to the University of Canterbury: "From Airborne Sensors to Scientific Insight: The value of lidar in New Zealand"
+- **2025** · Ministry for the Environment (online): "From Airborne Sensors to Scientific Insight: The value of lidar in New Zealand"
+- **2025** · EOLab Auckland (online): "New Zealand Riverscapes: Uncovering River Change with Satellites and Lidar"
+- **2025** · Icebreaker Xue Long II: "Ice tongue stability in a changing climate"
+- **2024** · Wuhan University delegation: "Ice tongue stability in a changing climate"
+- **2024** · Environment Canterbury (ECan): "Lidar Remote Sensing in New Zealand"
 
 ## Invited talks and panels
 
-- **2025** · Panellist, "Aerospace in Antarctica: The Ultimate Testbed", New Zealand Aerospace Summit [[TODO: date and city of the summit]{.todo}]{.content-visible when-format="html"}
+- **2025** · Panellist, "Aerospace in Antarctica: The Ultimate Testbed", New Zealand Aerospace Summit, 7 October 2025
+
+::: {.content-hidden}
+<!-- TODO: city of the New Zealand Aerospace Summit (not stated in the detailed CV). -->
+:::
 
 ## Conference presentations
 
