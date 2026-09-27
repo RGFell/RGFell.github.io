@@ -10,9 +10,11 @@ _quarto.yml        Site config: navbar, footer icons, theme, SEO, render list, p
 theme-light.scss   Light-mode colours; --rgf-bg-strength and --rgf-panel for the page photo
 theme-dark.scss    Dark-mode colours; same two variables
 styles.css         Layout and components shared by both modes (.hero, .cv, .pub-list, .todo …)
-index.qmd          Home: profile card (left, sticky) + intro, themes, selected publications,
+index.qmd          Home: profile card (left, sticky) + intro, theme keyword tags, selected publications,
                    news timeline, positions/education (CSS grid in styles.css, no JavaScript)
-about.qmd  cv.qmd  research.qmd  contact.qmd     Single pages
+about.qmd          About: 1:2 grid; left = photo, collaborator graph + table, education;
+                   right = biography, community, research interests (max ~70 characters per line)
+cv.qmd  research.qmd  contact.qmd     Single pages
 projects.qmd       All projects on one page, one ## section each (anchors used by other pages)
 news/              One .qmd per news item (shown on Home, newest 5); _metadata.yml shows year only
 _templates/        news-timeline.ejs: listing template for the Home news timeline
@@ -67,7 +69,7 @@ rather than cropping away data. Then:
 - Featured paper: in its `.bib` record add `image = {images/projects/pub-<name>.jpg}`,
   `imagealt = {...}` and, if needed, `imagecredit = {...}` (one line each). The script uses the
   `.webp` sibling automatically. Without `image`, the card shows a blue banner with the journal.
-Only use figures you have the right to publish.
+Only use figures you have the right to publish (see Licensing below).
 
 ### Social card
 `images/social-card.jpg` (1200 x 630) is the default Open Graph/Twitter image (`website: image:`
@@ -132,7 +134,9 @@ Built automatically at every render from the `@article` entries in `publications
   share the first initial and, where both are written out, the first name (so "Marsh, Oliver" =
   "Marsh, Oliver J."; "González, Alejandro" ≠ "González, Inti"). Rodrigo = family Gomez-Fell /
   Gomez Fell / Gómez / Gomez with a first name starting with R.
-- People with 2+ shared articles are labelled; the rest are unlabelled dots; at most 40 nodes.
+- Only Rodrigo and his **top 5** co-authors are drawn (all labelled), and the "Frequent co-authors"
+  table lists exactly the same 5. Ranking: shared articles, then most recent shared article, then
+  name; people tied at the cut-off but left out are printed in the build log.
 - The build log prints every merge, every same-surname pair kept apart, dropped authors and
   any @article with a truncated author list ("others"). Check it after adding papers.
 
@@ -161,6 +165,17 @@ Optional longer text for the item's own page.
 
 The Home page lists the newest five (year only). A full News page (`news.qmd`, navbar entry
 commented out in `_quarto.yml`) is planned for Stage 3; then link it from the Home news section.
+
+## Licensing (footer notice on every page; set in `_quarto.yml` page-footer)
+
+- **Text and original photographs: CC BY 4.0** (© Rodrigo Gomez-Fell) unless stated otherwise.
+- **Satellite-derived images keep their provider's terms** (ESA BIOMASS, Copernicus Sentinel,
+  UMBRA, …) and carry a credit in `<figcaption class="image-credit">` where they appear. Don't
+  guess licence wording: leave a hidden TODO until Rodrigo confirms it.
+- **Publisher figures become citation-only cards.** Don't publish figures from papers unless the
+  paper is open access under a licence that allows it (e.g. CC BY). Otherwise give the featured
+  card no `image` field: it shows the journal-name banner with the title linked to the DOI.
+  Figures removed for this reason are kept locally in `_source/removed-publisher-figures/`.
 
 ## Conventions
 

@@ -34,3 +34,6 @@ __pycache__/
 _source/*.pdf
 _source/*.pptx
 _source/*.txt
+
+# Publisher figures removed from the site (kept locally only)
+_source/removed-publisher-figures/

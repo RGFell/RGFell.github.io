@@ -29,7 +29,7 @@ main.content { margin-top: 1rem; margin-bottom: 1rem; }
 
 /* ---------- Home page: profile card + sections (pure CSS, no JavaScript) ---------- */
 /* Home sections carry their own panels, so the page photo shows between them */
-main.content:has(.home-grid) { background: none; padding: 0; }
+main.content:has(.home-grid), main.content:has(.about-grid) { background: none; padding: 0; }
 /* If Quarto adds its own .page-columns grid (high-specificity rules) to this div,
    the !important declarations keep this simple two-column layout. */
 .home-grid, .home-grid.page-columns {
@@ -128,22 +128,12 @@ main.content:has(.home-grid) { background: none; padding: 0; }
 @media (min-width: 768px) { .two-timelines { grid-template-columns: 1fr 1fr; } }
 .two-timelines h3 { font-size: 1.1rem; margin-top: 0; }
 
-/* Short cards for research themes on the home page */
-.theme-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
-  gap: 1rem;
-  margin: 1.5rem 0;
+/* Research themes on Home: a single row of plain keyword tags that wraps */
+.theme-tags ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.theme-tags li {
+  padding: 0.3rem 0.85rem; border-radius: 2rem;
+  background: var(--rgf-accent-soft); color: var(--bs-body-color); font-weight: 600; font-size: 0.95rem;
 }
-.theme-card {
-  background: var(--rgf-accent-soft);
-  border-left: 4px solid var(--rgf-accent);
-  border-radius: 0.5rem;
-  padding: 1rem 1.25rem;
-}
-.theme-card h3 { margin-top: 0; font-size: 1.1rem; }
-.theme-icon { color: var(--rgf-accent); margin-right: 0.35rem; }
-.theme-card p { margin-bottom: 0; }
 
 /* Contact list */
 .contact-list ul { list-style: none; padding-left: 0; }
@@ -200,10 +190,10 @@ a:focus-visible, button:focus-visible {
 .net-other { fill-opacity: 0.55; }
 .net-me { fill: var(--bs-body-bg); stroke: var(--rgf-accent); stroke-width: 5; }   /* ring, not colour, marks "me" */
 .net-label {
-  font-size: 23px; font-weight: 600; fill: var(--bs-body-color);
+  font-size: 30px; font-weight: 600; fill: var(--bs-body-color);
   paint-order: stroke; stroke: var(--bs-body-bg); stroke-width: 4px; stroke-linejoin: round;
 }
-.net-label-me { font-size: 23px; }
+.net-label-me { font-size: 30px; }
 .net-table { max-width: 28rem; }
 
 /* Project pages and Projects listing: 3:2 images */
@@ -212,3 +202,33 @@ a:focus-visible, button:focus-visible {
 .quarto-grid-item .card-img-top img, .quarto-grid-item img.thumbnail-image {
   height: auto !important; aspect-ratio: 3 / 2; object-fit: cover; width: 100%;
 }
+
+/* About page: 1:2 grid; photo, collaborators and education left; text right.
+   Same .page-columns override as the Home grid. Phones: one column, left content first. */
+.about-grid, .about-grid.page-columns {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) !important;
+  gap: 1.25rem;
+  max-width: 76rem; width: 100%;
+  margin: 1rem auto;
+}
+.about-grid > * { grid-column: auto !important; }
+@media (min-width: 992px) {
+  .about-grid, .about-grid.page-columns { grid-template-columns: minmax(20rem, 1fr) minmax(0, 2fr) !important; align-items: start; }
+}
+.about-left, .about-right {
+  background-color: var(--rgf-panel);
+  border-radius: 0.75rem;
+  padding: clamp(1rem, 3vw, 1.75rem);
+}
+.about-right > * { max-width: 70ch; }          /* comfortable line length */
+.about-right > h2:first-child, .about-left > h2:first-child { margin-top: 0; }
+.about-photo { width: 100%; max-width: 20rem; height: auto; border-radius: 0.75rem; display: block; margin: 0 auto 1rem; }
+.about-left .collab-network svg { max-width: 100%; }
+
+/* Footer: licence notice on its own full-width row under the icons */
+.nav-footer { flex-wrap: wrap; }
+.nav-footer-center { flex: 1 1 100%; order: 3; }
+.site-licence { max-width: 52rem; margin: 0.6rem auto 0; font-size: 0.82rem; line-height: 1.45; }
+.site-licence .cc-badge { display: inline-block; vertical-align: middle; margin-right: 0.4rem; }
+.site-licence .cc-badge img { display: block; }
