@@ -135,6 +135,9 @@ main.content:has(.home-grid), main.content:has(.about-grid) { background: none; 
   padding: 0.3rem 0.85rem; border-radius: 2rem;
   background: var(--rgf-accent-soft); color: var(--bs-body-color); font-weight: 600; font-size: 0.95rem;
 }
+/* Links row at the bottom of the Home intro panel, below the focus tags */
+.home-links { margin-top: 1.25rem; }
+.home-links p { margin-bottom: 0; }
 
 /* Contact list */
 .contact-list ul { list-style: none; padding-left: 0; }
