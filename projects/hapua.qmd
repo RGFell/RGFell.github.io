@@ -22,9 +22,9 @@ convolutional neural network (a type of machine learning model) trained on
 high-resolution multispectral satellite images. It builds on an MSc project at
 the University of Canterbury's Waterways Centre.
 
-## Role
+## My role
 
-Co-principal investigator.
+I am a co-principal investigator on this project.
 
 ::: {.content-hidden}
 <!-- COLLABORATORS: replace the placeholder list below. To publish the section,

@@ -14,13 +14,13 @@ image-alt: "Placeholder illustration: a cluster of penguins on snow."
 ## Summary
 
 This project uses high-resolution SAR images to detect penguin colonies.
-Rodrigo joined after the project started. He built an automatic workflow that
+I joined after the project started. I built an automatic workflow that
 corrects the radar images for brightness and terrain, and worked on the radar
 signal statistics used to tell colonies apart from their surroundings.
 
-## Role
+## My role
 
-Researcher: SAR processing and analysis.
+I work on the SAR processing and analysis.
 
 ::: {.content-hidden}
 <!-- COLLABORATORS: replace the placeholder list below. To publish the section,

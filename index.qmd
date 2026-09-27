@@ -1,6 +1,6 @@
 ---
 pagetitle: "Rodrigo Gomez-Fell"   # no visible title; the <h1> is in the profile card
-description: "Rodrigo Gomez-Fell is a postdoctoral fellow at Gateway Antarctica, University of Canterbury, who uses satellite radar to study Antarctic ice."
+description: "Rodrigo Gomez-Fell, postdoctoral fellow at Gateway Antarctica, University of Canterbury. Satellites - EO - Antarctica - Glaciers."
 image: images/profile.jpg
 image-alt: "Rodrigo Gomez-Fell in a red jacket on an Antarctic shoreline, with sea ice and an iceberg behind him."
 page-layout: full
@@ -43,14 +43,12 @@ format:
 ::: {.home-main}
 
 ::: {.home-section}
-## Watching Antarctica's ice from space {#intro}
+## Earth Observation - Watching Antarctica and the Cryosphere from space {#intro}
 
-Rodrigo Gomez-Fell uses satellite radar to measure how glaciers, ice shelves and
-sea ice change. His research looks at how floating ice tongues around Antarctica
-respond to the ocean and to the sea ice around them, and he applies the same tools
-to glaciers, rivers and forests in New Zealand.
+I'm a postdoctoral fellow at Gateway Antarctica, University of Canterbury, New Zealand.
+EO - SAR - Glaciers - Antarctica.
 
-[More about Rodrigo](about.qmd) · [Research](research.qmd) · [Projects](projects.qmd)
+[More about me](about.qmd) · [Research](research.qmd) · [Projects](projects.qmd)
 :::
 
 ::: {.home-section}
@@ -58,10 +56,9 @@ to glaciers, rivers and forests in New Zealand.
 
 ::: {.theme-cards}
 ::: {.theme-card}
-### [<i class="bi bi-snow2" aria-hidden="true"></i>]{.theme-icon} Ice tongues and ice shelves
-Floating ice tongues and ice shelves are where Antarctic glaciers meet the ocean.
-Rodrigo studies how ocean currents and the surrounding sea ice hold them in place,
-bend them or let them break away.
+### [<i class="bi bi-snow2" aria-hidden="true"></i>]{.theme-icon} Antarctic ice
+How does coastal Antarctic ice respond to the ocean and to the sea ice around it?
+Past studies include the collapse of the Parker Ice Tongue and the bending of the Erebus Ice Tongue.
 :::
 
 ::: {.theme-card}
@@ -71,23 +68,23 @@ triggered the collapse of the Parker Ice Tongue.
 :::
 
 ::: {.theme-card}
-### [<i class="bi bi-radar" aria-hidden="true"></i>]{.theme-icon} Satellite radar
-Radar satellites image the ice through cloud and the polar night. Rodrigo uses them
-to measure ice motion, surface change and snow conditions.
+### [<i class="bi bi-radar" aria-hidden="true"></i>]{.theme-icon} Synthetic aperture radar (SAR)
+SAR satellites see through clouds and the polar night. I create my own processing chains and use them to
+track ice movement, surface change and snow conditions, working with missions
+such as Sentinel-1, NISAR, RADARSAT Constellation, TerraSAR-X, UMBRA, Capella and ESA's BIOMASS.
 :::
 
 ::: {.theme-card}
 ### [<i class="bi bi-reception-4" aria-hidden="true"></i>]{.theme-icon} Radioglaciology
-Radar on the ground and from aircraft looks into and through the ice. Rodrigo is
+Radar on the ground and from aircraft looks into and through the ice. I am
 helping to build this capability in New Zealand, including for checking data from
 the BIOMASS satellite.
 :::
 
 ::: {.theme-card}
-### [<i class="bi bi-globe-asia-australia" aria-hidden="true"></i>]{.theme-icon} Earth observation in New Zealand
-In New Zealand he maps glaciers, braided rivers, river-mouth lagoons (hāpua) and
-planted forests. He combines radar, lidar and multispectral images with field data
-and machine learning.
+### [<i class="bi bi-globe-asia-australia" aria-hidden="true"></i>]{.theme-icon} Earth observation in New Zealand and Patagonia
+Mapping glaciers in the New Zealand Alps, braided rivers, river-mouth lagoons
+(hāpua) and forestry, using radar, lidar and multispectral imagery.
 :::
 :::
 :::

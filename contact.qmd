@@ -3,7 +3,7 @@ title: "Contact"
 description: "How to contact Rodrigo Gomez-Fell, with links to email, ORCID, Google Scholar, GitHub and LinkedIn."
 ---
 
-Rodrigo is happy to hear from colleagues, students and anyone interested in
+I'm happy to hear from colleagues, students and anyone interested in
 Antarctic ice and satellite remote sensing.
 
 ::: {.contact-list}

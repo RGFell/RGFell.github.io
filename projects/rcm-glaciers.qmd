@@ -20,9 +20,9 @@ polarimetric radar images from the RADARSAT Constellation Mission, including
 over Tasman Glacier, to provide an independent check of this record and to
 extend it to other glaciers.
 
-## Role
+## My role
 
-Researcher.
+I am a researcher on this project.
 
 ::: {.content-hidden}
 <!-- COLLABORATORS: replace the placeholder list below. To publish the section,

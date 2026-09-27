@@ -5,50 +5,50 @@ toc: true
 toc-title: "On this page"
 ---
 
-Rodrigo studies how ice on Earth's surface changes, mainly in Antarctica, using
-satellites. Most of his work uses synthetic aperture radar (SAR): satellites
+I study how ice on Earth's surface changes, mainly in Antarctica, using
+satellites. Most of my work uses synthetic aperture radar (SAR): satellites
 that send out radar pulses and record the echoes, so they can see the ground
 through cloud and during the polar night.
 
 ## Antarctic science
 
 Around the Antarctic coast, glaciers flow into the sea and form floating ice
-tongues and ice shelves. Rodrigo's work looks at how these floating ice
-features interact with the ocean and with the sea ice around them. His research
+tongues and ice shelves. My work looks at how these floating ice
+features interact with the ocean and with the sea ice around them. My research
 has shown that the Parker Ice Tongue broke off after the land-fast sea ice that
 held it in place was lost, that ocean currents bend the Erebus Ice Tongue
 sideways, and how quickly ice tongues in the western Ross Sea melt from below.
 
-He is part of the team supervising a PhD project on how sea ice and the ice
+I am part of the team supervising a PhD project on how sea ice and the ice
 shelf interact in McMurdo Sound, using GNSS, SAR and computer models.
 
 ## Glaciology
 
-Rodrigo measures how fast glaciers move, how they stretch and compress, how
-much ice they gain or lose, and how thick they are. He has applied these
+I measure how fast glaciers move, how they stretch and compress, how
+much ice they gain or lose, and how thick they are. I have applied these
 methods in Antarctica and, with students, on glaciers in New Zealand.
 
 ## Radioglaciology
 
 Radioglaciology uses radar on the ground or from aircraft to look into and
-through ice. Rodrigo is building collaborations and seeking funding to develop
+through ice. I am building collaborations and seeking funding to develop
 radioglaciology in New Zealand. Gateway Antarctica has developed a snow radar,
 and the BIOMASS project will use phase-sensitive radar (pRES) and airborne SAR
 to calibrate and validate measurements from ESA's BIOMASS satellite.
 
 ## Remote sensing
 
-Rodrigo works with data from several radar satellites, including Sentinel-1,
-the RADARSAT Constellation Mission, TerraSAR-X, Umbra and Capella. He uses
+I work with data from several radar satellites, including Sentinel-1,
+the RADARSAT Constellation Mission, TerraSAR-X, Umbra and Capella. I use
 them to:
 
 - measure ice movement by tracking features between images taken at different times;
-- detect very small ground and ice movements by comparing the timing of radar echoes (interferometry, or InSAR);
+- compare the phase of the radar signal between images to detect very small ground and ice movements (interferometry, or InSAR);
 - read surface conditions, such as wet or dry snow, from the strength of the radar echo.
 
-He also processes airborne lidar, combines data from different sensors, uses
-machine learning with satellite images, and checks results against field
-measurements, including GNSS. In New Zealand he has used these methods to map
+I also process airborne lidar, combine data from different sensors, use
+machine learning with satellite images, and check results against field
+measurements, including GNSS. In New Zealand I have used these methods to map
 braided rivers, river-mouth lagoons (hāpua) and forest carbon.
 
 ## Current projects
@@ -67,3 +67,4 @@ More detail is on the [Projects](projects.qmd) page.
 - Glacier flow, mass balance and ice thickness
 - Telling short-lived surface melt apart from lasting change in the snow and firn of Antarctic ice shelves, which can come before an ice shelf breaks up
 - Combining SAR, lidar and field data, including physics-guided machine learning
+- Radioglaciology for firn and snowpack characterisation
