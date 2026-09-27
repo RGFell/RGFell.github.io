@@ -53,10 +53,10 @@ braided rivers, river-mouth lagoons (hāpua) and forest carbon.
 
 ## Current projects
 
-- **BIOMASS calibration and validation (2025–2027):** checking data from ESA's BIOMASS satellite over Antarctic ice shelves.
-- **Polarimetric radar for New Zealand glaciers (2025–2027):** using RADARSAT Constellation Mission data to track the end-of-summer snowline on glaciers in the New Zealand Alps.
-- **Hāpua dynamics in Canterbury (2026):** mapping change in river-mouth lagoons with a machine learning model.
-- **Penguin colonies from space (2026):** detecting penguin colonies in high-resolution SAR images.
+- **[BIOMASS calibration and validation](projects.qmd#biomass-calval) (2025–2027):** checking data from ESA's BIOMASS satellite over Antarctic ice shelves.
+- **[Polarimetric radar for New Zealand glaciers](projects.qmd#rcm-glaciers) (2025–2027):** using RADARSAT Constellation Mission data to track the end-of-summer snowline on glaciers in the New Zealand Alps.
+- **[Hāpua dynamics in Canterbury](projects.qmd#hapua) (2026):** mapping change in river-mouth lagoons with a machine learning model.
+- **[Penguin colonies from space](projects.qmd#penguin-colonies) (2026):** detecting penguin colonies in high-resolution SAR images.
 
 More detail is on the [Projects](projects.qmd) page.
 

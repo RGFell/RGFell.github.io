@@ -1,16 +1,285 @@
 ---
 title: "Projects"
-description: "Current research projects of Rodrigo Gomez-Fell: satellite radar studies of Antarctic ice shelves, New Zealand glaciers, river-mouth lagoons and penguin colonies."
-listing:
-  contents: projects/*.qmd
-  type: grid
-  grid-columns: 2
-  sort: "order"
-  fields: [image, title, description]
-
+description: "Current research projects of Rodrigo Gomez-Fell: satellite radar studies of Antarctic ice shelves and sea ice, New Zealand glaciers, river-mouth lagoons and penguin colonies."
+image: images/social-card.jpg     # otherwise Quarto would use the first (placeholder) image
+toc: true
+toc-depth: 2
+toc-title: "Projects"
+bibliography: publications/publications.bib
+csl: publications/apa.csl
 format:
   html:
     html-math-method: plain   # no maths here; avoids loading MathJax
 ---
 
-Current projects. Each card links to a page with more detail.
+<!-- One section per project, current projects first, newest start year first.
+     To add a project, copy a section (see CLAUDE.md). Anchors (#...) are linked from other pages. -->
+
+My current projects, newest first.
+
+## Hāpua dynamics in Canterbury {#hapua}
+
+![](images/projects/hapua.svg){fig-alt="Placeholder illustration: a river meeting the sea behind a gravel barrier."}
+
+**Years:** 2026
+
+### Summary
+
+Hāpua are lagoons that form where braided rivers meet the sea behind a gravel
+barrier. This project maps hāpua in Canterbury and how they change, using a
+convolutional neural network (a type of machine learning model) trained on
+high-resolution multispectral satellite images. It builds on an MSc project at
+the University of Canterbury's Waterways Centre.
+
+### My role
+
+I am a co-principal investigator on this project.
+
+::: {.content-hidden}
+<!-- COLLABORATORS: replace the placeholder list below. To publish the section,
+     delete this comment and the two ":::" fence lines. Until then Quarto leaves it out. -->
+### Collaborators
+
+- Name, institution
+- Name, institution
+:::
+
+### Funding
+
+Research contract with Environment Canterbury (ECan).
+
+### Related publications
+
+@baker2026hapua (listed on the [Reports](reports.qmd) page)
+
+---
+
+## Penguin colonies from space {#penguin-colonies}
+
+```{=html}
+<figure class="project-figure">
+  <picture>
+    <source srcset="images/projects/penguins.webp" type="image/webp">
+    <img src="images/projects/penguins.jpg" width="1200" height="800" alt="Grey satellite radar image of the Antarctic coast: a bright ice cliff at lower left, a smooth dark band of ice, and speckled sea ice with scattered small icebergs to the right.">
+  </picture>
+</figure>
+```
+
+```{=html}
+<figure class="project-figure">
+  <picture>
+    <source srcset="images/projects/umbra-penguins.webp" type="image/webp">
+    <img src="images/projects/umbra-penguins.jpg" width="1200" height="800" loading="lazy" alt="Grey Umbra satellite radar image of a tilted scene: bright, sharp-edged slabs of ice along the top, a smooth mid-grey ice surface on the right, and a large dark, smooth area below.">
+  </picture>
+  <figcaption>UMBRA SAR image</figcaption>
+</figure>
+```
+
+::: {.content-hidden}
+<!-- TODO: UMBRA data credit line, to be confirmed by Rodrigo (depends on whether the scene is
+     from Umbra's open data programme, CC licence, or commercially tasked data). Add it as a
+     <figcaption class="image-credit"> in the figure above. -->
+:::
+
+**Years:** 2026
+
+### Summary
+
+This project uses high-resolution SAR images to detect penguin colonies.
+I joined after the project started. I built an automatic workflow that
+corrects the radar images for brightness and terrain, and worked on the radar
+signal statistics used to tell colonies apart from their surroundings.
+
+### My role
+
+I work on the SAR processing and analysis.
+
+::: {.content-hidden}
+<!-- COLLABORATORS: replace the placeholder list below. To publish the section,
+     delete this comment and the two ":::" fence lines. Until then Quarto leaves it out. -->
+### Collaborators
+
+- Name, institution
+- Name, institution
+:::
+
+### Related publications
+
+None yet.
+
+---
+
+## BIOMASS calibration and validation over Antarctic ice shelves {#biomass-calval}
+
+```{=html}
+<figure class="project-figure">
+  <picture>
+    <source srcset="images/projects/biomass.webp" type="image/webp">
+    <img src="images/projects/biomass.jpg" width="1200" height="800" alt="Satellite radar image of a glacier flowing between rugged, crevassed mountains, shown as a tilted strip in grey with red highlights on a black background.">
+  </picture>
+</figure>
+```
+
+**Years:** 2025–2027
+
+### Summary
+
+This project checks measurements from ESA's BIOMASS satellite over Antarctic
+ice shelves. Satellite data will be compared with measurements from
+phase-sensitive radar (pRES) and airborne SAR to find out how well the satellite
+observes the different ice features.
+
+### My role
+
+I am a researcher on this project.
+
+::: {.content-hidden}
+<!-- COLLABORATORS: replace the placeholder list below. To publish the section,
+     delete this comment and the two ":::" fence lines. Until then Quarto leaves it out. -->
+### Collaborators
+
+- Name, institution
+- Name, institution
+:::
+
+### Related publications
+
+None yet.
+
+---
+
+## Polarimetric radar imaging of New Zealand glaciers {#rcm-glaciers}
+
+```{=html}
+<figure class="project-figure">
+  <picture>
+    <source srcset="images/projects/rcm-glaciers.webp" type="image/webp">
+    <img src="images/projects/rcm-glaciers.jpg" width="1200" height="800" alt="Heat map of Sentinel-1 radar backscatter along Tasman Glacier, by elevation from 800 to 2,600 metres and by date through 2024, with dark purple bands of low backscatter at high elevation and orange at low elevation.">
+  </picture>
+  <figcaption class="image-credit">Contains modified Copernicus Sentinel data (2024).</figcaption>
+</figure>
+```
+
+**Years:** 2025–2027
+
+### Summary
+
+The end-of-summer snowline, the lowest point where snow survives the summer,
+shows whether a glacier gained or lost ice that year. It has been recorded on
+New Zealand glaciers for more than 40 years. This project uses high-resolution
+polarimetric radar images from the RADARSAT Constellation Mission, including
+over Tasman Glacier, to provide an independent check of this record and to
+extend it to other glaciers.
+
+### My role
+
+I am a researcher on this project.
+
+::: {.content-hidden}
+<!-- COLLABORATORS: replace the placeholder list below. To publish the section,
+     delete this comment and the two ":::" fence lines. Until then Quarto leaves it out. -->
+### Collaborators
+
+- Name, institution
+- Name, institution
+:::
+
+### Funding
+
+Royal Society Te Apārangi Catalyst Fund.
+
+### Related publications
+
+None yet.
+
+---
+
+## SYNCHRONY: Synchronous Southern Ocean Observatory {#synchrony}
+
+![](images/projects/synchrony.svg){fig-alt="Placeholder illustration: three linked ocean buoys on the sea surface."}
+
+::: {.content-hidden}
+<!-- TODO: start year (show as **Years:** YYYY–YYYY once confirmed), host institution,
+     and the work package I am on. Also: the list of eight project objectives was not
+     provided, so the summary below is based on the project description only. -->
+:::
+
+### Summary
+
+SYNCHRONY is an international project that brings together observations, computer
+modelling, artificial intelligence and data expertise to improve how we observe and
+understand the Southern Ocean and Antarctica. The region is vast and remote, so
+the project joins up several ways of observing it rather than relying on any one
+of them, and links field observations with models and AI tools so that information
+from different sources can be used together. It focuses on keeping long-term
+measurements going, on making data easier to find, share and reuse, and on turning
+observations into evidence. That evidence is meant to support climate research, the
+protection of biodiversity, and decisions about the region.
+
+### My role
+
+I am a postdoctoral researcher on SYNCHRONY for three years.
+
+::: {.content-hidden}
+<!-- COLLABORATORS: replace the placeholder list below. To publish the section,
+     delete this comment and the two ":::" fence lines. Until then Quarto leaves it out. -->
+### Collaborators
+
+- Name, institution
+- Name, institution
+:::
+
+### Related publications
+
+None yet.
+
+---
+
+## What are the drivers and implications of recent rapid sea ice decline in the Ross Sea? {#ross-sea-ice}
+
+![](images/projects/ross-sea.svg){fig-alt="Placeholder illustration: scattered sea ice floes on dark water."}
+
+::: {.content-hidden}
+<!-- TODO: project dates (show as **Years:** YYYY–YYYY once confirmed). -->
+:::
+
+### Summary
+
+Sea ice in the Ross Sea has declined quickly in recent years. This pilot programme,
+part of the Catalyst Strategic NZ-US Joint Antarctic Research Programme, asks what is
+driving that decline and what it means. It tests emerging technology for a future
+observing network in the Ross Sea, and develops a strategy that combines computer
+models, satellite observations and measurements made on the ice and in the ocean.
+The work centres on building capability in the McMurdo region.
+
+The pilot is designed to feed a possible third phase with wider deployment of
+instruments in the Ross Sea, and to contribute to longer-term international efforts
+such as Antarctica InSync and the International Polar Year (IPY). Its results are
+relevant to the Ross Sea Marine Protected Area and to New Zealand and US Antarctic
+logistics.
+
+::: {.content-hidden}
+<!-- TODO: my role on this project. To publish, replace this comment with the text
+     and delete the two ":::" fence lines. -->
+### My role
+:::
+
+::: {.content-hidden}
+<!-- COLLABORATORS: replace the placeholder list below. To publish the section,
+     delete this comment and the two ":::" fence lines. Until then Quarto leaves it out. -->
+### Collaborators
+
+- Name, institution
+- Name, institution
+:::
+
+### Related publications
+
+None yet.
+
+---
+
+## References {.unnumbered}
+
+::: {#refs}
+:::
