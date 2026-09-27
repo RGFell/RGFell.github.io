@@ -134,8 +134,8 @@ Built automatically at every render from the `@article` entries in `publications
   share the first initial and, where both are written out, the first name (so "Marsh, Oliver" =
   "Marsh, Oliver J."; "González, Alejandro" ≠ "González, Inti"). Rodrigo = family Gomez-Fell /
   Gomez Fell / Gómez / Gomez with a first name starting with R.
-- Only Rodrigo and his **top 5** co-authors are drawn (all labelled), and the "Frequent co-authors"
-  table lists exactly the same 5. Ranking: shared articles, then most recent shared article, then
+- Only Rodrigo and his **top 10** co-authors are drawn (all labelled; `TOP_N` in network.py), and
+  the "Frequent co-authors" table lists exactly the same 10. Ranking: shared articles, then most recent shared article, then
   name; people tied at the cut-off but left out are printed in the build log.
 - The build log prints every merge, every same-surname pair kept apart, dropped authors and
   any @article with a truncated author list ("others"). Check it after adding papers.
@@ -176,6 +176,15 @@ commented out in `_quarto.yml`) is planned for Stage 3; then link it from the Ho
   paper is open access under a licence that allows it (e.g. CC BY). Otherwise give the featured
   card no `image` field: it shows the journal-name banner with the title linked to the DOI.
   Figures removed for this reason are kept locally in `_source/removed-publisher-figures/`.
+- **Restricted-access data never goes on a public page**, whatever its licence (e.g. ESA BIOMASS
+  cal/val data, available only to approved teams). Such images live in
+  `_source/removed-restricted-images/` (git-ignored). Use a public alternative instead.
+- **ESA images:** only use an image whose esa.int page shows "LICENCE: ESA Standard Licence"
+  (prefer ones without "Additional permission may be required"). Copy the CREDIT line from that
+  page exactly, e.g. `Image: ESA - J. Huart (ESA Standard Licence)`, linking the licence to
+  https://www.esa.int/ESA_Multimedia/Terms_and_conditions_of_use_of_images_and_videos_available_on_the_esa_website
+  (the old .../ESA_Multimedia/Copyright_Notice URL returns 404). Don't crop out or alter the ESA logo.
+- **Umbra (tasked data):** credit "SAR imagery courtesy of Umbra" (Umbra publishes no wording).
 
 ## Conventions
 

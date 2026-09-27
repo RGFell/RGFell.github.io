@@ -37,3 +37,9 @@ _source/*.txt
 
 # Publisher figures removed from the site (kept locally only)
 _source/removed-publisher-figures/
+
+# Everything else in _source/docs stays local (CVs, statements, applications)
+_source/docs/*
+
+# Images from restricted-access data (e.g. ESA BIOMASS cal/val): never publish
+_source/removed-restricted-images/
