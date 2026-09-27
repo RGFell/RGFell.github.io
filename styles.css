@@ -128,7 +128,8 @@ main.content:has(.home-grid), main.content:has(.about-grid) { background: none; 
 @media (min-width: 768px) { .two-timelines { grid-template-columns: 1fr 1fr; } }
 .two-timelines h3 { font-size: 1.1rem; margin-top: 0; }
 
-/* Research themes on Home: a single row of plain keyword tags that wraps */
+/* Home focus areas: small label, then a single row of plain keyword tags that wraps */
+.focus-label { display: block; font-size: 0.85rem; font-weight: 600; color: var(--bs-secondary-color); margin-bottom: 0.4rem; }
 .theme-tags ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 0.5rem; }
 .theme-tags li {
   padding: 0.3rem 0.85rem; border-radius: 2rem;

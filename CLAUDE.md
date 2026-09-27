@@ -169,8 +169,7 @@ commented out in `_quarto.yml`) is planned for Stage 3; then link it from the Ho
 ## Licensing (footer notice on every page; set in `_quarto.yml` page-footer)
 
 - **Text and original photographs: CC BY 4.0** (© Rodrigo Gomez-Fell) unless stated otherwise.
-- **Satellite-derived images keep their provider's terms** (ESA BIOMASS, Copernicus Sentinel,
-  UMBRA, …) and carry a credit in `<figcaption class="image-credit">` where they appear. Don't
+- **Satellite-derived images keep their provider's terms** (Copernicus Sentinel, UMBRA, …) and carry a credit in `<figcaption class="image-credit">` where they appear. Don't
   guess licence wording: leave a hidden TODO until Rodrigo confirms it.
 - **Publisher figures become citation-only cards.** Don't publish figures from papers unless the
   paper is open access under a licence that allows it (e.g. CC BY). Otherwise give the featured

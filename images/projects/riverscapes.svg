@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0e2f44"/><stop offset="1" stop-color="#1b5e8c"/></linearGradient></defs>
+<rect width="800" height="450" fill="url(#g)"/><path d="M0 330 H800 V450 H0 Z" fill="#1b5e8c"/><path d="M250 0 C310 120 210 220 280 330" stroke="#e8f1f8" stroke-width="10" fill="none" opacity="0.9"/><path d="M290 0 C350 120 250 220 320 330" stroke="#e8f1f8" stroke-width="6" fill="none" opacity="0.7"/><path d="M330 0 C390 120 290 220 360 330" stroke="#e8f1f8" stroke-width="8" fill="none" opacity="0.8"/><path d="M380 0 C440 120 340 220 410 330" stroke="#e8f1f8" stroke-width="5" fill="none" opacity="0.6"/><path d="M420 0 C480 120 380 220 450 330" stroke="#e8f1f8" stroke-width="9" fill="none" opacity="0.85"/>
+<text x="400" y="430" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#e8f1f8" opacity="0.8">Image placeholder</text>
+</svg>

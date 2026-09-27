@@ -43,7 +43,8 @@ Website: [rgfell.github.io](https://rgfell.github.io)
 ## Employment
 
 - **2026–present** · Postdoctoral Fellow, Gateway Antarctica, University of Canterbury
-- **2023–2026** · Geospatial Research Scientist, Waterways Centre, University of Canterbury
+- **2023–2026** · Geospatial Research Scientist, Waterways Centre, University of Canterbury  
+  Led the adaptation of the Riverscapes Framework and the [Riverscapes Data Exchange](https://data.riverscapes.net/) to New Zealand as a national project
 - **2023** · Research Assistant, University of Canterbury
 - **2020–2023** · Teaching Assistant (part-time), University of Canterbury
 - **2019–2023** · New Zealand Representative (part-time), DAP Airlines & Logistics
@@ -56,8 +57,8 @@ Website: [rgfell.github.io](https://rgfell.github.io)
 
 - **2026** · Co-PI, Remote Sensing of Canterbury Hāpua Dynamics: delineation and analysis of hāpua change using a CNN model
 - **2026** · AI in COSMO-SkyMed, Project ID 4362 Glaciers: tasking SAR data over the New Zealand Alps
-- **2025–2027** · BIOMASS mission calibration and validation for Antarctic ice shelves, using pRES and airborne SAR
-- **2025–2027** · Catalyst project: novel high-resolution imaging for glacial environments with polarimetric RADARSAT Constellation Mission data
+- **2025–2027** · BIOMASS mission calibration and validation for Antarctic ice shelves, using pRES and airborne SAR (PI)
+- **2025–2027** · Catalyst project: novel high-resolution imaging for glacial environments with polarimetric RADARSAT Constellation Mission data (AI)
 
 ### Awards and scholarships
 

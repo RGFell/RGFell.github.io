@@ -15,7 +15,7 @@ format:
 <!-- One section per project, current projects first, newest start year first.
      To add a project, copy a section (see CLAUDE.md). Anchors (#...) are linked from other pages. -->
 
-My current projects, newest first.
+My current and recent projects, newest first.
 
 ## Hāpua dynamics in Canterbury {#hapua}
 
@@ -58,6 +58,40 @@ Research contract with Environment Canterbury (ECan).
 ### Related publications
 
 @baker2026hapua (listed on the [Reports](reports.qmd) page)
+
+---
+
+## Riverscapes Framework New Zealand {#riverscapes}
+
+![](images/projects/riverscapes.svg){fig-alt="Placeholder illustration: braided river channels running towards the sea."}
+
+**Years:** 2025
+
+### Summary
+
+I led the adaptation of the Riverscapes Framework and its data portal, the
+[Riverscapes Data Exchange](https://data.riverscapes.net/), to cover New Zealand as a
+national project. It is only the second full-country project on the platform, after the
+United States. The New Zealand project covers the country's largest catchments (about 85),
+and for seven of them I added a river dynamics component, as part of the braided river work
+for the Ministry for the Environment.
+
+### My role
+
+Lead.
+
+::: {.content-hidden}
+<!-- COLLABORATORS: replace the placeholder list below. To publish the section,
+     delete this comment and the two ":::" fence lines. Until then Quarto leaves it out. -->
+### Collaborators
+
+- Name, institution
+- Name, institution
+:::
+
+### Related publications
+
+@robb2025braided (listed on the [Reports](reports.qmd) page)
 
 ---
 
@@ -144,7 +178,7 @@ observes the different ice features.
 
 ### My role
 
-I am a researcher on this project.
+I am the Principal Investigator on this project.
 
 ::: {.content-hidden}
 <!-- COLLABORATORS: replace the placeholder list below. To publish the section,
@@ -186,7 +220,7 @@ extend it to other glaciers.
 
 ### My role
 
-I am a researcher on this project.
+I am an Associate Investigator on this project.
 
 ::: {.content-hidden}
 <!-- COLLABORATORS: replace the placeholder list below. To publish the section,

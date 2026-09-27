@@ -60,7 +60,8 @@ website:
       <a class="footer-icon" href="https://github.com/RGFell" aria-label="GitHub profile" title="GitHub"><i class="bi bi-github" aria-hidden="true"></i></a>
       <p class="site-licence"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/" class="cc-badge"><img src="/images/cc-by-88x31.png" width="88" height="31" alt="Creative Commons Attribution 4.0 International License"></a>
       Text and original photographs on this site are © Rodrigo Gomez-Fell and licensed under <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> unless stated otherwise.
-      Images derived from third-party satellite data (ESA BIOMASS, Copernicus Sentinel, UMBRA) remain subject to their providers' terms, credited where they appear.
+      The BIOMASS project image is © ESA, used under the <a href="https://www.esa.int/ESA_Multimedia/Terms_and_conditions_of_use_of_images_and_videos_available_on_the_esa_website">ESA Standard Licence</a>.
+      Images derived from third-party satellite data (Copernicus Sentinel, UMBRA) remain subject to their providers' terms, credited where they appear.
       My publications remain copyright of their respective journals; where a paper isn't open access, only the citation and DOI are given.</p>
     right: "Built with [Quarto](https://quarto.org)"
 
