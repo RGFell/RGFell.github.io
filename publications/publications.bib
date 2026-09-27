@@ -9,6 +9,13 @@
 %   @techreport     -> Reports
 %   @phdthesis      -> Publications: Theses (last section)
 %
+% Home page "Selected publications" cards (read by the build script, ignored by APA):
+%   keywords = {featured}   show this entry as a card on Home (aim for 5-6)
+%   tag      = {Sea ice}    short topic label on the card
+%   summary  = {...}        one plain-language sentence
+%   image    = {images/pubs/<key>.jpg}   optional figure; without it the card shows the journal name
+%   imagealt = {...}        alt text for that figure (required if the image carries information)
+%
 % Sources: DOI entries use Crossref metadata (via doi.org); others come from the
 % classic CV or the Google Scholar profile. Never add a field you cannot source.
 
@@ -22,7 +29,10 @@
   number    = {6},
   pages     = {1995--2016},
   year      = {2025},
-  doi       = {10.1007/s12524-025-02119-w}
+  doi       = {10.1007/s12524-025-02119-w},
+  keywords  = {featured},
+  tag       = {Snow},
+  summary   = {Uses X-band polarimetric radar and geospatial analysis to study where snow is deposited on Union Glacier.}
 }
 
 @article{gomezfell2024erebus,
@@ -31,7 +41,10 @@
   journal   = {Journal of Glaciology},
   volume    = {70},
   year      = {2024},
-  doi       = {10.1017/jog.2024.21}
+  doi       = {10.1017/jog.2024.21},
+  keywords  = {featured},
+  tag       = {Ice tongues},
+  summary   = {Shows how ocean currents and the surrounding fast ice bend the Erebus Ice Tongue sideways.}
 }
 
 @article{miles2024seaice,
@@ -50,7 +63,10 @@
   volume    = {11},
   pages     = {1057761},
   year      = {2023},
-  doi       = {10.3389/feart.2023.1057761}
+  doi       = {10.3389/feart.2023.1057761},
+  keywords  = {featured},
+  tag       = {Ice tongues},
+  summary   = {Estimates how fast the ice tongues of the western Ross Sea melt from below, and how common they are in the region.}
 }
 
 @article{gomezfell2022parker,
@@ -61,7 +77,10 @@
   number    = {1},
   pages     = {e2021GL096156},
   year      = {2022},
-  doi       = {10.1029/2021GL096156}
+  doi       = {10.1029/2021GL096156},
+  keywords  = {featured},
+  tag       = {Sea ice},
+  summary   = {Links the collapse of the Parker Ice Tongue to the loss of the land-fast sea ice that held it in place.}
 }
 
 @article{salame2020seaice,
@@ -82,7 +101,10 @@
   volume    = {174},
   pages     = {1--15},
   year      = {2019},
-  doi       = {10.1016/j.gloplacha.2018.12.012}
+  doi       = {10.1016/j.gloplacha.2018.12.012},
+  keywords  = {featured},
+  tag       = {Glacier flow},
+  summary   = {Measures the flow of Union Glacier in Antarctica by tracking features between satellite radar images.}
 }
 
 @article{desantis2017seaice,
