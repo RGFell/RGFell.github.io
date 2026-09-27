@@ -13,6 +13,7 @@ Output (git-ignored, never edit by hand):
   publications/_list-publications.md   included by publications.qmd
   publications/_list-reports.md        included by reports.qmd
   publications/_featured.md            included by index.qmd
+  publications/_network.md             included by about.qmd (see network.py)
 """
 
 import html
@@ -20,6 +21,8 @@ import json
 import re
 import subprocess
 from pathlib import Path
+
+import network
 
 ROOT = Path(__file__).resolve().parent.parent
 PUB = ROOT / "publications"
@@ -144,6 +147,9 @@ def main():
     featured, n = featured_cards(meta, custom_fields(BIB.read_text(encoding="utf-8")))
     (PUB / "_featured.md").write_text(featured, encoding="utf-8")
     print(f"build_publications: {len(meta)} entries -> publications, reports; {n} featured")
+    log = []
+    (PUB / "_network.md").write_text(network.build(meta, log), encoding="utf-8")
+    print("\n".join(log))
 
 
 if __name__ == "__main__":

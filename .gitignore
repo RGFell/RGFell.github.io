@@ -17,6 +17,7 @@ _source/*.png
 # Generated from publications/publications.bib by _scripts/build_publications.py
 publications/_list-*.md
 publications/_featured.md
+publications/_network.md
 
 # PRIVACY: original CVs (classic and narrative, any format) contain a phone number
 # and postal address. They stay local. Only the redacted files/CV_Rodrigo_Gomez_Fell.pdf is tracked.
@@ -25,3 +26,6 @@ _source/docs/*[Cc][Vv]*
 _source/docs/*.doc
 _source/docs/*.docx
 _source/docs/*.odt
+
+# Python bytecode from the build scripts
+__pycache__/

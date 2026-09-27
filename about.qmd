@@ -25,41 +25,19 @@ about:
 
 ## Biography
 
-Dr Rodrigo Gomez-Fell is a postdoctoral fellow at Gateway Antarctica,
-University of Canterbury, in Christchurch, New Zealand. He uses synthetic aperture radar (SAR), a type of satellite radar that
-works through cloud and darkness, to measure changes in glaciers, ice shelves
-and sea ice.
+I'm a postdoctoral fellow at Gateway Antarctica, University of Canterbury, located in Christchurch, New Zealand. My research focuses on using synthetic aperture radar (SAR), a satellite radar technology that can penetrate through clouds and darkness, to measure changes in glaciers, ice shelves, and sea ice.
 
-His PhD in Antarctic Studies (University of Canterbury, 2023), *Ice tongue
-stability in a changing climate*, was supervised by Wolfgang Rack, Heather
-Purdie and Oliver Marsh. It focused on SAR remote sensing and ice dynamics. His
-published work shows how the loss of land-fast sea ice led to the collapse of
-the Parker Ice Tongue, how ocean currents bend the Erebus Ice Tongue, and how
-ice tongues melt from below in the western Ross Sea.
+I received my PhD in Antarctic Studies from the University of Canterbury in 2023, where my thesis was titled *Ice Tongue Stability in a Changing Climate*. My work was on SAR remote sensing, ice ocean interactions and ice dynamics. Through my published research, I explored how the loss of land-fast sea ice contributed to the collapse of the Parker Ice Tongue, how ocean currents affect the Erebus Ice Tongue, and the interaction between land-fast sea ice and ice shelves.
 
-Before his PhD, he completed an MSc in Oceanography at the Universidade Federal
-do Rio Grande in Brazil (2018), where he started using SAR to study
-glaciers. His first degree is in Industrial Engineering from the Pontificia
-Universidad Católica de Valparaíso, Chile (2006). He worked for more than ten
-years in engineering and tourism. At the CEQUA research centre in Chile he was
-a project manager (2014–2016) and later a researcher (2018).
+Prior to my PhD, I completed an MSc in Oceanography at the Universidade Federal do Rio Grande in Brazil in 2018, where I started applying SAR technology to my glacier studies. My academic journey began with a degree in Industrial Engineering from the Pontificia Universidad Católica de Valparaíso in Chile, which I completed in 2006. I also gained over a decade of experience in engineering and tourism, and served as a project manager and researcher at the CEQUA research centre in Chile from 2014 to 2018.
 
-From 2023 to 2026 he was a Geospatial Research Scientist at the University of
-Canterbury's Waterways Centre. There he developed national methods for mapping
-New Zealand's braided rivers for the Ministry for the Environment, and estimated
-forest carbon from airborne lidar for the Ministry for Primary Industries.
+From 2023 to 2026, I served as a Geospatial Research Scientist at the Waterways Centre of the University of Canterbury. During this period, I developed national methods for mapping New Zealand's braided rivers for the Ministry for the Environment. I also worked on various lidar projects and created a test case using ML to estimate forest carbon from airborne lidar for the Ministry for Primary Industries.
 
-His current projects include calibrating and checking ESA's BIOMASS satellite
-over Antarctic ice shelves, and using RADARSAT Constellation Mission data to
-monitor end-of-summer snowlines on glaciers in the New Zealand Alps.
+Currently, my projects include understanding fast ice growth using SAR data, cal/val of ESA's BIOMASS satellite over Antarctic ice shelves, automatic detection of emperor penguin colonies using high-resolution SAR imagery, as well as using data from the RADARSAT Constellation Mission to monitor end-of-summer snowlines on glaciers in the New Zealand Alps.
 
 ## Community
 
-Rodrigo chairs the New Zealand chapter of the IEEE Geoscience and Remote
-Sensing Society. He organised the first New Zealand SAR Workshop (2024) and the
-second New Zealand Radar Remote Sensing School (2026), and has organised
-sessions at IGARSS, the largest remote sensing conference. He co-supervises
-research students working with satellite data.
+I am currently the chair of the New Zealand chapter of the IEEE Geoscience and Remote Sensing Society (GRSS) and serve on the GRSS IFT working group. I organised the 2024 New Zealand SAR Workshop and the second New Zealand Radar Remote Sensing School in 2026. Additionally, I have helped coordinate themes and sessions for IGARSS 2025 and 2026, which is the largest conference in remote sensing. I also co-supervise research students who are working with satellite data.
 
 ## Research interests
 
@@ -68,9 +46,16 @@ research students working with satellite data.
 - Ice flow, surface change and mass balance measured from space
 - SAR methods: interferometry (InSAR), offset tracking and backscatter analysis
 - Combining radar, lidar, multispectral and field data, including machine learning
+- Data fusion and machine learning for Earth Observation
+
+## Collaborators
+
+This network shows the people I have published journal articles with, and it updates automatically whenever I add a new article to my publication list.
+
+{{< include publications/_network.md >}}
 
 ## Education
 
 - **2023** PhD, Antarctic Studies, University of Canterbury, New Zealand. Thesis: *Ice tongue stability in a changing climate*
-- **2018** MSc, Oceanography, Universidade Federal do Rio Grande, Brazil
+- **2018** MSc, Oceanography, Universidade Federal do Rio Grande, Brazil. Thesis: *Ice Dynamics of Union glacier (Antarctica) by means of SAR data*
 - **2006** Industrial Engineering, Pontificia Universidad Católica de Valparaíso, Chile
