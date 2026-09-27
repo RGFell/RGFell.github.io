@@ -243,6 +243,13 @@ None yet.
 <!-- TODO: project dates (show as **Years:** YYYY–YYYY once confirmed). -->
 :::
 
+::: {.content-hidden}
+<!-- TODO: image. The requested source, _source/GOMEZ_FELL_Lighting Talk.pptx.pdf (one slide,
+     marked "In-Confidence"), shows InSAR interferograms (Sep/Nov 2023) and a fast-ice freeboard
+     map for a fast-ice thickness study with co-authors from Otago and KIT, not Ross Sea sea ice
+     decline, so it was not used. Provide a suitable image and confirm the right to publish it. -->
+:::
+
 ### Summary
 
 Sea ice in the Ross Sea has declined quickly in recent years. This pilot programme,

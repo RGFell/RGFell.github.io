@@ -174,6 +174,8 @@ commented out in `_quarto.yml`) is planned for Stage 3; then link it from the Ho
 - **Voice:** page text is in the **first person** ("I", "my"), plain and concise, with New Zealand
   spelling (organised, characterise, using). Keep **third person** in `title:` and `description:`
   (they appear in search results and social cards), and keep the CV as a list without pronouns.
+  **Exception: news items (`news/*.qmd`) are always in the third person** ("Rodrigo received…"),
+  so the Home timeline reads consistently.
   Text Rodrigo has written himself is his: change only person and typos.
 - Web images: strip EXIF/GPS, JPEG under 150 KB, WebP where it helps; originals go in `_source/`.
 - Every page has a `description:` in its front matter (SEO and social cards; hidden on the page).
