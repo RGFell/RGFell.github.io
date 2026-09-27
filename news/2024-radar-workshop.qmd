@@ -1,0 +1,11 @@
+---
+title: "First New Zealand radar workshop and report to the NZ Space Agency"
+date: 2024-01-01   # TODO: exact date (the CVs give only the year)
+description: "Rodrigo led the first New Zealand Radar Workshop, which led the New Zealand Space Agency to commission a report on radar remote sensing in New Zealand."
+categories: [event, report]
+---
+
+Rodrigo led the organisation of the first New Zealand Radar Workshop, a one-day
+meeting of practitioners, industry and academia on the future of radar remote sensing
+in New Zealand. As a result, the New Zealand Space Agency asked the organising
+committee for a report, which is listed on the [Reports](../reports.qmd) page.

@@ -1,0 +1,11 @@
+---
+title: "Catalyst project on polarimetric radar for New Zealand glaciers"
+date: 2025-01-01   # TODO: exact start date (the CVs give only the year)
+description: "A Royal Society Te Apārangi Catalyst project begins, using RADARSAT Constellation Mission data to track end-of-summer snowlines in the New Zealand Alps."
+categories: [grant]
+---
+
+A Royal Society Te Apārangi Catalyst project started in 2025. It uses high-resolution
+polarimetric radar images from the RADARSAT Constellation Mission to assess the
+end-of-summer snowline on glaciers in the New Zealand Alps. See the
+[project page](../projects/rcm-glaciers.qmd).

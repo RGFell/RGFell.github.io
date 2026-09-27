@@ -1,0 +1,5 @@
+<!-- Quarto listing template: news items as a timeline, year on the left. Used by index.qmd.
+     Output is re-read as Markdown, so keep each item on one unindented line. -->
+<ol class="timeline list">
+<% for (const item of items) { %><li class="timeline-item" <%= metadataAttrs(item) %>><span class="timeline-year"><%= item.date %></span><div class="timeline-body"><a class="timeline-title" href="<%- item.path %>"><%= item.title %></a><% if (item.description) { %><p class="timeline-text"><%= item.description %></p><% } %></div></li>
+<% } %></ol>

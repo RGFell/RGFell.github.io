@@ -1,0 +1,3 @@
+# Shared settings for every news item in this folder.
+# Only the year is shown, because most CV entries give only a year.
+date-format: "YYYY"
