@@ -20,7 +20,8 @@ _templates/        news-timeline.ejs: listing template for the Home news timelin
 publications.qmd   Journal articles, preprints, conference papers, book chapters (generated list)
 reports.qmd        Technical and project reports (generated list)
 publications/      publications.bib (single source of truth), apa.csl, _list-*.md (generated, git-ignored)
-_scripts/build_publications.py   Pre-render: .bib -> grouped, APA-formatted lists
+_scripts/build_publications.py   Pre-render: .bib -> grouped, APA-formatted lists, Home cards, network
+_scripts/network.py              Collaborator network SVG + table for the About page (plain Python)
 _scripts/publish_cv_pdf.py       Post-render: cv.qmd (Typst PDF) -> files/CV_Rodrigo_Gomez_Fell.pdf
 _environment       SOURCE_DATE_EPOCH so the CV PDF is byte-identical when nothing changed
 files/             CV_Rodrigo_Gomez_Fell.pdf: the ONLY public CV, generated from cv.qmd; never edit by hand
@@ -88,7 +89,7 @@ image-alt: "What the image shows."
 **Years:** 2026–2028
 
 ## Summary
-## Role
+## My role                      # first person, e.g. "I am a researcher on this project."
 
 ::: {.content-hidden}
 ## Collaborators
@@ -101,6 +102,25 @@ Cite entries from the .bib, e.g. [@gomezfell2024erebus], after adding
 `bibliography: ../publications/publications.bib` and `csl: ../publications/apa.csl`
 to the front matter. Otherwise write "None yet."
 ```
+
+### Add a guest lecture, talk or panel (CV)
+In `cv.qmd`: guest lectures go under **Teaching and supervision**, invited talks and panels
+under **Invited talks and panels**, as `- **YEAR** · Role, title, event or course, institution`.
+Unknown details: `[[TODO: …]{.todo}]{.content-visible when-format="html"}` so the TODO shows
+on the web page for review but never in the PDF. Add a news item too when the date is known.
+
+### Collaborator network (About page)
+Built automatically at every render from the `@article` entries in `publications.bib` by
+`_scripts/network.py`; nothing to edit by hand. Adding a journal article updates it.
+- Nodes are co-authors, Rodrigo at the centre; edges join people who share an article
+  (thicker = more shared articles); node size = articles shared with Rodrigo.
+- Merge rule: accents, case, hyphens and spaces in family names are ignored; given names must
+  share the first initial and, where both are written out, the first name (so "Marsh, Oliver" =
+  "Marsh, Oliver J."; "González, Alejandro" ≠ "González, Inti"). Rodrigo = family Gomez-Fell /
+  Gomez Fell / Gómez / Gomez with a first name starting with R.
+- People with 2+ shared articles are labelled; the rest are unlabelled dots; at most 40 nodes.
+- The build log prints every merge, every same-surname pair kept apart, dropped authors and
+  any @article with a truncated author list ("others"). Check it after adding papers.
 
 ### Update the CV (web page and PDF)
 Edit `cv.qmd` only. Every `quarto render` builds both the web page and a Typst PDF from it,
@@ -137,7 +157,10 @@ commented out in `_quarto.yml`) is planned for Stage 3; then link it from the Ho
   address or date of birth. Original CVs (any format) stay in `_source/docs/` and are
   git-ignored; only the redacted `files/CV_Rodrigo_Gomez_Fell.pdf` is tracked and published.
   Email on the site is the institutional one, written as plain text (no `mailto:`).
-- Text is third person, plain and concise.
+- **Voice:** page text is in the **first person** ("I", "my"), plain and concise, with New Zealand
+  spelling (organised, characterise, using). Keep **third person** in `title:` and `description:`
+  (they appear in search results and social cards), and keep the CV as a list without pronouns.
+  Text Rodrigo has written himself is his: change only person and typos.
 - Web images: strip EXIF/GPS, JPEG under 150 KB, WebP where it helps; originals go in `_source/`.
 - Every page has a `description:` in its front matter (SEO and social cards; hidden on the page).
 - Every image needs alt text. One `#` heading per page comes from `title:`; body headings start at `##`.
