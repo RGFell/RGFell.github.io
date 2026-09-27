@@ -36,7 +36,7 @@ Website: [rgfell.github.io](https://rgfell.github.io)
 ## Education
 
 - **2023** · PhD, Antarctic Studies, University of Canterbury, New Zealand  
-  Thesis: *Ice tongue stability in a changing climate*. Supervisors: Wolfgang Rack, Heather Purdie and Oliver Marsh
+  Thesis: *Ice tongue stability in a changing climate*
 - **2018** · MSc, Oceanography, Universidade Federal do Rio Grande, Brazil
 - **2006** · Industrial Engineering, Pontificia Universidad Católica de Valparaíso, Chile
 
@@ -77,6 +77,11 @@ Website: [rgfell.github.io](https://rgfell.github.io)
 - Helped supervise two MSc students at the Waterways Centre: mapping the Ashley braided river floodplain, and identifying hāpua with a CNN model
 - Supervised three honours students working on New Zealand glaciers with SAR data
 - **2023** · Mentor, Adopt a Scientist programme, Lincoln High School
+- **2020–present** · Guest lectures for Environment Canterbury (ECan), the Ministry for the Environment, Chinese and Brazilian delegations visiting the University of Canterbury, and the aerospace community [[TODO: for each lecture, the course or event, institution, year and topic]{.todo}]{.content-visible when-format="html"}
+
+## Invited talks and panels
+
+- **2025** · Panellist, "Aerospace in Antarctica: The Ultimate Testbed", New Zealand Aerospace Summit [[TODO: date and city of the summit]{.todo}]{.content-visible when-format="html"}
 
 ## Conference presentations
 
