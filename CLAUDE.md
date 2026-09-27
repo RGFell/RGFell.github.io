@@ -10,9 +10,13 @@ _quarto.yml        Site config: navbar, footer icons, theme, SEO, render list, p
 theme-light.scss   Light-mode colours; --rgf-bg-strength and --rgf-panel for the page photo
 theme-dark.scss    Dark-mode colours; same two variables
 styles.css         Layout and components shared by both modes (.hero, .cv, .pub-list, .todo …)
-index.qmd  about.qmd  cv.qmd  research.qmd  contact.qmd     Single pages
+index.qmd          Home: profile card (left, sticky) + intro, themes, selected publications,
+                   news timeline, positions/education (CSS grid in styles.css, no JavaScript)
+about.qmd  cv.qmd  research.qmd  contact.qmd     Single pages
 projects.qmd       Listing (cards) over projects/*.qmd
 projects/          One .qmd per project
+news/              One .qmd per news item (shown on Home, newest 5); _metadata.yml shows year only
+_templates/        news-timeline.ejs: listing template for the Home news timeline
 publications.qmd   Journal articles, preprints, conference papers, book chapters (generated list)
 reports.qmd        Technical and project reports (generated list)
 publications/      publications.bib (single source of truth), apa.csl, _list-*.md (generated, git-ignored)
@@ -47,6 +51,17 @@ Entries are grouped by `year`, newest first, and Rodrigo's name is bolded automa
 `curl -LH "Accept: application/x-bibtex" https://doi.org/<DOI>` and tidy it. Never invent a
 field: leave out what you can't source. Protect capitals with braces: `{Antarctica}`.
 `quarto preview` runs the script only at startup, so restart it after editing the `.bib`.
+
+### Feature a paper on Home ("Selected publications" cards)
+In its `.bib` record add `keywords = {featured}` (aim for 5–6 in total), plus
+`tag = {Short topic}` and `summary = {One plain-language sentence.}`. Cards are ordered newest first.
+
+### Add a card image to a featured paper
+Save a web-ready figure (16:9, about 800×450, metadata stripped, under 150 KB) as
+`images/pubs/<bibkey>.jpg` (or .webp), then add to the record:
+`image = {images/pubs/<bibkey>.jpg}` and `imagealt = {What the figure shows.}`.
+Use only figures you have the right to publish. Without `image`, the card shows a blue
+banner with the journal name. Keep each custom field on one line (the script reads them directly).
 
 ### A report
 Same as above, with `@techreport` (`institution`, `number`, `type` as available).
@@ -96,8 +111,22 @@ If `pdftotext` is on PATH (or `PDFTOTEXT` points to it), the script fails the bu
 the PDF contains a phone number, postal address or date of birth. Never publish the
 original CVs, and never "redact" a PDF by drawing boxes: the text stays in the file.
 
-### News (Stage 3, not built yet)
-Planned: `news.qmd` listing over `news/<YYYY-MM-DD>-<slug>.qmd`; uncomment it in the navbar.
+### A news item
+Create `news/<YYYY>-<slug>.qmd`:
+
+```markdown
+---
+title: "Short headline"
+date: 2026-03-15        # add "# TODO: exact date" if only the year is certain
+description: "One or two sentences shown in the Home timeline."
+categories: [award]     # e.g. award, grant, event, fieldwork, conference, paper
+---
+
+Optional longer text for the item's own page.
+```
+
+The Home page lists the newest five (year only). A full News page (`news.qmd`, navbar entry
+commented out in `_quarto.yml`) is planned for Stage 3; then link it from the Home news section.
 
 ## Conventions
 

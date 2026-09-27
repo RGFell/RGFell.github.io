@@ -4,6 +4,7 @@ project:
   render:              # only .qmd files, so CLAUDE.md is never published
     - "*.qmd"
     - "projects/*.qmd"
+    - "news/*.qmd"
   pre-render: _scripts/build_publications.py   # publications.bib -> publication lists
   post-render: _scripts/publish_cv_pdf.py      # cv.qmd (Typst) -> files/CV_Rodrigo_Gomez_Fell.pdf
   resources:
@@ -19,6 +20,9 @@ website:
   twitter-card: true
   page-navigation: false
   back-to-top-navigation: true
+  search:
+    location: navbar
+    type: overlay
   navbar:
     title: "Rodrigo Gomez-Fell"
     left:

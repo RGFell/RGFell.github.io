@@ -1,55 +1,147 @@
 ---
-title: "Rodrigo Gomez-Fell"
-subtitle: "Antarctic glaciology · SAR remote sensing"
+pagetitle: "Rodrigo Gomez-Fell"   # no visible title; the <h1> is in the profile card
 description: "Rodrigo Gomez-Fell is a postdoctoral fellow at Gateway Antarctica, University of Canterbury, who uses satellite radar to study Antarctic ice."
 image: images/profile.jpg
 image-alt: "Rodrigo Gomez-Fell in a red jacket on an Antarctic shoreline, with sea ice and an iceberg behind him."
+page-layout: full
+listing:
+  id: news-list
+  contents: news/*.qmd
+  sort: "date desc"
+  date-format: "YYYY"         # CV entries give only the year
+  max-items: 5
+  template: _templates/news-timeline.ejs
+format:
+  html:
+    html-math-method: plain  # no maths on this page; avoids loading MathJax
 ---
 
-::: {.hero}
-::: {.hero-text}
-## Watching Antarctica's ice from space
+::: {.home-grid}
 
-Rodrigo Gomez-Fell is a postdoctoral fellow at Gateway Antarctica, University of
-Canterbury, in Christchurch, New Zealand. He uses satellite radar to measure how
-glaciers, ice shelves and sea ice change over time.
+<!-- Profile card: sticky on desktop, first on phones (pure CSS, see styles.css) -->
+```{=html}
+<div class="profile-card" role="complementary" aria-label="Profile">
+  <picture>
+    <source srcset="images/profile.webp" type="image/webp">
+    <img class="profile-photo" src="images/profile.jpg" width="160" height="160"
+         alt="Portrait of Rodrigo Gomez-Fell on an Antarctic shoreline.">
+  </picture>
+  <h1 class="profile-name">Rodrigo Gomez-Fell</h1>
+  <p class="profile-role">Postdoctoral Fellow</p>
+  <p class="profile-affil">Gateway Antarctica<br>University of Canterbury<br>Christchurch, New Zealand</p>
+  <ul class="profile-links">
+    <li><a href="contact.html" aria-label="Email and contact details" title="Email"><i class="bi bi-envelope-fill" aria-hidden="true"></i></a></li>
+    <li><a href="https://github.com/RGFell" aria-label="GitHub profile" title="GitHub"><i class="bi bi-github" aria-hidden="true"></i></a></li>
+    <li><a href="https://www.linkedin.com/in/rodrigogomezfell/" aria-label="LinkedIn profile" title="LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i></a></li>
+    <li><a href="https://scholar.google.com/citations?user=zdY64_kAAAAJ&amp;hl=en" aria-label="Google Scholar profile" title="Google Scholar"><i class="bi bi-mortarboard-fill" aria-hidden="true"></i></a></li>
+    <li><a href="https://orcid.org/0000-0002-0391-1323" aria-label="ORCID profile" title="ORCID"><svg class="orcid-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="12" fill="currentColor"/><text x="12" y="16.2" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="11" fill="var(--bs-body-bg, #fff)">iD</text></svg></a></li>
+  </ul>
+  <a class="btn btn-primary profile-cv" href="files/CV_Rodrigo_Gomez_Fell.pdf"><i class="bi bi-file-earmark-arrow-down" aria-hidden="true"></i> Download CV (PDF)</a>
+</div>
+```
 
-[More about Rodrigo](about.qmd) · [Get in touch](contact.qmd)
+::: {.home-main}
+
+::: {.home-section}
+## Watching Antarctica's ice from space {#intro}
+
+Rodrigo Gomez-Fell uses satellite radar to measure how glaciers, ice shelves and
+sea ice change. His research looks at how floating ice tongues around Antarctica
+respond to the ocean and to the sea ice around them, and he applies the same tools
+to glaciers, rivers and forests in New Zealand.
+
+[More about Rodrigo](about.qmd) · [Research](research.qmd) · [Projects](projects.qmd)
 :::
 
-::: {.hero-photo}
+::: {.home-section}
+## Research themes {#themes}
+
+::: {.theme-cards}
+::: {.theme-card}
+### [<i class="bi bi-snow2" aria-hidden="true"></i>]{.theme-icon} Ice tongues and ice shelves
+Floating ice tongues and ice shelves are where Antarctic glaciers meet the ocean.
+Rodrigo studies how ocean currents and the surrounding sea ice hold them in place,
+bend them or let them break away.
+:::
+
+::: {.theme-card}
+### [<i class="bi bi-snow" aria-hidden="true"></i>]{.theme-icon} Sea ice
+Land-fast sea ice is frozen to the coast and can support floating ice. Its loss
+triggered the collapse of the Parker Ice Tongue.
+:::
+
+::: {.theme-card}
+### [<i class="bi bi-radar" aria-hidden="true"></i>]{.theme-icon} Satellite radar
+Radar satellites image the ice through cloud and the polar night. Rodrigo uses them
+to measure ice motion, surface change and snow conditions.
+:::
+
+::: {.theme-card}
+### [<i class="bi bi-reception-4" aria-hidden="true"></i>]{.theme-icon} Radioglaciology
+Radar on the ground and from aircraft looks into and through the ice. Rodrigo is
+helping to build this capability in New Zealand, including for checking data from
+the BIOMASS satellite.
+:::
+
+::: {.theme-card}
+### [<i class="bi bi-globe-asia-australia" aria-hidden="true"></i>]{.theme-icon} Earth observation in New Zealand
+In New Zealand he maps glaciers, braided rivers, river-mouth lagoons (hāpua) and
+planted forests. He combines radar, lidar and multispectral images with field data
+and machine learning.
+:::
+:::
+:::
+
+::: {.home-section}
+## Selected publications {#selected-publications}
+
+{{< include publications/_featured.md >}}
+
+[View all publications](publications.qmd){.more-link}
+:::
+
+::: {.home-section}
+## News & highlights {#news}
+
+::: {#news-list}
+:::
+<!-- Stage 3: add a link to the full News page (news.qmd) here. -->
+:::
+
+::: {.home-section}
+## Education and positions {#timeline}
+
+::: {.two-timelines}
+::: {.timeline-block}
+### Positions
+
 ```{=html}
-<picture>
-  <source srcset="images/profile.webp" type="image/webp">
-  <img src="images/profile.jpg" width="160" height="160"
-       alt="Portrait of Rodrigo Gomez-Fell on an Antarctic shoreline.">
-</picture>
+<ol class="timeline compact">
+  <li class="timeline-item"><span class="timeline-year">2026–</span><div class="timeline-body">Postdoctoral Fellow, Gateway Antarctica, University of Canterbury</div></li>
+  <li class="timeline-item"><span class="timeline-year">2023–2026</span><div class="timeline-body">Geospatial Research Scientist, Waterways Centre, University of Canterbury</div></li>
+  <li class="timeline-item"><span class="timeline-year">2023</span><div class="timeline-body">Research Assistant, University of Canterbury</div></li>
+  <li class="timeline-item"><span class="timeline-year">2020–2023</span><div class="timeline-body">Teaching Assistant (part-time), University of Canterbury</div></li>
+  <li class="timeline-item"><span class="timeline-year">2018</span><div class="timeline-body">Researcher, CEQUA research centre, Chile</div></li>
+  <li class="timeline-item"><span class="timeline-year">2014–2016</span><div class="timeline-body">Project Manager, CEQUA research centre, Chile</div></li>
+</ol>
+```
+:::
+
+::: {.timeline-block}
+### Education
+
+```{=html}
+<ol class="timeline compact">
+  <li class="timeline-item"><span class="timeline-year">2023</span><div class="timeline-body">PhD, Antarctic Studies, University of Canterbury, New Zealand</div></li>
+  <li class="timeline-item"><span class="timeline-year">2018</span><div class="timeline-body">MSc, Oceanography, Universidade Federal do Rio Grande, Brazil</div></li>
+  <li class="timeline-item"><span class="timeline-year">2006</span><div class="timeline-body">Industrial Engineering, Pontificia Universidad Católica de Valparaíso, Chile</div></li>
+</ol>
 ```
 :::
 :::
 
-## Research areas
-
-::: {.theme-cards}
-::: {.theme-card}
-### Antarctic ice
-How floating ice tongues and ice shelves respond to the ocean and to the sea ice
-around them. Past studies include the collapse of the Parker Ice Tongue and
-the bending of the Erebus Ice Tongue.
+[Full CV](cv.qmd){.more-link}
 :::
 
-::: {.theme-card}
-### Satellite radar
-Radar satellites see through cloud and the polar night. Rodrigo uses them to
-track ice movement, surface change and snow conditions, working with missions
-such as Sentinel-1, RADARSAT Constellation, TerraSAR-X and ESA's BIOMASS.
-:::
-
-::: {.theme-card}
-### Earth observation in New Zealand
-Mapping glaciers in the New Zealand Alps, braided rivers, river-mouth lagoons
-(hāpua) and planted forests, using radar, lidar and multispectral imagery.
 :::
 :::
-
-<!-- A "Latest news" listing will go here once the News section exists (see CLAUDE.md). -->

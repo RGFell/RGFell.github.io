@@ -27,38 +27,104 @@ main.content,
 }
 main.content { margin-top: 1rem; margin-bottom: 1rem; }
 
-/* Home page banner: plain blue gradient with the round photo */
-.hero {
-  background: var(--rgf-hero-gradient);
-  color: #ffffff;
+/* ---------- Home page: profile card + sections (pure CSS, no JavaScript) ---------- */
+/* Home sections carry their own panels, so the page photo shows between them */
+main.content:has(.home-grid) { background: none; padding: 0; }
+/* If Quarto adds its own .page-columns grid (high-specificity rules) to this div,
+   the !important declarations keep this simple two-column layout. */
+.home-grid, .home-grid.page-columns {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) !important;   /* phones: one column, profile card first */
+  gap: 1.25rem;
+  max-width: 76rem;
+  width: 100%;
+  margin: 1rem auto;
+  justify-self: center;
+}
+.home-grid > * { grid-column: auto !important; }
+@media (min-width: 992px) {
+  .home-grid, .home-grid.page-columns { grid-template-columns: 17rem minmax(0, 1fr) !important; align-items: start; }
+  .profile-card { position: sticky; top: 5rem; }
+}
+.profile-card, .home-section {
+  background-color: var(--rgf-panel);
   border-radius: 0.75rem;
-  padding: clamp(1.5rem, 5vw, 3rem);
-  margin: 1rem 0 2rem;
-  display: flex;
-  align-items: center;
-  gap: clamp(1rem, 4vw, 2.5rem);
+  padding: clamp(1rem, 3vw, 1.75rem);
 }
-.hero-text { flex: 1 1 auto; }
-.hero h2 {
-  color: #ffffff;
-  margin-top: 0;
-  font-size: clamp(1.5rem, 4vw, 2.25rem);
-  border-bottom: none;
-}
-.hero p { color: #ffffff; font-size: 1.1rem; max-width: 40rem; }
-.hero a { color: #ffffff; text-decoration: underline; }
-.hero-photo img {
-  width: clamp(7rem, 18vw, 10rem);
-  height: auto;
-  aspect-ratio: 1;
+.home-section + .home-section { margin-top: 1.25rem; }
+.home-section > h2:first-child { margin-top: 0; }
+.profile-card { text-align: center; align-self: start; }
+.profile-photo {
+  width: 10rem; height: auto; aspect-ratio: 1;
   border-radius: 50%;
-  border: 3px solid rgba(255, 255, 255, 0.85);
-  display: block;
+  border: 3px solid var(--rgf-accent);
 }
-@media (max-width: 575.98px) {
-  .hero { flex-direction: column-reverse; text-align: center; }
-  .hero p { margin-inline: auto; }
+.profile-name { font-size: 1.6rem; margin: 0.9rem 0 0.2rem; }
+.profile-role { font-weight: 600; margin-bottom: 0.3rem; }
+.profile-affil { font-size: 0.95rem; }
+.profile-links {
+  list-style: none; padding: 0; margin: 0.5rem 0 1rem;
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 0.25rem;
 }
+.profile-links a {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 2.5rem; height: 2.5rem;               /* 40px touch targets */
+  border-radius: 50%;
+  font-size: 1.2rem; color: var(--rgf-accent); text-decoration: none;
+}
+.profile-links a:hover { background: var(--rgf-accent-soft); }
+.profile-cv { width: 100%; }
+.more-link { display: inline-block; margin-top: 0.75rem; font-weight: 600; }
+
+/* Selected publications cards */
+.pub-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 1rem;
+}
+.pub-card {
+  display: flex; flex-direction: column;
+  background: var(--bs-body-bg);
+  border: 1px solid var(--rgf-accent-soft);
+  border-radius: 0.6rem;
+  overflow: hidden;
+}
+.pub-card-media { aspect-ratio: 16 / 9; background: var(--rgf-hero-gradient); }
+.pub-card-media img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.pub-card-media:has(.pub-card-venue) { aspect-ratio: auto; min-height: 5.5rem; }   /* no figure: short banner */
+.pub-card-venue {                              /* shown when an entry has no image */
+  display: flex; align-items: center; justify-content: center; height: 100%;
+  padding: 1rem; text-align: center;
+  color: #ffffff; font-weight: 600; font-size: 1.05rem;
+}
+.pub-card-body { padding: 0.9rem 1rem 1rem; }
+.pub-card-tag {
+  display: inline-block; font-size: 0.8rem; font-weight: 600;
+  padding: 0.1rem 0.55rem; border-radius: 1rem;
+  background: var(--rgf-accent-soft); color: var(--rgf-accent);
+}
+.pub-card-title { font-size: 1.02rem; line-height: 1.35; margin: 0.5rem 0; }
+.pub-card-summary { font-size: 0.93rem; margin-bottom: 0.5rem; }
+.pub-card-cite { font-size: 0.82rem; margin: 0; color: var(--bs-secondary-color); }
+
+/* Timelines: news, positions, education (year on the left) */
+.timeline { list-style: none; padding: 0; margin: 0; }
+.timeline-item {
+  display: grid;
+  grid-template-columns: 5.5rem minmax(0, 1fr);
+  gap: 0.75rem;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid var(--rgf-accent-soft);
+}
+.timeline-item:last-child { border-bottom: none; }
+.timeline-year { font-weight: 700; color: var(--rgf-accent); font-variant-numeric: tabular-nums; }
+.timeline-body { border-left: 3px solid var(--rgf-accent-soft); padding-left: 0.75rem; }
+.timeline-title { font-weight: 600; }
+.timeline-text { margin: 0.2rem 0 0; font-size: 0.95rem; }
+.timeline.compact .timeline-item { grid-template-columns: 5.5rem minmax(0, 1fr); padding: 0.35rem 0; font-size: 0.95rem; }
+.two-timelines { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1.5rem; }
+@media (min-width: 768px) { .two-timelines { grid-template-columns: 1fr 1fr; } }
+.two-timelines h3 { font-size: 1.1rem; margin-top: 0; }
 
 /* Short cards for research themes on the home page */
 .theme-cards {
@@ -74,6 +140,7 @@ main.content { margin-top: 1rem; margin-bottom: 1rem; }
   padding: 1rem 1.25rem;
 }
 .theme-card h3 { margin-top: 0; font-size: 1.1rem; }
+.theme-icon { color: var(--rgf-accent); margin-right: 0.35rem; }
 .theme-card p { margin-bottom: 0; }
 
 /* Contact list */
