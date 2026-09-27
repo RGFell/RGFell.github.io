@@ -8,7 +8,8 @@ project:
   pre-render: _scripts/build_publications.py   # publications.bib -> publication lists
   post-render: _scripts/publish_cv_pdf.py      # cv.qmd (Typst) -> files/CV_Rodrigo_Gomez_Fell.pdf
   resources:
-    - images/profile.webp   # referenced only from raw HTML <picture> on the Home page
+    - images/profile.webp   # WebP files are referenced only from raw HTML <picture> elements
+    - images/projects/*.webp
 
 website:
   title: "Rodrigo Gomez-Fell"
@@ -16,8 +17,11 @@ website:
   site-url: "https://rgfell.github.io"   # enables sitemap.xml and absolute Open Graph URLs
   repo-url: "https://github.com/RGFell/RGFell.github.io"
   favicon: images/favicon.svg
+  image: images/social-card.jpg            # default Open Graph / Twitter image (1200 x 630)
+  image-alt: "Rodrigo Gomez-Fell, Antarctic glaciology and SAR remote sensing, Gateway Antarctica, University of Canterbury: portrait over a photo of a sunlit Antarctic glacier front."
   open-graph: true
-  twitter-card: true
+  twitter-card:
+    card-style: summary_large_image
   page-navigation: false
   back-to-top-navigation: true
   search:

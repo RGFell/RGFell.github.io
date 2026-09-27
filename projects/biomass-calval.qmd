@@ -3,11 +3,18 @@ title: "BIOMASS calibration and validation over Antarctic ice shelves"
 description: "Checking ESA BIOMASS satellite data over Antarctic ice shelves against ground-based and airborne radar measurements."
 order: 1
 years: "2025–2027"
-image: ../images/projects/biomass.svg
-image-alt: "Placeholder illustration: a satellite above a flat ice shelf."
+image: ../images/projects/biomass.jpg
+image-alt: "Satellite radar image of a glacier flowing between rugged, crevassed mountains, shown as a tilted strip in grey with red highlights on a black background."
 ---
 
-![](../images/projects/biomass.svg){fig-alt="Placeholder illustration: a satellite above a flat ice shelf."}
+```{=html}
+<figure class="project-figure">
+  <picture>
+    <source srcset="../images/projects/biomass.webp" type="image/webp">
+    <img src="../images/projects/biomass.jpg" width="1200" height="800" alt="Satellite radar image of a glacier flowing between rugged, crevassed mountains, shown as a tilted strip in grey with red highlights on a black background.">
+  </picture>
+</figure>
+```
 
 **Years:** 2025–2027
 

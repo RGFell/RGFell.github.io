@@ -7,7 +7,7 @@ listing:
   grid-columns: 2
   sort: "order"
   fields: [image, title, description]
-  image-height: 180px
+
 format:
   html:
     html-math-method: plain   # no maths here; avoids loading MathJax

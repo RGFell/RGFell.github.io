@@ -89,7 +89,8 @@ main.content:has(.home-grid) { background: none; padding: 0; }
   border-radius: 0.6rem;
   overflow: hidden;
 }
-.pub-card-media { aspect-ratio: 16 / 9; background: var(--rgf-hero-gradient); }
+.pub-card-media { aspect-ratio: 3 / 2; background: var(--rgf-hero-gradient); }
+.pub-card-media picture { display: block; height: 100%; }
 .pub-card-media img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .pub-card-media:has(.pub-card-venue) { aspect-ratio: auto; min-height: 5.5rem; }   /* no figure: short banner */
 .pub-card-venue {                              /* shown when an entry has no image */
@@ -106,6 +107,7 @@ main.content:has(.home-grid) { background: none; padding: 0; }
 .pub-card-title { font-size: 1.02rem; line-height: 1.35; margin: 0.5rem 0; }
 .pub-card-summary { font-size: 0.93rem; margin-bottom: 0.5rem; }
 .pub-card-cite { font-size: 0.82rem; margin: 0; color: var(--bs-secondary-color); }
+.pub-card-credit, .image-credit { font-size: 0.78rem; margin: 0.4rem 0 0; color: var(--bs-secondary-color); font-style: italic; }
 
 /* Timelines: news, positions, education (year on the left) */
 .timeline { list-style: none; padding: 0; margin: 0; }
@@ -203,3 +205,10 @@ a:focus-visible, button:focus-visible {
 }
 .net-label-me { font-size: 23px; }
 .net-table { max-width: 28rem; }
+
+/* Project pages and Projects listing: 3:2 images */
+.project-figure { margin: 0 0 1.5rem; }
+.project-figure img { width: 100%; height: auto; border-radius: 0.5rem; display: block; }
+.quarto-grid-item .card-img-top img, .quarto-grid-item img.thumbnail-image {
+  height: auto !important; aspect-ratio: 3 / 2; object-fit: cover; width: 100%;
+}

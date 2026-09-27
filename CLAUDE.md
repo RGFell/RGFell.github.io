@@ -57,12 +57,24 @@ field: leave out what you can't source. Protect capitals with braces: `{Antarcti
 In its `.bib` record add `keywords = {featured}` (aim for 5–6 in total), plus
 `tag = {Short topic}` and `summary = {One plain-language sentence.}`. Cards are ordered newest first.
 
-### Add a card image to a featured paper
-Save a web-ready figure (16:9, about 800×450, metadata stripped, under 150 KB) as
-`images/pubs/<bibkey>.jpg` (or .webp), then add to the record:
-`image = {images/pubs/<bibkey>.jpg}` and `imagealt = {What the figure shows.}`.
-Use only figures you have the right to publish. Without `image`, the card shows a blue
-banner with the journal name. Keep each custom field on one line (the script reads them directly).
+### Add a card image (project or featured paper)
+Put the original in `_source/` (git-ignored if .jpg/.png). Export a 3:2 crop, about 1200 px wide
+(never upscale a smaller original), as both `.webp` and `.jpg`, each under 200 KB, with all
+metadata stripped, into `images/projects/`. Charts and multi-panel figures: pad to 3:2 on white
+rather than cropping away data. Then:
+- Project: set `image: ../images/projects/<name>.jpg` and a descriptive `image-alt:` (what the
+  image shows) in the front matter, and use the `<picture>` block at the top of the page
+  (WebP source + JPEG fallback). Put a credit in `<figcaption class="image-credit">` when the
+  image or its data is not Rodrigo's (e.g. "Contains modified Copernicus Sentinel data (2024).").
+- Featured paper: in its `.bib` record add `image = {images/projects/pub-<name>.jpg}`,
+  `imagealt = {...}` and, if needed, `imagecredit = {...}` (one line each). The script uses the
+  `.webp` sibling automatically. Without `image`, the card shows a blue banner with the journal.
+Only use figures you have the right to publish.
+
+### Social card
+`images/social-card.jpg` (1200 x 630) is the default Open Graph/Twitter image (`website: image:`
+in `_quarto.yml`); Home sets it explicitly because Quarto would otherwise use the first image on
+the page. Pages with their own `image:` (About, projects) use that instead.
 
 ### A report
 Same as above, with `@techreport` (`institution`, `number`, `type` as available).

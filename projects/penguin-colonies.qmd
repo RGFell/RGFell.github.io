@@ -3,11 +3,18 @@ title: "Penguin colonies from space"
 description: "Detecting penguin colonies in high-resolution satellite radar images."
 order: 4
 years: "2026"
-image: ../images/projects/penguins.svg
-image-alt: "Placeholder illustration: a cluster of penguins on snow."
+image: ../images/projects/penguins.jpg
+image-alt: "Grey satellite radar image of the Antarctic coast: a bright ice cliff at lower left, a smooth dark band of ice, and speckled sea ice with scattered small icebergs to the right."
 ---
 
-![](../images/projects/penguins.svg){fig-alt="Placeholder illustration: a cluster of penguins on snow."}
+```{=html}
+<figure class="project-figure">
+  <picture>
+    <source srcset="../images/projects/penguins.webp" type="image/webp">
+    <img src="../images/projects/penguins.jpg" width="1200" height="800" alt="Grey satellite radar image of the Antarctic coast: a bright ice cliff at lower left, a smooth dark band of ice, and speckled sea ice with scattered small icebergs to the right.">
+  </picture>
+</figure>
+```
 
 **Years:** 2026
 

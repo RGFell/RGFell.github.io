@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
 <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0e2f44"/><stop offset="1" stop-color="#1b5e8c"/></linearGradient></defs>
 <rect width="800" height="450" fill="url(#g)"/><path d="M0 300 H800 V450 H0 Z" fill="#8cc4ec"/><path d="M60 310 l60 -8 l40 14 l-50 12 z" fill="#e8f1f8"/><path d="M220 330 l60 -8 l40 14 l-50 12 z" fill="#e8f1f8"/><path d="M390 305 l60 -8 l40 14 l-50 12 z" fill="#e8f1f8"/><path d="M560 335 l60 -8 l40 14 l-50 12 z" fill="#e8f1f8"/><path d="M690 315 l60 -8 l40 14 l-50 12 z" fill="#e8f1f8"/><path d="M140 370 l60 -8 l40 14 l-50 12 z" fill="#e8f1f8"/><path d="M470 380 l60 -8 l40 14 l-50 12 z" fill="#e8f1f8"/><path d="M620 395 l60 -8 l40 14 l-50 12 z" fill="#e8f1f8"/>
-<text x="776" y="430" text-anchor="end" font-family="system-ui, sans-serif" font-size="18" fill="#e8f1f8" opacity="0.8">Image placeholder</text>
+<text x="400" y="430" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#e8f1f8" opacity="0.8">Image placeholder</text>
 </svg>

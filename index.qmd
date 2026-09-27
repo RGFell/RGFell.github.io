@@ -1,8 +1,8 @@
 ---
 pagetitle: "Rodrigo Gomez-Fell"   # no visible title; the <h1> is in the profile card
 description: "Rodrigo Gomez-Fell, postdoctoral fellow at Gateway Antarctica, University of Canterbury. Satellites - EO - Antarctica - Glaciers."
-image: images/profile.jpg
-image-alt: "Rodrigo Gomez-Fell in a red jacket on an Antarctic shoreline, with sea ice and an iceberg behind him."
+image: images/social-card.jpg   # set explicitly: Quarto would otherwise use the first image on the page
+image-alt: "Rodrigo Gomez-Fell, Antarctic glaciology and SAR remote sensing, Gateway Antarctica, University of Canterbury: portrait over a photo of a sunlit Antarctic glacier front."
 page-layout: full
 listing:
   id: news-list

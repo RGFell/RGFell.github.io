@@ -3,11 +3,19 @@ title: "Polarimetric radar imaging of New Zealand glaciers"
 description: "Using RADARSAT Constellation Mission radar data to track the end-of-summer snowline on glaciers in the New Zealand Alps."
 order: 2
 years: "2025–2027"
-image: ../images/projects/rcm-glaciers.svg
-image-alt: "Placeholder illustration: mountain peaks with a dashed snowline."
+image: ../images/projects/rcm-glaciers.jpg
+image-alt: "Heat map of Sentinel-1 radar backscatter along Tasman Glacier, by elevation from 800 to 2,600 metres and by date through 2024, with dark purple bands of low backscatter at high elevation and orange at low elevation."
 ---
 
-![](../images/projects/rcm-glaciers.svg){fig-alt="Placeholder illustration: mountain peaks with a dashed snowline."}
+```{=html}
+<figure class="project-figure">
+  <picture>
+    <source srcset="../images/projects/rcm-glaciers.webp" type="image/webp">
+    <img src="../images/projects/rcm-glaciers.jpg" width="1200" height="800" alt="Heat map of Sentinel-1 radar backscatter along Tasman Glacier, by elevation from 800 to 2,600 metres and by date through 2024, with dark purple bands of low backscatter at high elevation and orange at low elevation.">
+  </picture>
+  <figcaption class="image-credit">Contains modified Copernicus Sentinel data (2024).</figcaption>
+</figure>
+```
 
 **Years:** 2025–2027
 
