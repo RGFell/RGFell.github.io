@@ -1,9 +1,0 @@
----
-title: "Two best student presentation awards"
-date: 2023-01-01   # TODO: exact dates (the CVs give only the year)
-description: "Best student presentation awards at the SIRG Annual Meeting and the New Zealand Sea Ice Symposium."
-categories: [award, conference]
----
-
-Rodrigo received best student presentation awards at the SIRG Annual Meeting and at
-the New Zealand Sea Ice Symposium for his PhD research.

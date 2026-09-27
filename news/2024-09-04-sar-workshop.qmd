@@ -1,0 +1,12 @@
+---
+title: "New Zealand SAR Workshop and report to the NZ Space Agency"
+date: 2024-09-04
+date-format: "D MMMM YYYY"   # exact date known; other items show the year only
+description: "Rodrigo led the organisation of the New Zealand SAR Workshop on 4 September 2024, which led the New Zealand Space Agency to commission a report on radar remote sensing in New Zealand."
+categories: [event, report]
+---
+
+On 4 September 2024 Rodrigo led the organisation of the New Zealand SAR Workshop, a
+one-day meeting of practitioners, industry and academia on the future of radar remote
+sensing in New Zealand. As a result, the New Zealand Space Agency asked the organising
+committee for a report, which is listed on the [Reports](../reports.qmd) page.

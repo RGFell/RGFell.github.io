@@ -1,0 +1,9 @@
+---
+title: "Antarctica New Zealand Sir Robin Irvine Doctoral Scholarship"
+date: 2021-01-01   # year only: the CV lists the scholarship as 2021–2022
+description: "Rodrigo was awarded the Antarctica New Zealand Sir Robin Irvine Doctoral Scholarship (2021–2022) for his PhD research."
+categories: [award, scholarship]
+---
+
+Rodrigo was awarded the Antarctica New Zealand Sir Robin Irvine Doctoral Scholarship,
+which supported his PhD research at the University of Canterbury in 2021–2022.
