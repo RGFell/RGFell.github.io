@@ -69,13 +69,13 @@ Research contract with Environment Canterbury (ECan).
     <source srcset="images/projects/penguins.webp" type="image/webp">
     <img src="images/projects/penguins.jpg" width="1200" height="800" alt="Grey Umbra satellite radar image of the Antarctic coast: a bright ice cliff at lower left, a smooth dark band of ice, and speckled sea ice with scattered small icebergs to the right.">
   </picture>
-  <figcaption>UMBRA SAR image</figcaption>
+  <figcaption>UMBRA SAR image<br><span class="image-credit">SAR imagery courtesy of Umbra</span></figcaption>
 </figure>
 ```
 
 ::: {.content-hidden}
-<!-- TODO: UMBRA data credit for this image too (same pending question as the second UMBRA image:
-     open data under a CC licence, or tasked data?). Add it as <figcaption class="image-credit">. -->
+<!-- TODO before pushing: check "SAR imagery courtesy of Umbra" against Umbra's terms for tasked
+     data (umbra.space/open-data states no credit wording). Rodrigo confirmed the data can be shared. -->
 :::
 
 ```{=html}
@@ -84,14 +84,13 @@ Research contract with Environment Canterbury (ECan).
     <source srcset="images/projects/umbra-penguins.webp" type="image/webp">
     <img src="images/projects/umbra-penguins.jpg" width="1200" height="800" loading="lazy" alt="Grey Umbra satellite radar image of a tilted scene: bright, sharp-edged slabs of ice along the top, a smooth mid-grey ice surface on the right, and a large dark, smooth area below.">
   </picture>
-  <figcaption>UMBRA SAR image</figcaption>
+  <figcaption>UMBRA SAR image<br><span class="image-credit">SAR imagery courtesy of Umbra</span></figcaption>
 </figure>
 ```
 
 ::: {.content-hidden}
-<!-- TODO: UMBRA data credit line, to be confirmed by Rodrigo (depends on whether the scene is
-     from Umbra's open data programme, CC licence, or commercially tasked data). Add it as a
-     <figcaption class="image-credit"> in the figure above. -->
+<!-- TODO before pushing: check "SAR imagery courtesy of Umbra" against Umbra's terms for tasked
+     data (umbra.space/open-data states no credit wording). Rodrigo confirmed the data can be shared. -->
 :::
 
 **Years:** 2026
@@ -128,9 +127,9 @@ None yet.
 <figure class="project-figure">
   <picture>
     <source srcset="images/projects/biomass.webp" type="image/webp">
-    <img src="images/projects/biomass.jpg" width="1200" height="800" alt="Satellite radar image of a glacier flowing between rugged, crevassed mountains, shown as a tilted strip in grey with red highlights on a black background.">
+    <img src="images/projects/biomass.jpg" width="1200" height="800" alt="Artist's view of ESA's Biomass satellite folded inside the nose fairing of a Vega-C rocket, its gold-foil body and long stowed antenna boom visible through a cut-away.">
   </picture>
-  <figcaption class="image-credit">ESA BIOMASS cal/val airborne/satellite data</figcaption>
+  <figcaption class="image-credit">Image: ESA - J. Huart (<a href="https://www.esa.int/ESA_Multimedia/Terms_and_conditions_of_use_of_images_and_videos_available_on_the_esa_website">ESA Standard Licence</a>)</figcaption>
 </figure>
 ```
 
