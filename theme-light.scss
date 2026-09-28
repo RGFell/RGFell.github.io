@@ -22,6 +22,7 @@ $headings-font-weight: 600;
   // Page background photo (see styles.css). Adjust visibility here:
   // 0 = no photo, 1 = full photo. With the panel below, text stays WCAG AA up to 0.6.
   --rgf-bg-strength: 0.55;
+  --rgf-figure-card: #ffffff;   // behind figures with a white background
   --rgf-panel: rgba(255, 255, 255, 0.80);   // behind page content, over the photo
   --rgf-hero-gradient: linear-gradient(135deg, #0e2f44, #1b5e8c);
 }

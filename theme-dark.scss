@@ -21,5 +21,6 @@ $headings-font-weight: 600;
   // Page background photo (see styles.css). 0 = none, 1 = full; text stays AA up to 0.45.
   --rgf-bg-strength: 0.40;
   --rgf-panel: rgba(17, 24, 31, 0.78);
+  --rgf-figure-card: #ffffff;   // white card so figures with a white background look intended
   --rgf-hero-gradient: linear-gradient(135deg, #0a1016, #16354d);
 }

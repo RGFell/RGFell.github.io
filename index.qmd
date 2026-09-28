@@ -45,7 +45,7 @@ format:
 ::: {.home-section .home-intro}
 ## Earth Observation - Watching Antarctica and the Cryosphere from space {#intro}
 
-I'm a postdoctoral fellow at Gateway Antarctica, University of Canterbury, New Zealand. My research turns large satellite archives into reliable measurements of change across Earth's surface, using traditional remote sensing alongside modern machine learning methods. My main focus is coastal Antarctica, where ice, ocean, and sea ice interact at margins likely to drive near-future change; I use satellite radar (SAR) time series to study the ongoing, dramatic changes there. This spans ice tongue studies, cal/val of satellites over Antarctic ice and firn, and tracking glacier snowlines in New Zealand — and applying the same methods beyond the cryosphere, to environments like braided rivers, forests and polar ecology.
+I'm a postdoctoral fellow at Gateway Antarctica, University of Canterbury, New Zealand. I build reproducible pipelines that turn large satellite archives, mostly synthetic aperture radar (SAR) time series, into measurements of change that can be checked against field data. I combine traditional remote sensing with machine learning and multi-sensor data fusion. My main focus is coastal Antarctica, where ice, ocean and sea ice interact at margins likely to drive near-future change. The same methods carry over to ice tongues, glacier snowlines in New Zealand, braided rivers, forests and polar ecology.
 
 [Focus areas:]{.focus-label}
 
@@ -55,6 +55,35 @@ I'm a postdoctoral fellow at Gateway Antarctica, University of Canterbury, New Z
 - Synthetic aperture radar (SAR)
 - Radioglaciology
 - Earth observation in New Zealand and Patagonia
+:::
+
+[Tools:]{.focus-label .tools-label}
+
+::: {.theme-tags .tool-tags}
+- Python (xarray, rasterio, geopandas, scikit-learn)
+- GAMMA SAR
+- QGIS
+- Google Earth Engine
+:::
+
+<!-- Figure on a white card in both modes (the image has a white background);
+     linked to the full-size JPEG because the labels are small on phones. -->
+```{=html}
+<figure class="home-figure">
+  <a class="home-figure-card" href="images/sar-mean-std.jpg" title="Open the full-size image">
+    <picture>
+      <source srcset="images/sar-mean-std.webp" type="image/webp">
+      <img src="images/sar-mean-std.jpg" width="1349" height="490" loading="lazy" alt="Two satellite radar maps of the same stretch of the New Zealand West Coast. Left: grey-scale map of mean backscatter, from -25 to 0 dB; the ocean in the top-left corner and several lakes and lagoons are dark, and the land is brighter, with rougher texture in the hills towards the lower right. Right: colour map of standard deviation, from dark red (low) to pale yellow (high); the ocean is pale yellow and the inland lakes and lagoons orange, varying most through time, while most of the land is dark red, varying least, with patches of orange-red in the hills towards the lower right.">
+    </picture>
+  </a>
+  <figcaption>Mean and standard deviation of SAR backscatter (dB) across 8 Sentinel-1 scenes over the New Zealand West Coast, November 2016 to January 2017. Water varies most through time; stable land varies least. <span class="image-credit">Contains modified Copernicus Sentinel data (2016–2017).</span></figcaption>
+</figure>
+```
+
+::: {.content-hidden}
+<!-- TODO: colourbar label. The right panel's title says "Temporal std (dB)" but its colourbar
+     says "σ° std (linear)". Rodrigo to replace _source/mean_sd_db.png with a corrected file;
+     the image is used unchanged until then. -->
 :::
 
 ::: {.home-links}

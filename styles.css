@@ -137,6 +137,14 @@ main.content:has(.home-grid), main.content:has(.about-grid) { background: none; 
 }
 /* Home intro panel: text capped at about 70 characters per line, like the About page */
 .home-intro > p { max-width: 58ch; }   /* ch is wider than an average character: 58ch ≈ 70 characters */
+.tools-label { margin-top: 1rem; }
+.tool-tags li { font-family: var(--bs-font-monospace); font-size: 0.85rem; font-weight: 500; }
+/* Home figure: white rounded card (the image has a white background), caption below */
+.home-figure { margin: 1.5rem 0 0; }
+.home-figure-card { display: block; background: var(--rgf-figure-card); border-radius: 0.5rem; padding: 0.5rem; }
+.home-figure-card img { display: block; width: 100%; height: auto; }
+.home-figure figcaption { margin-top: 0.5rem; font-size: 0.9rem; color: var(--bs-secondary-color); }
+.home-figure figcaption .image-credit { display: block; }
 /* Links row at the bottom of the Home intro panel, below the focus tags */
 .home-links { margin-top: 1.25rem; }
 .home-links p { margin-bottom: 0; }

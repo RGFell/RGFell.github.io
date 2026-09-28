@@ -9,6 +9,7 @@ project:
   resources:
     - images/profile.webp   # WebP files are referenced only from raw HTML <picture> elements
     - images/projects/*.webp
+    - images/sar-mean-std.webp   # referenced only from the Home <picture> element
     - images/cc-by-88x31.png   # referenced only from the footer HTML
 
 website:
