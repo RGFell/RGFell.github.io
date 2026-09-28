@@ -205,13 +205,9 @@ None yet.
     <source srcset="images/projects/ross-sea.webp" type="image/webp">
     <img src="images/projects/ross-sea.jpg" width="565" height="313" loading="lazy" alt="Two satellite radar interferograms of McMurdo Sound fast ice side by side on a black background, labelled Sep 2023 and Nov 2023. Both are covered in dense bands of purple, white and orange fringes; the September pattern is broader and smoother, the November one finer and more broken up.">
   </picture>
+  <figcaption class="image-credit">Contains modified Copernicus Sentinel data (2023).</figcaption>
 </figure>
 ```
-
-::: {.content-hidden}
-<!-- TODO: data credit for the interferograms (which satellite; Rodrigo to confirm), as
-     <figcaption class="image-credit"> inside the figure above. -->
-:::
 
 **Years:** October 2025 – June 2027
 
