@@ -80,12 +80,6 @@ I'm a postdoctoral fellow at Gateway Antarctica, University of Canterbury, New Z
 </figure>
 ```
 
-::: {.content-hidden}
-<!-- TODO: colourbar label. The right panel's title says "Temporal std (dB)" but its colourbar
-     says "σ° std (linear)". Rodrigo to replace _source/mean_sd_db.png with a corrected file;
-     the image is used unchanged until then. -->
-:::
-
 ::: {.home-links}
 [More about me](about.qmd) · [Research](research.qmd) · [Projects](projects.qmd)
 :::
