@@ -61,40 +61,6 @@ Research contract with Environment Canterbury (ECan).
 
 ---
 
-## Riverscapes Framework New Zealand {#riverscapes}
-
-![](images/projects/riverscapes.svg){fig-alt="Placeholder illustration: braided river channels running towards the sea."}
-
-**Years:** 2025
-
-### Summary
-
-I led the adaptation of the Riverscapes Framework and its data portal, the
-[Riverscapes Data Exchange](https://data.riverscapes.net/), to cover New Zealand as a
-national project. It is only the second full-country project on the platform, after the
-United States. The New Zealand project covers the country's largest catchments (about 85),
-and for seven of them I added a river dynamics component, as part of the braided river work
-for the Ministry for the Environment.
-
-### My role
-
-Lead.
-
-::: {.content-hidden}
-<!-- COLLABORATORS: replace the placeholder list below. To publish the section,
-     delete this comment and the two ":::" fence lines. Until then Quarto leaves it out. -->
-### Collaborators
-
-- Name, institution
-- Name, institution
-:::
-
-### Related publications
-
-@robb2025braided (listed on the [Reports](reports.qmd) page)
-
----
-
 ## Penguin colonies from space {#penguin-colonies}
 
 ```{=html}
@@ -103,14 +69,9 @@ Lead.
     <source srcset="images/projects/penguins.webp" type="image/webp">
     <img src="images/projects/penguins.jpg" width="1200" height="800" alt="Grey Umbra satellite radar image of the Antarctic coast: a bright ice cliff at lower left, a smooth dark band of ice, and speckled sea ice with scattered small icebergs to the right.">
   </picture>
-  <figcaption>UMBRA SAR image<br><span class="image-credit">SAR imagery courtesy of Umbra</span></figcaption>
+  <figcaption class="image-credit">Satellite radar (SAR) image by Umbra (cropped), licensed under <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</figcaption>
 </figure>
 ```
-
-::: {.content-hidden}
-<!-- TODO before pushing: check "SAR imagery courtesy of Umbra" against Umbra's terms for tasked
-     data (umbra.space/open-data states no credit wording). Rodrigo confirmed the data can be shared. -->
-:::
 
 ```{=html}
 <figure class="project-figure">
@@ -118,14 +79,9 @@ Lead.
     <source srcset="images/projects/umbra-penguins.webp" type="image/webp">
     <img src="images/projects/umbra-penguins.jpg" width="1200" height="800" loading="lazy" alt="Grey Umbra satellite radar image of a tilted scene: bright, sharp-edged slabs of ice along the top, a smooth mid-grey ice surface on the right, and a large dark, smooth area below.">
   </picture>
-  <figcaption>UMBRA SAR image<br><span class="image-credit">SAR imagery courtesy of Umbra</span></figcaption>
+  <figcaption class="image-credit">Satellite radar (SAR) image by Umbra (cropped), licensed under <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</figcaption>
 </figure>
 ```
-
-::: {.content-hidden}
-<!-- TODO before pushing: check "SAR imagery courtesy of Umbra" against Umbra's terms for tasked
-     data (umbra.space/open-data states no credit wording). Rodrigo confirmed the data can be shared. -->
-:::
 
 **Years:** 2026
 
@@ -207,7 +163,7 @@ None yet.
 </figure>
 ```
 
-**Years:** 2025–2027
+**Years:** October 2025 – October 2027
 
 ### Summary
 
@@ -234,6 +190,59 @@ I am an Associate Investigator on this project.
 ### Funding
 
 Royal Society Te Apārangi Catalyst Fund.
+
+### Related publications
+
+None yet.
+
+---
+
+## What are the drivers and implications of recent rapid sea ice decline in the Ross Sea? {#ross-sea-ice}
+
+```{=html}
+<figure class="project-figure project-figure-native">
+  <picture>
+    <source srcset="images/projects/ross-sea.webp" type="image/webp">
+    <img src="images/projects/ross-sea.jpg" width="565" height="313" loading="lazy" alt="Two satellite radar interferograms of McMurdo Sound fast ice side by side on a black background, labelled Sep 2023 and Nov 2023. Both are covered in dense bands of purple, white and orange fringes; the September pattern is broader and smoother, the November one finer and more broken up.">
+  </picture>
+</figure>
+```
+
+::: {.content-hidden}
+<!-- TODO: data credit for the interferograms (which satellite; Rodrigo to confirm), as
+     <figcaption class="image-credit"> inside the figure above. -->
+:::
+
+**Years:** October 2025 – June 2027
+
+### Summary
+
+Sea ice in the Ross Sea has declined quickly in recent years. This pilot programme,
+part of the Catalyst Strategic NZ-US Joint Antarctic Research Programme, asks what is
+driving that decline and what it means. It tests emerging technology for a future
+observing network in the Ross Sea, and develops a strategy that combines computer
+models, satellite observations and measurements made on the ice and in the ocean.
+The work centres on building capability in the McMurdo region.
+
+The pilot is designed to feed a possible third phase with wider deployment of
+instruments in the Ross Sea, and to contribute to longer-term international efforts
+such as Antarctica InSync and the International Polar Year (IPY). Its results are
+relevant to the Ross Sea Marine Protected Area and to New Zealand and US Antarctic
+logistics.
+
+### My role
+
+I am a postdoctoral researcher on this project, working on the thickness of McMurdo Sound
+fast ice using satellite remote sensing data.
+
+::: {.content-hidden}
+<!-- COLLABORATORS: replace the placeholder list below. To publish the section,
+     delete this comment and the two ":::" fence lines. Until then Quarto leaves it out. -->
+### Collaborators
+
+- Name, institution
+- Name, institution
+:::
 
 ### Related publications
 
@@ -282,41 +291,24 @@ None yet.
 
 ---
 
-## What are the drivers and implications of recent rapid sea ice decline in the Ross Sea? {#ross-sea-ice}
+## Riverscapes Framework New Zealand {#riverscapes}
 
-![](images/projects/ross-sea.svg){fig-alt="Placeholder illustration: scattered sea ice floes on dark water."}
+![](images/projects/riverscapes.svg){fig-alt="Placeholder illustration: braided river channels running towards the sea."}
 
-::: {.content-hidden}
-<!-- TODO: project dates (show as **Years:** YYYY–YYYY once confirmed). -->
-:::
-
-::: {.content-hidden}
-<!-- TODO: image. The requested source, _source/GOMEZ_FELL_Lighting Talk.pptx.pdf (one slide,
-     marked "In-Confidence"), shows InSAR interferograms (Sep/Nov 2023) and a fast-ice freeboard
-     map for a fast-ice thickness study with co-authors from Otago and KIT, not Ross Sea sea ice
-     decline, so it was not used. Provide a suitable image and confirm the right to publish it. -->
-:::
+**Years:** 2024–2025
 
 ### Summary
 
-Sea ice in the Ross Sea has declined quickly in recent years. This pilot programme,
-part of the Catalyst Strategic NZ-US Joint Antarctic Research Programme, asks what is
-driving that decline and what it means. It tests emerging technology for a future
-observing network in the Ross Sea, and develops a strategy that combines computer
-models, satellite observations and measurements made on the ice and in the ocean.
-The work centres on building capability in the McMurdo region.
+I led the adaptation of the Riverscapes Framework and its data portal, the
+[Riverscapes Data Exchange](https://data.riverscapes.net/), to cover New Zealand as a
+national project. It is only the second full-country project on the platform, after the
+United States. The New Zealand project covered the country's largest catchments (about 85),
+and for seven of them I added a river dynamics component, as part of the braided river work
+for the Ministry for the Environment.
 
-The pilot is designed to feed a possible third phase with wider deployment of
-instruments in the Ross Sea, and to contribute to longer-term international efforts
-such as Antarctica InSync and the International Polar Year (IPY). Its results are
-relevant to the Ross Sea Marine Protected Area and to New Zealand and US Antarctic
-logistics.
-
-::: {.content-hidden}
-<!-- TODO: my role on this project. To publish, replace this comment with the text
-     and delete the two ":::" fence lines. -->
 ### My role
-:::
+
+Lead.
 
 ::: {.content-hidden}
 <!-- COLLABORATORS: replace the placeholder list below. To publish the section,
@@ -329,7 +321,7 @@ logistics.
 
 ### Related publications
 
-None yet.
+@robb2025braided (listed on the [Reports](reports.qmd) page)
 
 ---
 

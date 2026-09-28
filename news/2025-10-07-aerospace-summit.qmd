@@ -2,13 +2,9 @@
 title: "Panellist at the New Zealand Aerospace Summit"
 date: 2025-10-07
 date-format: "D MMMM YYYY"   # exact date known
-description: "Rodrigo spoke on the panel \"Aerospace in Antarctica: The Ultimate Testbed\" at the New Zealand Aerospace Summit on 7 October 2025."
+description: "Rodrigo spoke on the panel \"Aerospace in Antarctica: The Ultimate Testbed\" at the New Zealand Aerospace Summit in Christchurch on 7 October 2025."
 categories: [panel, talk]
 ---
 
 On 7 October 2025 Rodrigo was a panellist in "Aerospace in Antarctica: The Ultimate
-Testbed" at the New Zealand Aerospace Summit.
-
-::: {.content-hidden}
-<!-- TODO: city of the summit, if you want it mentioned (not stated in the detailed CV). -->
-:::
+Testbed" at the New Zealand Aerospace Summit in Christchurch.

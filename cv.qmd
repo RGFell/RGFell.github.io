@@ -73,7 +73,7 @@ Website: [rgfell.github.io](https://rgfell.github.io)
 ## Teaching and supervision
 
 - **2020–2023** · Teaching Assistant, tutor and lab demonstrator (part-time), University of Canterbury: ANTA102, ANTA201, GEOG312, GEOG323 and GISC406
-- **2026** · Delivered two SAR laboratory sessions at the 2nd IEEE GRSS NZ Radar Remote Sensing School
+- **2026** · Delivered two SAR laboratory sessions at the 2nd IEEE GRSS NZ Radar Remote Sensing School, 15–17 April 2026
 - Member of the supervisory team of a PhD student studying fast ice and ice shelf interactions in McMurdo Sound
 - Helped supervise two MSc students at the Waterways Centre: mapping the Ashley braided river floodplain, and identifying hāpua with a CNN model
 - Supervised three honours students working on New Zealand glaciers with SAR data
@@ -98,11 +98,7 @@ Website: [rgfell.github.io](https://rgfell.github.io)
 
 ## Invited talks and panels
 
-- **2025** · Panellist, "Aerospace in Antarctica: The Ultimate Testbed", New Zealand Aerospace Summit, 7 October 2025
-
-::: {.content-hidden}
-<!-- TODO: city of the New Zealand Aerospace Summit (not stated in the detailed CV). -->
-:::
+- **2025** · Panellist, "Aerospace in Antarctica: The Ultimate Testbed", New Zealand Aerospace Summit, Christchurch, 7 October 2025
 
 ## Conference presentations
 

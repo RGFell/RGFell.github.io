@@ -57,7 +57,8 @@ braided rivers, river-mouth lagoons (hāpua) and forest carbon.
 - **[Polarimetric radar for New Zealand glaciers](projects.qmd#rcm-glaciers) (2025–2027):** using RADARSAT Constellation Mission data to track the end-of-summer snowline on glaciers in the New Zealand Alps.
 - **[Hāpua dynamics in Canterbury](projects.qmd#hapua) (2026):** mapping change in river-mouth lagoons with a machine learning model.
 - **[Penguin colonies from space](projects.qmd#penguin-colonies) (2026):** detecting penguin colonies in high-resolution SAR images.
-- **[Riverscapes Framework New Zealand](projects.qmd#riverscapes) (2025):** adapting the Riverscapes Framework and its data portal to New Zealand as a national project.
+
+**Recent projects:** [Riverscapes Framework New Zealand](projects.qmd#riverscapes) (2024–2025), adapting the Riverscapes Framework and its data portal to New Zealand as a national project.
 
 More detail is on the [Projects](projects.qmd) page.
 

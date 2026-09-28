@@ -135,6 +135,8 @@ main.content:has(.home-grid), main.content:has(.about-grid) { background: none; 
   padding: 0.3rem 0.85rem; border-radius: 2rem;
   background: var(--rgf-accent-soft); color: var(--bs-body-color); font-weight: 600; font-size: 0.95rem;
 }
+/* Home intro panel: text capped at about 70 characters per line, like the About page */
+.home-intro > p { max-width: 58ch; }   /* ch is wider than an average character: 58ch ≈ 70 characters */
 /* Links row at the bottom of the Home intro panel, below the focus tags */
 .home-links { margin-top: 1.25rem; }
 .home-links p { margin-bottom: 0; }
@@ -203,6 +205,8 @@ a:focus-visible, button:focus-visible {
 /* Project pages and Projects listing: 3:2 images */
 .project-figure { margin: 0 0 1.5rem; }
 .project-figure img { width: 100%; height: auto; border-radius: 0.5rem; display: block; }
+/* Small source images: native width at most, centred, never upscaled */
+.project-figure-native { max-width: 565px; margin-left: auto; margin-right: auto; }
 .quarto-grid-item .card-img-top img, .quarto-grid-item img.thumbnail-image {
   height: auto !important; aspect-ratio: 3 / 2; object-fit: cover; width: 100%;
 }

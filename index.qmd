@@ -42,12 +42,10 @@ format:
 
 ::: {.home-main}
 
-::: {.home-section}
+::: {.home-section .home-intro}
 ## Earth Observation - Watching Antarctica and the Cryosphere from space {#intro}
 
-I'm a postdoctoral fellow at Gateway Antarctica, University of Canterbury, New Zealand.
-
-My research turns large satellite archives into reliable measurements of change across Earth's surface, using traditional remote sensing alongside modern machine learning methods. My main focus is coastal Antarctica, where ice, ocean, and sea ice interact at margins likely to drive near-future change; I use satellite radar (SAR) time series to study the ongoing, dramatic changes there. This spans ice tongue studies, cal/val of satellites over Antarctic ice and firn, and tracking glacier snowlines in New Zealand — and applying the same methods beyond the cryosphere, to environments like braided rivers, forests and polar ecology.
+I'm a postdoctoral fellow at Gateway Antarctica, University of Canterbury, New Zealand. My research turns large satellite archives into reliable measurements of change across Earth's surface, using traditional remote sensing alongside modern machine learning methods. My main focus is coastal Antarctica, where ice, ocean, and sea ice interact at margins likely to drive near-future change; I use satellite radar (SAR) time series to study the ongoing, dramatic changes there. This spans ice tongue studies, cal/val of satellites over Antarctic ice and firn, and tracking glacier snowlines in New Zealand — and applying the same methods beyond the cryosphere, to environments like braided rivers, forests and polar ecology.
 
 [Focus areas:]{.focus-label}
 

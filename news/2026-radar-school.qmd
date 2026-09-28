@@ -1,11 +1,12 @@
 ---
 title: "Second New Zealand Radar Remote Sensing School"
-date: 2026-01-01   # TODO: exact date (the narrative CV gives only the year)
+date: 2026-04-15
+date-format: "D MMMM YYYY"   # first day of the school (15–17 April 2026)
 description: "Rodrigo secured the funding for and led the 2nd IEEE GRSS NZ Radar Remote Sensing School at the University of Canterbury: about 30 participants and 12 full scholarships."
 categories: [event, teaching]
 ---
 
 Rodrigo secured the funding for, led and organised the second IEEE GRSS New Zealand
-Radar Remote Sensing School at the University of Canterbury. About 30 participants
+Radar Remote Sensing School at the University of Canterbury, held from 15 to 17 April 2026. About 30 participants
 came from Fiji, Australia and New Zealand, 12 of them on full scholarships, and
 Rodrigo taught two SAR laboratory sessions.
