@@ -1,0 +1,144 @@
+---
+title: "Teaching"
+description: "Teaching philosophy, courses, guest lectures and workshops of Rodrigo Gomez-Fell, who teaches satellite remote sensing and polar science at the University of Canterbury, New Zealand."
+toc: true
+toc-depth: 2
+toc-title: "Teaching"
+format:
+  html:
+    html-math-method: plain   # no maths here; avoids loading MathJax
+---
+
+<!-- One section per topic, separated by "---". Anchors (#...) are linked from other pages.
+     Each section can take one optional image, placed straight after its ## heading with the
+     same <figure class="project-figure"> block as projects.qmd (see CLAUDE.md). -->
+
+::: {.jump-links}
+[Philosophy](#philosophy) · [Courses](#courses) · [Schools and workshops](#schools) · [Lectures](#lectures) · [Supervision](#supervision)
+:::
+
+## Teaching philosophy {#philosophy}
+
+I am early in my academic teaching career, so my approach is practical and comes from what
+has worked in my tutoring and guest lecturing. It also draws on teaching in
+high-responsibility settings outside academia, as an outdoor guide and certified ACA
+sea-kayak instructor. In every setting, students learn more when they are thinking,
+discussing, practising and getting feedback, rather than just listening.
+
+My goal is to help students build a practical understanding of the subject, confidence and
+critical thinking. In geospatial science and remote sensing, that means learning to work
+with data, recognise uncertainty, justify their choices, and explain results clearly and
+honestly.
+
+**Clear structure and expectations.** Students make the most progress when tasks are clearly
+defined and the steps are laid out. In a lab I start with the objectives, what success looks
+like and why the exercise matters. In technical work a small misunderstanding at the start
+can derail a whole session, so I set out key assumptions and common errors early.
+
+**Engagement.** Engagement is one of the hardest parts of teaching, especially in lectures. I
+break lectures into 10 to 15 minute sections with short activities, such as quick
+multiple-choice questions, open questions and think-pair-share. They help students
+understand the material and show me where they are confused, so I can adjust.
+
+**A safe and inclusive environment.** Many students do not ask questions because they worry
+about being judged. As someone from Latin America who speaks English as a second language, I
+know that language and confidence can affect participation even when students are fully
+capable. I use clear language, give written and spoken instructions, allow time to think,
+and avoid assuming prior knowledge or a shared cultural background.
+
+**Real skills.** In geospatial work the challenge is not pressing the right buttons but making
+informed decisions with imperfect data and explaining the results responsibly. In my labs I
+teach students to check data quality, spot common errors and understand how their choices
+affect outcomes. My background in outdoor and sea-kayak instruction supports this, because
+good performance comes from clear decisions, awareness of risk and the ability to adapt.
+
+**AI.** Generative AI is changing how students study, write and code. I see it as a helpful
+tool, not a replacement for creativity or critical thinking. I encourage students to use it
+responsibly for brainstorming, debugging and explaining concepts, and to evaluate its output
+critically. My assessments call for original decisions, real data and honest reasoning about
+uncertainty and ethics.
+
+I keep improving my teaching through practice, reflection and peer feedback.
+
+I am interested in teaching remote sensing data science, computer vision and applied machine
+learning, Python programming and reproducible analytics, and polar regions.
+
+---
+
+## Courses (University of Canterbury) {#courses}
+
+From 2020 to 2023 I was a teaching assistant, tutor and lab demonstrator in ANTA102, ANTA201,
+GEOG323, GEOG312 and GISC406, running tutorials and labs, marking and supporting students.
+I also tutored during my MSc in Brazil.
+
+### Guest lectures {#guest-lectures}
+
+- **ANTA201, since 2021:** "Polar Remote Sensing"; "Ice tongues in the Western Ross Sea"
+- **GISC406, since 2022:** "The Psychedelic World of Interferograms"
+- **GEOG208, since 2023:** "Introduction to SAR"; "The value of lidar in New Zealand"
+
+---
+
+## Schools and workshops {#schools}
+
+### Second IEEE GRSS New Zealand Radar Remote Sensing School: SAR and GNSS-R {#radar-school-2026}
+
+**15–17 April 2026** · University of Canterbury
+
+I organised this three-day international school with the Geospatial Research Institute and
+IEEE GRSS. I secured funding through the IEEE GRSS school funding system, planned the
+schedule and contacted the lecturers. I also submitted a proposal to the IEEE GRSS
+Distinguished Lecturer programme, which brought an additional international lecturer. There
+were 30 participants from Fiji, Australia and New Zealand, including industry professionals,
+postgraduates and lecturers. I taught two hands-on labs: Data Access for SAR and GNSS-R, and
+Change Detection with SAR.
+
+### New Zealand SAR Workshop and hackathon {#sar-workshop-2024}
+
+**2024**
+
+The New Zealand SAR Workshop was held on 4 September 2024: a one-day workshop that brought
+together practitioners, industry and academia to talk about the future of radar remote
+sensing in New Zealand. I was on the organising committee and coordinated the event. As an
+outcome, the New Zealand Space Agency asked the organising committee for a
+[report to the New Zealand Space Agency](reports.qmd#ref-gomezfell2024sarworkshop).
+
+I was also on the organising committee of the New Zealand Space Mission Design Hackathon at
+the University of Canterbury, run as part of the IEEE GRSS New Zealand Chapter. It brought
+together students and early career researchers to work on applied space problems.
+
+::: {.content-hidden}
+<!-- TODO: date and place of the hackathon. The narrative CV lists it as a separate 2024 event
+     "at UC" (not the 4 September workshop); the other CVs give only "2024 New Zealand SAR
+     Workshop and Hackathon Organising Committee and Coordinator". -->
+:::
+
+---
+
+## Lectures and talks {#lectures}
+
+- **2025** · New Zealand Aerospace Summit panel, Christchurch, 7 October, invited by ChristchurchNZ: "Aerospace in Antarctica: The Ultimate Testbed"
+- **2025** · Aerospace Summit delegation at the University of Canterbury: "Scientific insight into New Zealand Riverscapes: From Satellites to Airborne Sensors"
+- **2025** · Brazil delegation to the University of Canterbury: "From Airborne Sensors to Scientific Insight: The value of lidar in New Zealand"
+- **2025** · Ministry for the Environment (online): "From Airborne Sensors to Scientific Insight: The value of lidar in New Zealand"
+- **2025** · EOLab Auckland (online): "New Zealand Riverscapes: Uncovering River Change with Satellites and Lidar"
+- **2025** · AIUP USA undergraduate course (online): "Technology in Antarctica"
+- **2025** · Icebreaker Xue Long II: "Ice tongue stability in a changing climate"
+- **2024** · Wuhan University delegation: "Ice tongue stability in a changing climate"
+- **2024** · Environment Canterbury: "Lidar Remote Sensing in New Zealand"
+
+### Expedition cruise lecturing {#cruise-lectures}
+
+In the 2023/24 and 2024/25 summers I gave public lectures on Norwegian Star voyages to South
+America and Antarctica: four voyages with four lectures each, and about 300 people at each
+talk. The talks were "The Southern Ocean", "Antarctic Sea-Ice", "How to conduct scientific
+research in Antarctica?" and "The Darwin Range Glaciers".
+
+---
+
+## Supervision and mentoring {#supervision}
+
+- I am part of the supervisory team of a PhD student studying fast ice and ice shelf interactions in McMurdo Sound.
+- At the Waterways Centre I helped supervise two MSc students: one mapped the Ashley braided river floodplain, and the other identified hāpua with a CNN model.
+- I supervised three honours students working on New Zealand glaciers with SAR data.
+- In 2023 I mentored a secondary school student through the Adopt a Scientist programme at Lincoln High School.

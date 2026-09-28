@@ -16,6 +16,7 @@ about.qmd          About: 1:2 grid; left = photo, collaborator graph + table, ed
                    right = biography, community, research interests (max ~70 characters per line)
 cv.qmd  research.qmd  contact.qmd     Single pages
 projects.qmd       All projects on one page, one ## section each (anchors used by other pages)
+teaching.qmd       Teaching on one page: philosophy, courses, schools/workshops, lectures, supervision
 news/              One .qmd per news item (shown on Home, newest 5); _metadata.yml shows year only
 _templates/        news-timeline.ejs: listing template for the Home news timeline
 publications.qmd   Journal articles, preprints, conference papers, book chapters (generated list)
@@ -119,11 +120,28 @@ Cite from the .bib with @key (e.g. @baker2026hapua); references appear at the bo
 page. Otherwise write "None yet."
 ````
 
-### Add a guest lecture, talk or panel (CV)
-In `cv.qmd`: guest lectures go under **Teaching and supervision**, invited talks and panels
-under **Invited talks and panels**, as `- **YEAR** · Role, title, event or course, institution`.
-Unknown details: `[[TODO: …]{.todo}]{.content-visible when-format="html"}` so the TODO shows
-on the web page for review but never in the PDF. Add a news item too when the date is known.
+### Add a course, guest lecture, workshop or talk (Teaching page and CV)
+`teaching.qmd` is one page like `projects.qmd`: one `## ` section per topic with a stable anchor
+(`#philosophy`, `#courses`, `#schools`, `#lectures`, `#supervision`; the jump-link row under the
+title points at these), sections separated by `---`. About and news items link to
+`teaching.qmd#radar-school-2026` and `#sar-workshop-2024`, so keep those anchors.
+- **Course (TA, tutor, lecturer):** add the course code to the sentence in **Courses**.
+- **Guest lecture in a UC course:** a bullet under **Courses → Guest lectures**:
+  `- **CODE, since YEAR:** "Title"; "Title"`.
+- **School or workshop:** a `### Name {#short-anchor}` block under **Schools and workshops**,
+  newest first: a `**dates** · place` line, then a first-person paragraph (what I did).
+- **Talk, panel or other lecture:** a bullet under **Lectures and talks**, newest first:
+  `- **YEAR** · Audience or event: "Title"`.
+- **Supervision:** a first-person bullet under **Supervision and mentoring**. Never name students.
+- **Keep the CV in step:** every lecture, talk, panel or course added to `teaching.qmd` must also
+  go into `cv.qmd` (guest lectures under **Teaching and supervision**, invited talks and panels
+  under **Invited talks and panels**, as `- **YEAR** · Role, title, event or course, institution`).
+  The CV keeps its own full lists so the PDF is complete; its web version links to Teaching.
+- Unknown details: on Teaching use a hidden `::: {.content-hidden}` TODO comment; in the CV use
+  `[[TODO: …]{.todo}]{.content-visible when-format="html"}` so it shows on the web page for
+  review but never in the PDF. Add a news item too when the date is known.
+- Optional image per section: the same `<figure class="project-figure">` block as a project,
+  straight after the `## ` heading (see "Add a card image" and Licensing).
 
 ### Collaborator network (About page)
 Built automatically at every render from the `@article` entries in `publications.bib` by

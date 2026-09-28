@@ -9,4 +9,5 @@ categories: [event, report]
 On 4 September 2024 Rodrigo led the organisation of the New Zealand SAR Workshop, a
 one-day meeting of practitioners, industry and academia on the future of radar remote
 sensing in New Zealand. As a result, the New Zealand Space Agency asked the organising
-committee for a report, which is listed on the [Reports](../reports.qmd) page.
+committee for a report, which is listed on the [Reports](../reports.qmd) page. More about the
+workshop is on the [Teaching](../teaching.qmd#sar-workshop-2024) page.

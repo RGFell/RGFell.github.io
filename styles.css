@@ -145,6 +145,9 @@ main.content:has(.home-grid), main.content:has(.about-grid) { background: none; 
 .home-figure-card img { display: block; width: 100%; height: auto; }
 .home-figure figcaption { margin-top: 0.5rem; font-size: 0.9rem; color: var(--bs-secondary-color); }
 .home-figure figcaption .image-credit { display: block; }
+/* Row of jump links under a page title (Teaching) */
+.jump-links { margin-bottom: 1.5rem; font-weight: 600; }
+.jump-links p { margin-bottom: 0; }
 /* Links row at the bottom of the Home intro panel, below the focus tags */
 .home-links { margin-top: 1.25rem; }
 .home-links p { margin-bottom: 0; }

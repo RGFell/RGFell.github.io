@@ -96,6 +96,10 @@ Website: [rgfell.github.io](https://rgfell.github.io)
 - **2024** · Wuhan University delegation: "Ice tongue stability in a changing climate"
 - **2024** · Environment Canterbury (ECan): "Lidar Remote Sensing in New Zealand"
 
+::: {.content-visible when-format="html"}
+More detail on the [Teaching](teaching.qmd) page.
+:::
+
 ## Invited talks and panels
 
 - **2025** · Panellist, "Aerospace in Antarctica: The Ultimate Testbed", New Zealand Aerospace Summit, Christchurch, 7 October 2025

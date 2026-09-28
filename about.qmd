@@ -56,7 +56,7 @@ Currently, my projects include understanding fast ice growth using SAR data, cal
 
 ## Community
 
-I am currently the chair of the New Zealand chapter of the IEEE Geoscience and Remote Sensing Society (GRSS) and serve on the GRSS IFT working group. I organised the New Zealand SAR Workshop (4 September 2024) and the second New Zealand Radar Remote Sensing School (15–17 April 2026). Additionally, I have helped coordinate themes and sessions for IGARSS 2025 and 2026, which is the largest conference in remote sensing. I also co-supervise research students who are working with satellite data.
+I am currently the chair of the New Zealand chapter of the IEEE Geoscience and Remote Sensing Society (GRSS) and serve on the GRSS IFT working group. I organised the [New Zealand SAR Workshop](teaching.qmd#sar-workshop-2024) (4 September 2024) and the [second New Zealand Radar Remote Sensing School](teaching.qmd#radar-school-2026) (15–17 April 2026). Additionally, I have helped coordinate themes and sessions for IGARSS 2025 and 2026, which is the largest conference in remote sensing. I also co-supervise research students who are working with satellite data.
 
 ## Research interests
 

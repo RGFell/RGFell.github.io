@@ -41,6 +41,8 @@ website:
         text: Research
       - href: projects.qmd
         text: Projects
+      - href: teaching.qmd
+        text: Teaching
       - text: Publications
         menu:
           - href: publications.qmd
