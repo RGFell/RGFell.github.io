@@ -1,0 +1,21 @@
+---
+title: "Two panels at the New Zealand Aerospace Summit"
+date: 2026-10-01
+date-format: "D MMMM YYYY"   # exact date known
+description: "Rodrigo spoke on two panels at the New Zealand Aerospace Summit's InFocus sessions in Christchurch: on Earth observation for New Zealand's resilience, and on Antarctica and aerospace."
+categories: [panel, talk]
+---
+
+Rodrigo Gomez-Fell was invited to speak on two panels at the New Zealand Aerospace Summit's
+InFocus sessions in Christchurch: one on Earth observation for New Zealand's climate and
+economic resilience, and one on Antarctica as a testbed for aerospace technology. Fellow
+panellists included Wolfgang Rack. Both panels are listed on the
+[Teaching](../teaching.qmd#lectures) page.
+
+```{=html}
+<div class="social-embed">
+  <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7511533752506929152?collapsed=1"
+          height="610" loading="lazy" allowfullscreen
+          title="LinkedIn post: Aerospace Summit panels"></iframe>
+</div>
+```

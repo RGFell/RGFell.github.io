@@ -1,0 +1,20 @@
+---
+title: "Antarctic Season Opening: discussion on future Antarctic expertise"
+date: 2026-09-21
+date-format: "D MMMM YYYY"   # exact date known
+description: "Rodrigo facilitated a discussion on investing in the next generation of Antarctic expertise at Christchurch's Antarctic Season Opening, and presented a poster."
+categories: [event, talk]
+---
+
+Rodrigo Gomez-Fell was part of a group of experts who facilitated a discussion on investing
+in the next generation of Antarctic expertise at Christchurch's Antarctic Season Opening,
+looking ahead to the Fifth International Polar Year (2032–33). He also presented a poster on
+his research. The event is listed on the [Teaching](../teaching.qmd#lectures) page.
+
+```{=html}
+<div class="social-embed">
+  <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7508104650278125568?collapsed=1"
+          height="610" loading="lazy" allowfullscreen
+          title="LinkedIn post: Antarctic Season Opening discussion"></iframe>
+</div>
+```

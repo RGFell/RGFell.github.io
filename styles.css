@@ -145,6 +145,12 @@ main.content:has(.home-grid), main.content:has(.about-grid) { background: none; 
 .home-figure-card img { display: block; width: 100%; height: auto; }
 .home-figure figcaption { margin-top: 0.5rem; font-size: 0.9rem; color: var(--bs-secondary-color); }
 .home-figure figcaption .image-credit { display: block; }
+/* LinkedIn post embeds (news items): same white card, up to LinkedIn's 504px width.
+   The widget is not height-responsive, so the height is fixed and raised on phones,
+   where the post text wraps onto more lines. */
+.social-embed { max-width: 504px; margin: 1.5rem 0; background: var(--rgf-figure-card); border-radius: 0.5rem; padding: 0.5rem; }
+.social-embed iframe { display: block; width: 100%; height: 610px; border: 0; }
+@media (max-width: 575.98px) { .social-embed iframe { height: 690px; } }
 /* Row of jump links under a page title (Teaching) */
 .jump-links { margin-bottom: 1.5rem; font-weight: 600; }
 .jump-links p { margin-bottom: 0; }

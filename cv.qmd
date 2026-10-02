@@ -84,6 +84,7 @@ Website: [rgfell.github.io](https://rgfell.github.io)
 - **2021–present** · ANTA201: "Polar Remote Sensing" and "Ice tongues in the Western Ross Sea"
 - **2022–present** · GISC406: "The Psychedelic world of Interferograms"
 - **2023–present** · GEOG208: "Introduction to SAR" and "The value of lidar in New Zealand"
+- **2026** · ENCN205 (Applied Data Analysis for Civil and Natural Systems): "Introduction to Remote Sensing"
 
 ### Other guest lectures
 
@@ -102,6 +103,9 @@ More detail on the [Teaching](teaching.qmd) page.
 
 ## Invited talks and panels
 
+- **2026** · Panellist, "Turning observation into action: How Earth Observation strengthens New Zealand's climate and economic resilience", InFocus sessions, New Zealand Aerospace Summit, Christchurch, 1 October 2026
+- **2026** · Panellist, "Antarctica + Aerospace: From testbed to mission", InFocus sessions, New Zealand Aerospace Summit, Christchurch, 1 October 2026
+- **2026** · Discussion facilitator on investing in the next generation of Antarctic expertise, looking ahead to the Fifth International Polar Year (2032–33), and poster presenter, Antarctic Season Opening, Christchurch, 21 September 2026
 - **2025** · Panellist, "Aerospace in Antarctica: The Ultimate Testbed", New Zealand Aerospace Summit, Christchurch, 7 October 2025
 
 ## Conference presentations

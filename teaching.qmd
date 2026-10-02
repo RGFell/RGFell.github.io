@@ -76,6 +76,7 @@ I also tutored during my MSc in Brazil.
 - **ANTA201, since 2021:** "Polar Remote Sensing"; "Ice tongues in the Western Ross Sea"
 - **GISC406, since 2022:** "The Psychedelic World of Interferograms"
 - **GEOG208, since 2023:** "Introduction to SAR"; "The value of lidar in New Zealand"
+- **ENCN205 (Applied Data Analysis for Civil and Natural Systems), 2026:** "Introduction to Remote Sensing"
 
 ---
 
@@ -117,6 +118,9 @@ together students and early career researchers to work on applied space problems
 
 ## Lectures and talks {#lectures}
 
+- **2026** · New Zealand Aerospace Summit InFocus sessions, Christchurch, 1 October, panellist: "Turning observation into action: How Earth Observation strengthens New Zealand's climate and economic resilience"
+- **2026** · New Zealand Aerospace Summit InFocus sessions, Christchurch, 1 October, panellist: "Antarctica + Aerospace: From testbed to mission"
+- **2026** · Antarctic Season Opening, Christchurch, 21 September: facilitated a discussion on investing in the next generation of Antarctic expertise, looking ahead to the Fifth International Polar Year (2032–33), and presented a poster
 - **2025** · New Zealand Aerospace Summit panel, Christchurch, 7 October, invited by ChristchurchNZ: "Aerospace in Antarctica: The Ultimate Testbed"
 - **2025** · Aerospace Summit delegation at the University of Canterbury: "Scientific insight into New Zealand Riverscapes: From Satellites to Airborne Sensors"
 - **2025** · Brazil delegation to the University of Canterbury: "From Airborne Sensors to Scientific Insight: The value of lidar in New Zealand"
