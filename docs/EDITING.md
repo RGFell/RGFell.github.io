@@ -52,8 +52,8 @@ By hand: crop and export in GIMP or https://squoosh.app (which also strips metad
 1. Copy a file in `news/`, e.g. `news/2026-11-02-conference-season.qmd`.
 2. Rename the copy `YYYY-MM-DD-short-name.qmd`.
 3. Edit `title`, `date`, `description` and `categories`, then the text.
-4. Write in the third person ("Rodrigo presented…"), three sentences at most.
-   The newest five appear on Home.
+4. Write in the third person, like a short news story: lead with the most interesting part
+   (the topic, outcome or numbers), active voice, 2–4 sentences. The newest five appear on Home.
 
 ## 5. Add a project
 

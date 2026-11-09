@@ -1,13 +1,13 @@
 ---
-title: "Second New Zealand Radar Remote Sensing School"
+title: "Radar Remote Sensing School draws participants from three countries"
 date: 2026-04-15
 date-format: "D MMMM YYYY"   # first day of the school (15–17 April 2026)
-description: "Rodrigo secured the funding for and led the 2nd IEEE GRSS NZ Radar Remote Sensing School at the University of Canterbury: about 30 participants and 12 full scholarships."
+description: "About 30 participants from Fiji, Australia and New Zealand, 12 on full scholarships, attended the second IEEE GRSS NZ Radar Remote Sensing School at the University of Canterbury. Rodrigo secured its funding and led it."
 categories: [event, teaching]
 ---
 
-Rodrigo secured the funding for, led and organised the second IEEE GRSS New Zealand
-Radar Remote Sensing School at the University of Canterbury, held from 15 to 17 April 2026. About 30 participants
-came from Fiji, Australia and New Zealand, 12 of them on full scholarships, and
-Rodrigo taught two SAR laboratory sessions. More about the school is on the
-[Teaching](../teaching.qmd#radar-school-2026) page.
+About 30 participants from Fiji, Australia and New Zealand, 12 of them on full
+scholarships, came to the second IEEE GRSS New Zealand Radar Remote Sensing School at the
+University of Canterbury, held from 15 to 17 April 2026. Rodrigo Gomez-Fell secured the
+funding, led and organised the school, and taught two SAR laboratory sessions. More about the
+school is on the [Teaching](../teaching.qmd#radar-school-2026) page.

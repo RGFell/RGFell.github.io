@@ -189,6 +189,22 @@ categories: [award]     # e.g. award, grant, event, fieldwork, conference, paper
 Optional longer text for the item's own page.
 ```
 
+**Style: journalist-style third person.** Lead with what is most interesting (the topic,
+the outcome, the numbers), not always the name; vary sentence openings across items; use
+active voice and strong, accurate verbs. Title, `description` (the Home timeline text) and
+body all follow this. Body 2–4 sentences. Never invent quotes, feelings ("excited", "proud")
+or atmosphere, and add no fact, date or claim that isn't in the source (CV, LinkedIn post,
+Rodrigo's brief). Keep dates, links and anchors as given.
+
+- Before (flat): "Rodrigo secured the funding for, led and organised the second IEEE GRSS New
+  Zealand Radar Remote Sensing School at the University of Canterbury, held from 15 to 17
+  April 2026. About 30 participants came from Fiji, Australia and New Zealand, 12 of them on
+  full scholarships, and Rodrigo taught two SAR laboratory sessions."
+- After: "About 30 participants from Fiji, Australia and New Zealand, 12 of them on full
+  scholarships, came to the second IEEE GRSS New Zealand Radar Remote Sensing School at the
+  University of Canterbury, held from 15 to 17 April 2026. Rodrigo Gomez-Fell secured the
+  funding, led and organised the school, and taught two SAR laboratory sessions."
+
 The Home page lists the newest five (year only). A full News page (`news.qmd`, navbar entry
 commented out in `_quarto.yml`) is planned for Stage 3; then link it from the Home news section.
 
@@ -223,8 +239,8 @@ commented out in `_quarto.yml`) is planned for Stage 3; then link it from the Ho
 - **Voice:** page text is in the **first person** ("I", "my"), plain and concise, with New Zealand
   spelling (organised, characterise, using). Keep **third person** in `title:` and `description:`
   (they appear in search results and social cards), and keep the CV as a list without pronouns.
-  **Exception: news items (`news/*.qmd`) are always in the third person** ("Rodrigo received…"),
-  so the Home timeline reads consistently.
+  **Exception: news items (`news/*.qmd`) are always in the third person**, journalist style
+  (see "A news item"), so the Home timeline reads consistently.
   Text Rodrigo has written himself is his: change only person and typos.
 - Web images: strip EXIF/GPS, JPEG under 150 KB, WebP where it helps; originals go in `_source/`.
 - Every page has a `description:` in its front matter (SEO and social cards; hidden on the page).

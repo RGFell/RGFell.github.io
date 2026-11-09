@@ -1,16 +1,16 @@
 ---
-title: "Antarctic Season Opening: discussion on future Antarctic expertise"
+title: "Season Opening discussion looks ahead to the next International Polar Year"
 date: 2026-09-21
 date-format: "D MMMM YYYY"   # exact date known
-description: "Rodrigo facilitated a discussion on investing in the next generation of Antarctic expertise, and presented a poster, at Christchurch's Antarctic Season Opening (21 September 2026)."
+description: "Investing in the next generation of Antarctic expertise, with the Fifth International Polar Year in view, was the theme of a discussion Rodrigo facilitated at Christchurch's Antarctic Season Opening. He also presented a poster."
 categories: [event, talk]
 ---
 
-Rodrigo Gomez-Fell facilitated a discussion on investing in the next generation of Antarctic
-expertise, and presented a [poster](../publications.qmd#ref-gomezfell2026seasonopening), at
-Christchurch's Antarctic Season Opening (21 September 2026), looking ahead to the Fifth
-International Polar Year (2032–33). The event is listed on the
-[Teaching](../teaching.qmd#season-opening-2026) page.
+With the Fifth International Polar Year (2032–33) on the horizon, a discussion at
+Christchurch's Antarctic Season Opening on 21 September 2026 focused on investing in the next
+generation of Antarctic expertise. Rodrigo Gomez-Fell facilitated it, and also presented a
+[poster](../publications.qmd#ref-gomezfell2026seasonopening) at the event. The event is
+listed on the [Teaching](../teaching.qmd#season-opening-2026) page.
 
 ```{=html}
 <div class="social-embed">

@@ -1,11 +1,12 @@
 ---
-title: "Pilot project on rapid sea ice decline in the Ross Sea begins"
+title: "Pilot project targets rapid sea ice decline in the Ross Sea"
 date: 2025-10-01
 date-format: "D MMMM YYYY"   # exact date known; other items show the year only
-description: "The Catalyst Strategic NZ-US Joint Antarctic Research Programme pilot project on rapid sea ice decline in the Ross Sea begins, with Rodrigo Gomez-Fell as a postdoctoral researcher."
+description: "Rapid sea ice decline in the Ross Sea is the focus of a new Catalyst Strategic NZ-US Joint Antarctic Research Programme pilot project, with Rodrigo as a postdoctoral researcher."
 categories: [project]
 ---
 
-The Catalyst Strategic NZ-US Joint Antarctic Research Programme pilot project on rapid sea
-ice decline in the Ross Sea began on 1 October 2025, with Rodrigo Gomez-Fell as a
-postdoctoral researcher. See the [project description](../projects.qmd#ross-sea-ice).
+Rapid sea ice decline in the Ross Sea is the target of a pilot project under the Catalyst
+Strategic NZ-US Joint Antarctic Research Programme, which got under way on 1 October 2025.
+Rodrigo Gomez-Fell joins the project as a postdoctoral researcher. See the
+[project description](../projects.qmd#ross-sea-ice).

@@ -1,12 +1,12 @@
 ---
-title: "Catalyst project on snowlines of the Tasman Glacier begins"
+title: "Radar satellites to track Tasman Glacier snowlines"
 date: 2025-10-01             # only the month is known: the day is a placeholder and never shown
 date-format: "MMMM YYYY"
-description: "The Royal Society Te Apārangi Catalyst project on snowlines of the Tasman Glacier begins with polarimetric RADARSAT Constellation Mission data, with Rodrigo Gomez-Fell as an Associate Investigator."
+description: "A Royal Society Te Apārangi Catalyst project turns polarimetric RADARSAT Constellation Mission data on the snowlines of the Tasman Glacier, with Rodrigo as an Associate Investigator."
 categories: [project, grant]
 ---
 
-The Royal Society Te Apārangi Catalyst project on snowlines of the Tasman Glacier began in
-October 2025. It uses polarimetric RADARSAT Constellation Mission data, with Rodrigo
-Gomez-Fell as an Associate Investigator. See the
+Snowlines on the Tasman Glacier are the focus of a Royal Society Te Apārangi Catalyst
+project that began in October 2025. The project draws on polarimetric data from the
+RADARSAT Constellation Mission, with Rodrigo Gomez-Fell as an Associate Investigator. See the
 [project description](../projects.qmd#rcm-glaciers).

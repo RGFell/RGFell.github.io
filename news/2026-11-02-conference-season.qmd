@@ -1,13 +1,13 @@
 ---
-title: "Conference season: Oslo, Canada and Sherbrooke"
+title: "From Oslo to Sherbrooke: conference season"
 date: 2026-11-02
 date-format: "D MMMM YYYY"   # last event of the season: the Sherbrooke guest lecture
-description: "Rodrigo presented a poster and lightning talk at the SCAR Open Science Conference in Oslo, spoke at the ASAR Workshop/RCM Users' Forum in Canada, and gave a guest lecture at the Université de Sherbrooke."
+description: "Conference season took Rodrigo from the SCAR Open Science Conference in Oslo, with a poster and a lightning talk, to the ASAR Workshop/RCM Users' Forum in Canada and a guest lecture at the Université de Sherbrooke."
 categories: [conference, talk]
 ---
 
-Conference season: Rodrigo Gomez-Fell presented a poster and lightning talk at the SCAR Open
-Science Conference in Oslo, spoke at the ASAR Workshop/RCM Users' Forum in Canada, and gave a
-guest lecture at the Université de Sherbrooke. The presentations are listed under
-[Conference papers and abstracts](../publications.qmd#conference), and the lecture on the
-[Teaching](../teaching.qmd#lectures) page.
+Conference season took Rodrigo Gomez-Fell from Oslo to Sherbrooke. At the SCAR Open Science
+Conference in Oslo he presented a poster and a lightning talk; in Canada he spoke at the ASAR
+Workshop/RCM Users' Forum and gave a guest lecture at the Université de Sherbrooke. The
+presentations are listed under [Conference papers and abstracts](../publications.qmd#conference),
+and the lecture on the [Teaching](../teaching.qmd#lectures) page.
