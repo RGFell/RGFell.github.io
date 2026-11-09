@@ -45,24 +45,32 @@ format:
 ::: {.home-section .home-intro}
 ## Earth Observation - Watching Antarctica and the Cryosphere from space {#intro}
 
-I'm a postdoctoral fellow at Gateway Antarctica, University of Canterbury, New Zealand. I build reproducible pipelines that turn large satellite archives, mostly synthetic aperture radar (SAR) time series, into measurements of change that can be checked against field data. I combine traditional remote sensing with machine learning and multi-sensor data fusion. My main focus is coastal Antarctica, where ice, ocean and sea ice interact at margins likely to drive near-future change. The same methods carry over to ice tongues, glacier snowlines in New Zealand, braided rivers, forests and polar ecology.
+I turn large satellite archives into decision-ready measurements of change, using time series analysis and spatial data science alongside machine learning. My main focus is coastal Antarctica, where ice, ocean and sea ice interact at margins likely to drive near-future change, and I apply the same approach to glaciers, rivers and forests across New Zealand.
 
 [Focus areas:]{.focus-label}
 
 ::: {.theme-tags}
+- Earth observation
+- Time series & spatial data science
 - Antarctica
+- Ice Shelves
 - Sea ice
 - Synthetic aperture radar (SAR)
 - Radioglaciology
-- Earth observation in New Zealand and Patagonia
+- New Zealand
+- Patagonia
 :::
 
 [Tools:]{.focus-label .tools-label}
 
 ::: {.theme-tags .tool-tags}
-- Python (xarray, rasterio, geopandas, scikit-learn)
+- Python (xarray, rasterio, geopandas, scikit-learn, others)
 - GAMMA SAR
+- ISCE
+- GMTSAR
+- SNAP
 - QGIS
+- ArcGIS
 - Google Earth Engine
 :::
 

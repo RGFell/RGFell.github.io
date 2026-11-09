@@ -5,38 +5,14 @@ toc: true
 toc-title: "On this page"
 ---
 
-I study how ice on Earth's surface changes, mainly in Antarctica, using
-satellites. Most of my work uses synthetic aperture radar (SAR): satellites
-that send out radar pulses and record the echoes, so they can see the ground
-through cloud and during the polar night.
+I turn large satellite archives into measurements of change, using time series analysis
+and spatial data science alongside machine learning. My main focus is coastal Antarctica,
+where ice, ocean and sea ice meet. Most of my work uses synthetic aperture radar (SAR),
+which sends out microwave pulses and records the echoes, so it sees through cloud and the
+polar night; comparing the phase of the signal between repeat images reveals surface
+movements of millimetres to centimetres.
 
-## Antarctic science
-
-Around the Antarctic coast, glaciers flow into the sea and form floating ice
-tongues and ice shelves. My work looks at how these floating ice
-features interact with the ocean and with the sea ice around them. My research
-has shown that the Parker Ice Tongue broke off after the land-fast sea ice that
-held it in place was lost, that ocean currents bend the Erebus Ice Tongue
-sideways, and how quickly ice tongues in the western Ross Sea melt from below.
-
-I am part of the team supervising a PhD project on how sea ice and the ice
-shelf interact in McMurdo Sound, using GNSS, SAR and computer models.
-
-## Glaciology
-
-I measure how fast glaciers move, how they stretch and compress, how
-much ice they gain or lose, and how thick they are. I have applied these
-methods in Antarctica and, with students, on glaciers in New Zealand.
-
-## Radioglaciology
-
-Radioglaciology uses radar on the ground or from aircraft to look into and
-through ice. I am building collaborations and seeking funding to develop
-radioglaciology in New Zealand. Gateway Antarctica has developed a snow radar,
-and the BIOMASS project will use phase-sensitive radar (pRES) and airborne SAR
-to calibrate and validate measurements from ESA's BIOMASS satellite.
-
-## Remote sensing
+## Methods
 
 I work with data from several radar satellites, including Sentinel-1,
 the RADARSAT Constellation Mission, TerraSAR-X, Umbra and Capella. I use
@@ -48,25 +24,33 @@ them to:
 
 I also process airborne lidar, combine data from different sensors, use
 machine learning with satellite images, and check results against field
-measurements, including GNSS. In New Zealand I have used these methods to map
-braided rivers, river-mouth lagoons (hāpua) and forest carbon.
+measurements, including GNSS. I am building collaborations and seeking funding to
+develop radioglaciology (radar on the ground or from aircraft that looks into and
+through ice) in New Zealand.
 
-## Current projects
+## Antarctica
 
-- **[BIOMASS calibration and validation](projects.qmd#biomass-calval) (2025–2027):** checking data from ESA's BIOMASS satellite over Antarctic ice shelves.
-- **[Polarimetric radar for New Zealand glaciers](projects.qmd#rcm-glaciers) (2025–2027):** using RADARSAT Constellation Mission data to track the end-of-summer snowline on glaciers in the New Zealand Alps.
-- **[Hāpua dynamics in Canterbury](projects.qmd#hapua) (2026):** mapping change in river-mouth lagoons with a machine learning model.
-- **[Penguin colonies from space](projects.qmd#penguin-colonies) (2026):** detecting penguin colonies in high-resolution SAR images.
+Around the Antarctic coast, glaciers flow into the sea and form floating ice
+tongues and ice shelves. My work looks at how these floating ice
+features interact with the ocean and with the sea ice around them, and measures
+how fast the ice moves, how it stretches and compresses, how much ice it gains or
+loses, and how thick it is. My research
+has shown that the Parker Ice Tongue broke off after the land-fast sea ice that
+held it in place was lost, that ocean currents bend the Erebus Ice Tongue
+sideways, and how quickly ice tongues in the western Ross Sea melt from below.
 
-**Recent projects:** [Riverscapes Framework New Zealand](projects.qmd#riverscapes) (2024–2025), adapting the Riverscapes Framework and its data portal to New Zealand as a national project.
+I am part of the team supervising a PhD project on how sea ice and the ice
+shelf interact in McMurdo Sound, using GNSS, SAR and computer models.
 
-More detail is on the [Projects](projects.qmd) page.
+## New Zealand and Patagonia
 
-## Research interests
+In New Zealand I apply the same methods to glaciers, with students, and to
+rivers and forests: I have mapped braided rivers, river-mouth lagoons (hāpua)
+and forest carbon.
 
-- Ice tongues, ice shelves and their interaction with the ocean
-- Land-fast sea ice and sea ice
-- Glacier flow, mass balance and ice thickness
-- Telling short-lived surface melt apart from lasting change in the snow and firn of Antarctic ice shelves, which can come before an ice shelf breaks up
-- Combining SAR, lidar and field data, including physics-guided machine learning
-- Radioglaciology for firn and snowpack characterisation
+[TODO: Patagonia: what research to describe here (e.g. glacier work, CEQUA research centre in Chile, 2014–2018)?]{.todo}
+
+## Projects
+
+My current and recent projects, with dates, funders and related publications, are on the
+[Projects](projects.qmd) page.

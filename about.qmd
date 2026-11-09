@@ -26,8 +26,7 @@ format:
 
 ## Collaborators
 
-This network shows the people I have published journal articles with, and it updates automatically whenever I add a new article to my publication list.
-
+Network of Collaborators
 {{< include publications/_network.md >}}
 
 ## Education
@@ -44,7 +43,7 @@ This network shows the people I have published journal articles with, and it upd
 ::: {.about-right}
 ## Biography
 
-I'm a postdoctoral fellow at Gateway Antarctica, University of Canterbury, located in Christchurch, New Zealand. My research focuses on using synthetic aperture radar (SAR), a satellite radar technology that can penetrate through clouds and darkness, to measure changes in glaciers, ice shelves, and sea ice.
+I'm a postdoctoral fellow at Gateway Antarctica, University of Canterbury, in Christchurch, New Zealand. My research combines satellite time series and spatial data science, mainly synthetic aperture radar (SAR), which sees through clouds and darkness, to measure change in glaciers, ice shelves and sea ice.
 
 I received my PhD in Antarctic Studies from the University of Canterbury in 2023, where my thesis was titled *Ice Tongue Stability in a Changing Climate*. My work was on SAR remote sensing, ice ocean interactions and ice dynamics. Through my published research, I explored how the loss of land-fast sea ice contributed to the collapse of the Parker Ice Tongue, how ocean currents affect the Erebus Ice Tongue, and the interaction between land-fast sea ice and ice shelves.
 
@@ -52,7 +51,7 @@ Prior to my PhD, I completed an MSc in Oceanography at the Universidade Federal 
 
 From 2023 to 2026, I served as a Geospatial Research Scientist at the Waterways Centre of the University of Canterbury. During this period, I developed national methods for mapping New Zealand's braided rivers for the Ministry for the Environment. I also led the adaptation of the Riverscapes Framework and its data portal, the [Riverscapes Data Exchange](https://data.riverscapes.net/), to cover New Zealand as a national project. I also worked on various lidar projects and created a test case using ML to estimate forest carbon from airborne lidar for the Ministry for Primary Industries.
 
-Currently, my projects include understanding fast ice growth using SAR data, cal/val of ESA's BIOMASS satellite over Antarctic ice shelves, automatic detection of emperor penguin colonies using high-resolution SAR imagery, as well as using data from the RADARSAT Constellation Mission to monitor end-of-summer snowlines on glaciers in the New Zealand Alps.
+Currently, my projects include understanding fast ice growth using SAR data, cal/val of ESA's BIOMASS satellite over Antarctic ice shelves, automatic detection of emperor penguin colonies using high-resolution SAR imagery, as well as using data from the RADARSAT Constellation Mission to monitor end-of-summer snowlines on glaciers in the New Zealand Alps. Recently I have become interested in radioglaciology applications and the possibility to scale point measurements to larger areas.
 
 ## Community
 
@@ -61,11 +60,13 @@ I am currently the chair of the New Zealand chapter of the IEEE Geoscience and R
 ## Research interests
 
 - Antarctic ice shelves, ice tongues and their interaction with the ocean
-- Land-fast sea ice and sea ice
+- Land-fast sea ice and sea ice processes
 - Ice flow, surface change and mass balance measured from space
 - SAR methods: interferometry (InSAR), offset tracking and backscatter analysis
 - Combining radar, lidar, multispectral and field data, including machine learning
 - Data fusion and machine learning for Earth Observation
+- Data science for remote sensing and Earth Observation
+- Radioglaciology
 :::
 
 :::

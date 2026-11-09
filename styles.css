@@ -27,6 +27,20 @@ main.content,
 }
 main.content { margin-top: 1rem; margin-bottom: 1rem; }
 
+/* Body paragraphs: justified with hyphenation (needs lang: en in _quarto.yml).
+   Cards, timelines, captions, lists and link rows keep their own alignment. */
+main.content p {
+  text-align: justify;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+main.content :is(.profile-card, .pub-card, .timeline, .home-links, .jump-links,
+                 figcaption, li, td, th) p {
+  text-align: inherit;
+  -webkit-hyphens: manual;
+  hyphens: manual;
+}
+
 /* ---------- Home page: profile card + sections (pure CSS, no JavaScript) ---------- */
 /* Home sections carry their own panels, so the page photo shows between them */
 main.content:has(.home-grid), main.content:has(.about-grid) { background: none; padding: 0; }
@@ -135,8 +149,6 @@ main.content:has(.home-grid), main.content:has(.about-grid) { background: none; 
   padding: 0.3rem 0.85rem; border-radius: 2rem;
   background: var(--rgf-accent-soft); color: var(--bs-body-color); font-weight: 600; font-size: 0.95rem;
 }
-/* Home intro panel: text capped at about 70 characters per line, like the About page */
-.home-intro > p { max-width: 58ch; }   /* ch is wider than an average character: 58ch ≈ 70 characters */
 .tools-label { margin-top: 1rem; }
 .tool-tags li { font-family: var(--bs-font-monospace); font-size: 0.85rem; font-weight: 500; }
 /* Home figure: white rounded card (the image has a white background), caption below */

@@ -1,6 +1,6 @@
 ---
 title: "Teaching"
-description: "Teaching philosophy, courses, guest lectures and workshops of Rodrigo Gomez-Fell, who teaches satellite remote sensing and polar science at the University of Canterbury, New Zealand."
+description: "Courses, guest lectures and workshops of Rodrigo Gomez-Fell, who teaches satellite remote sensing and polar science at the University of Canterbury, New Zealand."
 toc: true
 toc-depth: 2
 toc-title: "Teaching"
@@ -14,54 +14,10 @@ format:
      same <figure class="project-figure"> block as projects.qmd (see CLAUDE.md). -->
 
 ::: {.jump-links}
-[Philosophy](#philosophy) · [Courses](#courses) · [Schools and workshops](#schools) · [Lectures](#lectures) · [Supervision](#supervision)
+[Courses](#courses) · [Schools and workshops](#schools) · [Lectures](#lectures) · [Supervision](#supervision)
 :::
 
-## Teaching philosophy {#philosophy}
-
-I am early in my academic teaching career, so my approach is practical and comes from what
-has worked in my tutoring and guest lecturing. It also draws on teaching in
-high-responsibility settings outside academia, as an outdoor guide and certified ACA
-sea-kayak instructor. In every setting, students learn more when they are thinking,
-discussing, practising and getting feedback, rather than just listening.
-
-My goal is to help students build a practical understanding of the subject, confidence and
-critical thinking. In geospatial science and remote sensing, that means learning to work
-with data, recognise uncertainty, justify their choices, and explain results clearly and
-honestly.
-
-**Clear structure and expectations.** Students make the most progress when tasks are clearly
-defined and the steps are laid out. In a lab I start with the objectives, what success looks
-like and why the exercise matters. In technical work a small misunderstanding at the start
-can derail a whole session, so I set out key assumptions and common errors early.
-
-**Engagement.** Engagement is one of the hardest parts of teaching, especially in lectures. I
-break lectures into 10 to 15 minute sections with short activities, such as quick
-multiple-choice questions, open questions and think-pair-share. They help students
-understand the material and show me where they are confused, so I can adjust.
-
-**A safe and inclusive environment.** Many students do not ask questions because they worry
-about being judged. As someone from Latin America who speaks English as a second language, I
-know that language and confidence can affect participation even when students are fully
-capable. I use clear language, give written and spoken instructions, allow time to think,
-and avoid assuming prior knowledge or a shared cultural background.
-
-**Real skills.** In geospatial work the challenge is not pressing the right buttons but making
-informed decisions with imperfect data and explaining the results responsibly. In my labs I
-teach students to check data quality, spot common errors and understand how their choices
-affect outcomes. My background in outdoor and sea-kayak instruction supports this, because
-good performance comes from clear decisions, awareness of risk and the ability to adapt.
-
-**AI.** Generative AI is changing how students study, write and code. I see it as a helpful
-tool, not a replacement for creativity or critical thinking. I encourage students to use it
-responsibly for brainstorming, debugging and explaining concepts, and to evaluate its output
-critically. My assessments call for original decisions, real data and honest reasoning about
-uncertainty and ethics.
-
-I keep improving my teaching through practice, reflection and peer feedback.
-
-I am interested in teaching remote sensing data science, computer vision and applied machine
-learning, Python programming and reproducible analytics, and polar regions.
+I teach and have taught across Antarctic studies, remote sensing, GIS and spatial data science, through university courses, guest lectures, invited talks and short courses.
 
 ---
 

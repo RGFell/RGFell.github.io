@@ -14,9 +14,11 @@ index.qmd          Home: profile card (left, sticky) + intro, theme keyword tags
                    news timeline, positions/education (CSS grid in styles.css, no JavaScript)
 about.qmd          About: 1:2 grid; left = photo, collaborator graph + table, education;
                    right = biography, community, research interests (max ~70 characters per line)
-cv.qmd  research.qmd  contact.qmd     Single pages
+cv.qmd  contact.qmd                 Single pages
+research.qmd       Intro + Methods, Antarctica, New Zealand and Patagonia, Projects (one-line link to
+                   projects.qmd). No interests list: the canonical one is on About
 projects.qmd       All projects on one page, one ## section each (anchors used by other pages)
-teaching.qmd       Teaching on one page: philosophy, courses, schools/workshops, lectures, supervision
+teaching.qmd       Teaching on one page: short intro, courses, schools/workshops, lectures, supervision
 news/              One .qmd per news item (shown on Home, newest 5); _metadata.yml shows year only
 _templates/        news-timeline.ejs: listing template for the Home news timeline
 publications.qmd   Journal articles, preprints, conference papers, book chapters (generated list)
@@ -122,7 +124,7 @@ page. Otherwise write "None yet."
 
 ### Add a course, guest lecture, workshop or talk (Teaching page and CV)
 `teaching.qmd` is one page like `projects.qmd`: one `## ` section per topic with a stable anchor
-(`#philosophy`, `#courses`, `#schools`, `#lectures`, `#supervision`; the jump-link row under the
+(`#courses`, `#schools`, `#lectures`, `#supervision`; the jump-link row under the
 title points at these), sections separated by `---`. About and news items link to
 `teaching.qmd#radar-school-2026` and `#sar-workshop-2024`, so keep those anchors.
 - **Course (TA, tutor, lecturer):** add the course code to the sentence in **Courses**.
