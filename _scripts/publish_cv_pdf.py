@@ -34,6 +34,8 @@ def main():
         if hit:
             RENDERED.unlink()
             sys.exit(f"publish_cv_pdf: private detail found in CV PDF ({hit.group(0)!r}); not published")
+        print(f"publish_cv_pdf: privacy check passed ({len(text)} characters of PDF text, "
+              "no phone number, postal address or date of birth)")
     else:
         print("publish_cv_pdf: pdftotext not found; privacy check skipped")
 

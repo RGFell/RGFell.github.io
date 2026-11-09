@@ -48,7 +48,10 @@ In New Zealand I apply the same methods to glaciers, with students, and to
 rivers and forests: I have mapped braided rivers, river-mouth lagoons (hāpua)
 and forest carbon.
 
-[TODO: Patagonia: what research to describe here (e.g. glacier work, CEQUA research centre in Chile, 2014–2018)?]{.todo}
+In Patagonia I co-authored the [first record of sea ice in the Cordillera Darwin
+fjords](publications.qmd#ref-salame2020seaice) of southern Chile (Salame et al., 2020). I
+also co-wrote two 2019 book chapters on fjords, in Chile and around the world. Both grew out
+of my years at the CEQUA research centre in Chile (2014–2018).
 
 ## Projects
 
