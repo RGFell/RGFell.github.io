@@ -1,0 +1,9 @@
+---
+title: "Session on radioglaciology at IGARSS 2027"
+date: 2026-11-09   # TODO: exact date of the IGARSS acceptance
+description: "Rodrigo Gomez-Fell and Wolfgang Rack will organise a session on radioglaciology at IGARSS 2027 in Reykjavík, alongside co-organisers Nicole Bienert and John Paden."
+categories: [conference, service]
+---
+
+Rodrigo Gomez-Fell and Wolfgang Rack will organise a session on radioglaciology at IGARSS 2027
+in Reykjavík, alongside co-organisers Nicole Bienert and John Paden.

@@ -56,6 +56,10 @@ Entries are grouped by `year`, newest first, and Rodrigo's name is bolded automa
 `curl -LH "Accept: application/x-bibtex" https://doi.org/<DOI>` and tidy it. Never invent a
 field: leave out what you can't source. Protect capitals with braces: `{Antarctica}`.
 `quarto preview` runs the script only at startup, so restart it after editing the `.bib`.
+Posters and talks: `@inproceedings` with `eventtitle`, `venue`, `date` (ranges as
+`2026-08-08/2026-08-19`) and `type = {Poster presentation}` / `{Lightning talk}`.
+Optional `related = {teaching.html#anchor}` appends a "Related:" link to another site page
+(link back from that page to `publications.qmd#ref-<key>`).
 
 ### Feature a paper on Home ("Selected publications" cards)
 In its `.bib` record add `keywords = {featured}` (aim for 5–6 in total), plus

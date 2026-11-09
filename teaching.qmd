@@ -74,9 +74,12 @@ together students and early career researchers to work on applied space problems
 
 ## Lectures and talks {#lectures}
 
+- **2026** · Geomatics Department, Université de Sherbrooke, Québec, Canada, 2 November, guest lecture: "Radar and Optical Satellite Time Series of Rivers, Glaciers and Sea Ice in New Zealand and Antarctica"
 - **2026** · New Zealand Aerospace Summit InFocus sessions, Christchurch, 1 October, panellist: "Turning observation into action: How Earth Observation strengthens New Zealand's climate and economic resilience"
 - **2026** · New Zealand Aerospace Summit InFocus sessions, Christchurch, 1 October, panellist: "Antarctica + Aerospace: From testbed to mission"
-- **2026** · Antarctic Season Opening, Christchurch, 21 September: facilitated a discussion on investing in the next generation of Antarctic expertise, looking ahead to the Fifth International Polar Year (2032–33), and presented a poster
+- **2026** · []{#season-opening-2026}Facilitated a discussion on investing in the next generation of Antarctic expertise, and presented a [poster](publications.qmd#ref-gomezfell2026seasonopening), at Christchurch's Antarctic Season Opening (21 September 2026), looking ahead to the Fifth International Polar Year (2032–33)
+- **2026** · Antarctica InSync webinar "Let's Talk Antarctica InSync" (online), 29 July, invited talk as an early-career researcher
+- **2026** · DLR/NZ EU Horizon matchmaking event, 24 June, invited talk: Gateway Antarctica's Earth observation capabilities and research
 - **2025** · New Zealand Aerospace Summit panel, Christchurch, 7 October, invited by ChristchurchNZ: "Aerospace in Antarctica: The Ultimate Testbed"
 - **2025** · Aerospace Summit delegation at the University of Canterbury: "Scientific insight into New Zealand Riverscapes: From Satellites to Airborne Sensors"
 - **2025** · Brazil delegation to the University of Canterbury: "From Airborne Sensors to Scientific Insight: The value of lidar in New Zealand"

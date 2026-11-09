@@ -88,6 +88,7 @@ Website: [rgfell.github.io](https://rgfell.github.io)
 
 ### Other guest lectures
 
+- **2026** · Geomatics Department, Université de Sherbrooke, Québec, Canada (2 November 2026): "Radar and Optical Satellite Time Series of Rivers, Glaciers and Sea Ice in New Zealand and Antarctica"
 - **2025** · AIUP USA undergraduate course (online): "Technology in Antarctica"
 - **2025** · Aerospace Summit delegation at the University of Canterbury: "Scientific insight into New Zealand Riverscapes: From Satellites to Airborne Sensors"
 - **2025** · Brazil delegation to the University of Canterbury: "From Airborne Sensors to Scientific Insight: The value of lidar in New Zealand"
@@ -105,7 +106,9 @@ More detail on the [Teaching](teaching.qmd) page.
 
 - **2026** · Panellist, "Turning observation into action: How Earth Observation strengthens New Zealand's climate and economic resilience", InFocus sessions, New Zealand Aerospace Summit, Christchurch, 1 October 2026
 - **2026** · Panellist, "Antarctica + Aerospace: From testbed to mission", InFocus sessions, New Zealand Aerospace Summit, Christchurch, 1 October 2026
-- **2026** · Discussion facilitator on investing in the next generation of Antarctic expertise, looking ahead to the Fifth International Polar Year (2032–33), and poster presenter, Antarctic Season Opening, Christchurch, 21 September 2026
+- **2026** · Facilitated a discussion on investing in the next generation of Antarctic expertise, and presented a [poster](https://rgfell.github.io/publications.html#ref-gomezfell2026seasonopening), at Christchurch's Antarctic Season Opening (21 September 2026), looking ahead to the Fifth International Polar Year (2032–33)
+- **2026** · Invited talk as an early-career researcher, "Let's Talk Antarctica InSync" webinar, Antarctica InSync (online), 29 July 2026
+- **2026** · Invited talk, Gateway Antarctica's Earth observation capabilities and research, DLR/NZ EU Horizon matchmaking event, 24 June 2026
 - **2025** · Panellist, "Aerospace in Antarctica: The Ultimate Testbed", New Zealand Aerospace Summit, Christchurch, 7 October 2025
 
 ## Conference presentations
@@ -124,6 +127,7 @@ Conference papers, abstracts and technical reports are listed at
 
 ## Service
 
+- **2027** · Session organiser (with Wolfgang Rack), Community Contributed Theme CCT.20, "Bridging Radioglaciology and Cryosphere Satellite Sensing", IGARSS 2027, Reykjavík
 - **2026** · Chair, IEEE GRSS New Zealand Contiguous Chapter
 - **2026** · Session Organiser, Theme Coordinator and Reviewer, IGARSS, Washington D.C.
 - **2026** · Early-career reviewer, IPCC report
