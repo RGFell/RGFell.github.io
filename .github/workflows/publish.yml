@@ -1,0 +1,61 @@
+# Build the Quarto site and publish it to GitHub Pages on every push to main.
+# Repo settings: Settings → Pages → Build and deployment → Source = "GitHub Actions".
+name: Publish site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:        # also allow a manual run from the Actions tab
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:                # never run two deployments at once
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+
+      # The pre-/post-render scripts in _scripts/ use only the Python standard library
+      # (no pip packages). The Home SAR figure is a committed image, not generated.
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      # pdftotext, for the CV privacy check in _scripts/publish_cv_pdf.py
+      - name: Install poppler-utils
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends poppler-utils
+          pdftotext -v
+
+      - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.10.18   # same as local; Typst for the CV PDF is bundled
+
+      - name: Render site
+        env:
+          REQUIRE_PDFTOTEXT: "1"   # fail, never skip, if the CV privacy check cannot run
+        run: |
+          quarto render
+          touch _site/.nojekyll
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

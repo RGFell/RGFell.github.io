@@ -6,7 +6,8 @@ The PDF is copied to files/ (tracked in git) and to _site/files/ (published).
 
 Privacy guard: if pdftotext is available (PDFTOTEXT env var or on PATH), the PDF
 text is checked and the build fails if it contains a phone number, a postal
-address or a date of birth.
+address or a date of birth. With REQUIRE_PDFTOTEXT=1 (set in the GitHub Actions
+workflow) a missing pdftotext fails the build instead of skipping the check.
 """
 
 import os
@@ -36,6 +37,9 @@ def main():
             sys.exit(f"publish_cv_pdf: private detail found in CV PDF ({hit.group(0)!r}); not published")
         print(f"publish_cv_pdf: privacy check passed ({len(text)} characters of PDF text, "
               "no phone number, postal address or date of birth)")
+    elif os.environ.get("REQUIRE_PDFTOTEXT") == "1":
+        RENDERED.unlink()
+        sys.exit("publish_cv_pdf: pdftotext not found but REQUIRE_PDFTOTEXT=1; CV not published")
     else:
         print("publish_cv_pdf: pdftotext not found; privacy check skipped")
 

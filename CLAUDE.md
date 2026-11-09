@@ -34,6 +34,8 @@ images/            Web-ready images: profile.jpg/.webp, bg-glacier.webp and bg-i
 _source/           Never published (leading underscore). Original CVs in _source/docs and
                    full-resolution photos are git-ignored and stay local
 _site/  .quarto/   Build output and cache: git-ignored, never edit
+docs/EDITING.md    Plain-language editing guide for Rodrigo (not rendered: not a .qmd)
+.github/workflows/publish.yml   Build and deploy to GitHub Pages on push to main
 ```
 
 ## How to add content
@@ -241,4 +243,8 @@ commented out in `_quarto.yml`) is planned for Stage 3; then link it from the Ho
   because both write to `_site/` and can collide.
 - `quarto render`: build into `_site/` (runs `_scripts/build_publications.py` first)
 - Do **not** `git push` unless Rodrigo explicitly says so. The old Pelican blog is archived
-  on the `pelican-archive` branch. Deployment method (GitHub Actions vs `quarto publish`) is still TODO.
+  on the `pelican-archive` branch.
+- Deployment: GitHub Actions (`.github/workflows/publish.yml`) renders with Quarto 1.10.18 on
+  every push to `main` and deploys `_site` to Pages (repo setting: Pages source = GitHub Actions).
+  It sets `REQUIRE_PDFTOTEXT=1`, so the CV privacy check can never be skipped in CI.
+  When upgrading Quarto locally, update the version in the workflow too.
