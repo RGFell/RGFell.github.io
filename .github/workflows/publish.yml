@@ -39,6 +39,11 @@ jobs:
         with:
           version: 1.10.18   # same as local; Typst for the CV PDF is bundled
 
+      # The generated publication lists are git-ignored, and Quarto resolves {{< include >}}
+      # files before its pre-render hook runs, so a fresh checkout needs them built first.
+      - name: Generate publication lists
+        run: python3 _scripts/build_publications.py
+
       - name: Render site
         env:
           REQUIRE_PDFTOTEXT: "1"   # fail, never skip, if the CV privacy check cannot run

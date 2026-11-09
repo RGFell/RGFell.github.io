@@ -248,3 +248,6 @@ commented out in `_quarto.yml`) is planned for Stage 3; then link it from the Ho
   every push to `main` and deploys `_site` to Pages (repo setting: Pages source = GitHub Actions).
   It sets `REQUIRE_PDFTOTEXT=1`, so the CV privacy check can never be skipped in CI.
   When upgrading Quarto locally, update the version in the workflow too.
+  A fresh clone must run `python3 _scripts/build_publications.py` once before the first
+  `quarto render`: the generated lists are git-ignored and Quarto resolves includes before
+  the pre-render hook (the workflow does this as its own step).
